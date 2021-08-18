@@ -105,6 +105,31 @@
                             "tags": []
                         }
                     ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "ac1776ba-ffd7-11eb-ac0f-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "LessonB",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "NEW CARD FRONT",
+                                "NEW CARD&nbsp; BACK",
+                                ""
+                            ],
+                            "guid": "Kahv#Vc1vX",
+                            "note_model_uuid": "8d8616f8-ffb8-11eb-b612-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
                 }
             ],
             "crowdanki_uuid": "bac502da-ffbf-11eb-849c-3e22fb2860fe",
@@ -219,6 +244,7 @@
                 ]
             ],
             "sortf": 0,
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br/><br/><br/>\n<em>personal:</em>\n<br/><br/>\n<div style='font-family: Arial; font-size: 20px;'>{{Personal}}</div>\n",
