@@ -1131,7 +1131,7 @@
                                 "yWk-VEbo6mk_bfP2vKVoKVTdX7TqJJ61-Y8muXWFsAWDEtrIxF0qV6qZZIIDmo37FqJDt31vXtNdWzpYYQXkPzJKHC786ugEENom_jBe_3hSAHyU5Lp.png",
                                 "ylCnoBAF1_F7_nGY1TdvWQ9SDv6_mbEptmO5qvSSirBHTkecUj2kX1UzWC_ANklH0K2Zs5PyRiUxMHXgbrBSuI5z824jbFAnP48O0lWuIdCbsl9JdTz.png"
                             ],
-                            "mid": 1629309172340,
+                            "mid": 1629309172341,
                             "name": "3. Lists",
                             "notes": [
                                 {
@@ -1770,6 +1770,30 @@
                                     ],
                                     "guid": "On%j,dnN?Y",
                                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to declare a tuple in Python?",
+                                        "example = (1, 2, 3)",
+                                        "So like a list, but instead of brackets, we use parentesis. So ( instead of [.",
+                                        ""
+                                    ],
+                                    "guid": "wGb=g/LeGI",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What's the difference between a Tuple and a List?",
+                                        "Tuples are immutable while lists are mutable.&nbsp;",
+                                        "Meaning once a tuple is created, the data inside it cannot be mutated.<br><br>For example, if we have a list, we can append and pop elements from the list, and assign new values to certain indexes of that list. We cannot do this with tuples though.",
+                                        ""
+                                    ],
+                                    "guid": "g_f=O54Ckv",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
