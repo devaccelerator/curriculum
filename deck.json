@@ -995,6 +995,19 @@
                                     "tags": []
                                 }
                             ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "e0e00832-0048-11ec-ac0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "3. Lists",
+                            "notes": []
                         }
                     ],
                     "crowdanki_uuid": "9607bbe2-ffe0-11eb-ac0f-3e22fb2860fe",
