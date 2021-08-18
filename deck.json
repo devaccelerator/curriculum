@@ -1100,9 +1100,679 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "60qMNdJcgTgbYHDGPXjrI7F5ADiONOpbfjcudTUKzlLTAW6v9e9B81XvMUGTMWYQW73u5Xp_AIgtib1laefBrj-hxgmMx-jzqjBTU78kwTGaIMLjX90.png",
+                                "8-V9LdTutqJsvOrv2RWOavqtujXPwK7r8smge_OggrsdDPYfGBk60wkrQNrR_KpVvuQD74JckEB37PR64CXbHRFsHz_o5HCxeH5t772kAi0IkgaDada.png",
+                                "E3yeKREgHmvSnq6AX9KtWAtq8JCvDdeTZFGLeIYduDMdSYK7zDFKo1K4xH8LNpDtOEczLRcnzbH5UOC-WZ-z7nhWNb1dRcebpzioY-9gZ03445vqjpS.png",
+                                "HfUssMsaz6j3B5_q3k3uGkq5rAvCiIX3ZrpgNB77oScNrG5abCXWECbBCOd9Nbwkz18Odwoj3aArKAfhDU9iNnsocmmatsQKjzkmUsCRXHc1GSHtyTJ.png",
+                                "JZ7uRjA7vGoire5Qs1sIn9NGqQsMy6m_Y1ip5r0IKgHSUUeIBoI_9mrmGlWnr2J1_kWSHPS8ebNjspn4Ew9TLtH5gBdtqF4ynM2DDG8Ks1gX9pYJrca.png",
+                                "LkycJOcxGBEn_bKfxkkRFk_tYM3sJUmDEGbBK9-oGbmh1yna16L2JgXoMtr1A0PhAr2WDYRqhQlwtug9o8Amxg1QWu0UgZgb3XboUhZUAqErNUe26Iz.png",
+                                "N3YSj8c30TvvKdpiLdRddsQakFtNLDVxdgsFNCbeYtKrMjpxFSaPWVUeScE0fqay242oZJrhHjKWqD1ilKXt-oxnDN0YIhYvDfCiXV7A4byFSn1OdKO.png",
+                                "ONKC3LNk9lkKLYvz_yUVBZ8y-76p8PCNv_A6iCm2BMvaQp-4do0uGe3p03KNwOiOhhlkQG65kaEz66JxM3baKdkXO6wLsiaowM60Zm6rpWahOwiDtjL.png",
+                                "QYUOkuWZjZnJG7aD35U8WZQv4S9GhZz14ai3K_dLdorXZkGhdQBvdCmSbeKFW193W9LTT6MOxy4UKjloxYeqQPw11GdyJkMiz3ovvPti2csF0gX9cng.png",
+                                "SXA8x_aNcZiD7NOIS04m0AL8qcGYSaHJBysU7G7ypZBsMcGC15-JMOOfSw-6MsNbDThVEJQefMygzYGIfmUQKM7RmTEmGW-S3Q45ky1khzTKdRKVAk0.png",
+                                "UIYQgHTQB89IRDhHCjv00RRX_NyVgfcvVD2Cz9FwUKaC0B-8640BPeb0rKnmyczUVfqXr_EkOKZFy1DTeCA8Rl7U5kz2S5yPIv12xU8aQzR2HsMQDTz.png",
+                                "WXr4VFV9UzJtZBpJLctrCFzw9PGhJzfPnLRkkGyj798dpHWcxyvDQ8OS6_2dGd9rcL1_UJucEUkR4dnWytb83pkoc8pOYD-ZW-hYAyaLpOKtmRynRH3.png",
+                                "XNAhF9atQ48AtJuXzQ4eXxB4VumAJQDR3qs4ftu8oc69eBOMfTXV01pW8EDF17YOjT8210foRwhiwAzrqyLSslg5vCBrWwIYs96ncN04Anqc0QmBAxE.png",
+                                "XdD6nPmxv8QA_TXqPNm_zd56FbR6tIbDSEOXw1Kt-Qc4O9AJvXRy_yU3G_AzsTzwvUy9b2gXvS7w7QDfw8ROspPP_R8Q4-GCEIaxwIZMby4RTJgsbkf.png",
+                                "_x1YG7kEfWxtipFb4tq07EHaCB6YV2o2nuBxhNSQhRMKcd8sqAq2Nx_y7H2QPzC5NXRr_Ko87sUBc8XvfSKPnotcZM2i_nodZpnNlGNG4rZLHfNeJe-.png",
+                                "eWS3udz6wLMyg9Vzs6_cYLc7YunorlkzW16UTpVkDK0mR7EciP6aTQ893_sTmD0WwmqHWhVUlcxqDOW2BCPpDr6Zl23p-y7G7UUZMs_h06E84uOWPy1.png",
+                                "fbjxql5ICKSaPgg3gGizuOF5vqBeB-6MdAu6_l175VXT5k3_E6sCnFQMoSztJWejLF7SsSllSubXd7ZA7IZrxZjuVdBmdfWXtpDHZOppIpA8RuYuGjI.png",
+                                "fsVZfABmoRuTyYTi3RG9bqxtVz9w8WtBqHLd1X_CUkMOI4dwA1o2miY9LlMmQvYPxz9iJJ_Ac7STdzs8CYtx4xSkhsVL1CQm3z5A_lRzJouuLGIxQJp.png",
+                                "gLf_07W4Tudr4ng4kLIA40TRHNlvmpFXfyppFQk7Kz4ut-oWSnEp1EOGR4_m-Lt6gCpcxsbPkKCadOvClXyzuBJPodBhTPffXtBf4doO9vzK-976mC5.png",
+                                "gW1axJRiAOU_SBKa3IbU-JakPIkiaASckBwPYWR7RpdNuzb-ueyLr-WgJO6qrXTbhQE5QGOq2DxfSqfjIVmFBAEIcBm8MXVbjelYuhRMvd2FUP-P3uR.png",
+                                "hZLbtVb5lipVjPm4oJoqZPdRrycehPp2eY6Wct6sAZiABeTPZhXF_JB88CFkavYRTn8KgrUxw01nJUu-Lvsoniul5P6OSS7VnCV9ghAmfOn_kruNZal.png",
+                                "lUNCMxlhX2KPsjoKejmgIg0E-u8VJA6D04vHZWMQH0TBxZhzyS-ftGtUSw7vpDKcN9Y7XmgIJPh1KWGlpw_USZZOZEeqSvZEcWOYzCkKLkbRootKtK5.png",
+                                "paste-6d2a721acbf338ba38f842428b082bf3fd7f9023.jpg",
+                                "ql9Pa0ytTql7OCPaQ_nIvKWE0rqgZ1P9ButD0vSAXTvCYalYtwx2prT2_HilJkhR1RG6jLKPhof96kJdo6mtCPFO4iyxVCp5lTI2r107yMypLShMMG3.png",
+                                "s2c55s0SI06UtiqAiDXmQYHAsY3-9_B5nu-WfxTjgLsUBHrJzB0Sb1orNgjm1Om_ugIA8sBFqoF0oS6iBmNP2C8Of1RR0N_WPJxaYK0dvIrQIPAGpcl.png",
+                                "vEBBBrsInivN85ZPrwJ7krpLPuGPBN_9m1ZcUFUS8QPS5bIg65ig35R6kl9IyWZ_ICa4ZeKGqfu16fDJKe3z7i-0MVsDSfQOOm6p-JUJoGL11_ifVzV.png",
+                                "xBgO4NYTeXFEXaRpVsGeNMW5L4kbV9P6KAlj3zArKJ44YYeFYxS0QU3D6vc9UntKGzACsXA3NAMfC9QMlOSZvyrvlNnWyZPx504SJWqws6Rh6xjkAeG.png",
+                                "yWk-VEbo6mk_bfP2vKVoKVTdX7TqJJ61-Y8muXWFsAWDEtrIxF0qV6qZZIIDmo37FqJDt31vXtNdWzpYYQXkPzJKHC786ugEENom_jBe_3hSAHyU5Lp.png",
+                                "ylCnoBAF1_F7_nGY1TdvWQ9SDv6_mbEptmO5qvSSirBHTkecUj2kX1UzWC_ANklH0K2Zs5PyRiUxMHXgbrBSuI5z824jbFAnP48O0lWuIdCbsl9JdTz.png"
+                            ],
+                            "mid": 1629309172340,
                             "name": "3. Lists",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "In Python, {{c1::lists}} are ordered collections of items that allow for easy use of a set of data",
+                                        "<img src=\"XdD6nPmxv8QA_TXqPNm_zd56FbR6tIbDSEOXw1Kt-Qc4O9AJvXRy_yU3G_AzsTzwvUy9b2gXvS7w7QDfw8ROspPP_R8Q4-GCEIaxwIZMby4RTJgsbkf.png\">",
+                                        ""
+                                    ],
+                                    "guid": "ce088lqSbM",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to declare a list that contains numbers in Python?",
+                                        "my_list = [1, 2, 3]",
+                                        "List values are placed in between brackets separated by commas",
+                                        ""
+                                    ],
+                                    "guid": "r3.wb6k.D@",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to declare an empty list?",
+                                        "my_list = []",
+                                        "Why would we create an empty list?<br><br>Usually, it’s because we’re planning on filling it up later based on some other input.",
+                                        ""
+                                    ],
+                                    "guid": "keT)P<!1[/",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What types of datatypes can a list hold?",
+                                        "any",
+                                        "<img src=\"WXr4VFV9UzJtZBpJLctrCFzw9PGhJzfPnLRkkGyj798dpHWcxyvDQ8OS6_2dGd9rcL1_UJucEUkR4dnWytb83pkoc8pOYD-ZW-hYAyaLpOKtmRynRH3.png\">",
+                                        ""
+                                    ],
+                                    "guid": "EL8}fl%e*r",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "In Python, lists can be added to each other by {{c1::using the plus symbol +}}",
+                                        "<img src=\"QYUOkuWZjZnJG7aD35U8WZQv4S9GhZz14ai3K_dLdorXZkGhdQBvdCmSbeKFW193W9LTT6MOxy4UKjloxYeqQPw11GdyJkMiz3ovvPti2csF0gX9cng.png\">",
+                                        ""
+                                    ],
+                                    "guid": "or%(+r<.#e",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "listA = [1, 2, 3]\n<br>listA + [4, 5, 6]\n<br>print(listA)",
+                                        "[1, 2, 3]",
+                                        "`listA + [4, 5, 6]` does not modify listA, instead it returns a new list that contains the elements of the lists being added together, demonstration:<br><br>```<br>listA = [1, 2, 3]\n<br>listB = listA + [4, 5, 6]\n<br>print(listA)\n<br>print(listB)<br>```<br><br>ouput:<br>```<br>[1, 2, 3]\n<br>[1, 2, 3, 4, 5, 6]<br>```",
+                                        ""
+                                    ],
+                                    "guid": "d/{7vKf}qZ",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "In Python, for any specific data-type ( strings, booleans, lists, etc. ) there is built-in functionality that we can use to create, manipulate, and even delete our data. We call this built-in functionality a {{c1::method}}.",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "Qibz)irB|c",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the index of the first element in a list in Python?",
+                                        "zero",
+                                        "<img src=\"HfUssMsaz6j3B5_q3k3uGkq5rAvCiIX3ZrpgNB77oScNrG5abCXWECbBCOd9Nbwkz18Odwoj3aArKAfhDU9iNnsocmmatsQKjzkmUsCRXHc1GSHtyTJ.png\">",
+                                        ""
+                                    ],
+                                    "guid": "dc}m+wr>>^",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to access a list element by index?",
+                                        "list[index]",
+                                        "<img src=\"xBgO4NYTeXFEXaRpVsGeNMW5L4kbV9P6KAlj3zArKJ44YYeFYxS0QU3D6vc9UntKGzACsXA3NAMfC9QMlOSZvyrvlNnWyZPx504SJWqws6Rh6xjkAeG.png\"><br><img src=\"yWk-VEbo6mk_bfP2vKVoKVTdX7TqJJ61-Y8muXWFsAWDEtrIxF0qV6qZZIIDmo37FqJDt31vXtNdWzpYYQXkPzJKHC786ugEENom_jBe_3hSAHyU5Lp.png\">",
+                                        ""
+                                    ],
+                                    "guid": "sGO&)hIu!G",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "my_list = [0, 1, 2]\n<br>two = 4/2\n<br>print(my_list[two])",
+                                        "error",
+                                        "TypeError: list indices must be integers or slices, not float<br><br>The `/` operator returns a float datatype, not an integer, and you can only use an integer to access elements of a list.",
+                                        ""
+                                    ],
+                                    "guid": "c3])WT7bY?",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to access the last element of a list?",
+                                        "list[-1]",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "IpV&7[8(}z",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to access the first element of a list?",
+                                        "list[0]",
+                                        "Demonstration:<br><br>```<br>my_list = [1, 2, 3]<br>one = my_list[0]<br>print(one)<br>```<br>output:<br>```<br>1<br>```",
+                                        ""
+                                    ],
+                                    "guid": "LijdgoB|an",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Syntax to access the number 6 from the matrix below?<br><br>matrix = [[1,2,3], [4,5,6], [7,8,9]]",
+                                        "matrix[1][2]&nbsp;",
+                                        "<img src=\"ql9Pa0ytTql7OCPaQ_nIvKWE0rqgZ1P9ButD0vSAXTvCYalYtwx2prT2_HilJkhR1RG6jLKPhof96kJdo6mtCPFO4iyxVCp5lTI2r107yMypLShMMG3.png\">",
+                                        ""
+                                    ],
+                                    "guid": "D]12I3t}`p",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Mutate the matrix below to equal [[\"A\": 0], [\"B\": 1]]<br><br>matrix = [[\"A\": 0], [\"B\": 999]]",
+                                        "matrix[1][1] = 1",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "iP@/fIMAyl",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to slice the first two elements of a list?",
+                                        "list[:2]",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "t$MfeT93;O",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to slice the all elements of a list except the first two elements?",
+                                        "list[2:]",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "QB1Dc/-|yd",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the syntax for slicing a list in Python?",
+                                        "my_list[START_NUMBER:END_NUMBER]",
+                                        "`START_NUMBER` is inclusive, but `END_NUMBER` is exclusive. So slicing returns a list from the `(START_NUMBER)` index, all the way to the `(END_NUMBER - 1)` index.<br><br><img src=\"_x1YG7kEfWxtipFb4tq07EHaCB6YV2o2nuBxhNSQhRMKcd8sqAq2Nx_y7H2QPzC5NXRr_Ko87sUBc8XvfSKPnotcZM2i_nodZpnNlGNG4rZLHfNeJe-.png\">",
+                                        ""
+                                    ],
+                                    "guid": "B-!L4^=Fp<",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"fsVZfABmoRuTyYTi3RG9bqxtVz9w8WtBqHLd1X_CUkMOI4dwA1o2miY9LlMmQvYPxz9iJJ_Ac7STdzs8CYtx4xSkhsVL1CQm3z5A_lRzJouuLGIxQJp.png\">",
+                                        "<img src=\"s2c55s0SI06UtiqAiDXmQYHAsY3-9_B5nu-WfxTjgLsUBHrJzB0Sb1orNgjm1Om_ugIA8sBFqoF0oS6iBmNP2C8Of1RR0N_WPJxaYK0dvIrQIPAGpcl.png\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "A&Kh*luPOR",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"ONKC3LNk9lkKLYvz_yUVBZ8y-76p8PCNv_A6iCm2BMvaQp-4do0uGe3p03KNwOiOhhlkQG65kaEz66JxM3baKdkXO6wLsiaowM60Zm6rpWahOwiDtjL.png\">",
+                                        "<img src=\"8-V9LdTutqJsvOrv2RWOavqtujXPwK7r8smge_OggrsdDPYfGBk60wkrQNrR_KpVvuQD74JckEB37PR64CXbHRFsHz_o5HCxeH5t772kAi0IkgaDada.png\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "B:2VlVExyf",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( [1,2,3][1:2] )",
+                                        "[2]",
+                                        "it prints all elements starting from index 1 all the way up to but not including index 2",
+                                        ""
+                                    ],
+                                    "guid": "IJ8T|P8Q[!",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( [1,2,3][:1] )",
+                                        "[1]",
+                                        "it prints all elements starting from the beginning all the way up to but not including index 1",
+                                        ""
+                                    ],
+                                    "guid": "udvl7CW>Ed",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( [1,2,3][1:] )",
+                                        "[2,3]",
+                                        "it prints the elements starting from index 1, all the way until the end",
+                                        ""
+                                    ],
+                                    "guid": "m64QlS(2c&",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( [1,2,3][0] )",
+                                        "1",
+                                        "it prints the first element",
+                                        ""
+                                    ],
+                                    "guid": "gxlGJqqeU^",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( [1,2,3][-1] )",
+                                        "3",
+                                        "it prints the last element",
+                                        ""
+                                    ],
+                                    "guid": "vj6Z=E.aQV",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( [1,2,3][:-1] )&nbsp;",
+                                        "[1,2]",
+                                        "it prints all elements starting from the beginning all the way up to but not including the last element",
+                                        ""
+                                    ],
+                                    "guid": "tIP5Rb~yi.",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print( [1,2,3][:] )",
+                                        "[1,2,3]",
+                                        "so list[:] simply returns a copy of that list.<br>since [START:END] are not specified, the whole list is selected.",
+                                        ""
+                                    ],
+                                    "guid": "B!^zlgFrDK",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to add values to the end of a list in Python? (You should mutate the original list)",
+                                        "my_list.append(\"like this\")",
+                                        "<img src=\"JZ7uRjA7vGoire5Qs1sIn9NGqQsMy6m_Y1ip5r0IKgHSUUeIBoI_9mrmGlWnr2J1_kWSHPS8ebNjspn4Ew9TLtH5gBdtqF4ynM2DDG8Ks1gX9pYJrca.png\">",
+                                        ""
+                                    ],
+                                    "guid": "tV+p6D!<HY",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "x = [0, 1, 2]\n<br>x.append(3)\n<br>print(x)",
+                                        "[0, 1, 2, 3]&nbsp;",
+                                        "append  method adds a single element to the end of the list",
+                                        ""
+                                    ],
+                                    "guid": "cf9_-WjGV/",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "x = [0, 1, 2]\n<br>x.append([3, 4])\n<br>print(x)\n<br>print(x[3])",
+                                        "[0, 1, 2, [3, 4]]\n<br>[3, 4]",
+                                        "append method always adds a single element to a list",
+                                        ""
+                                    ],
+                                    "guid": "lv*[x`-le~",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::.pop()}} list method allows us to remove an element from a list while also returning it. It accepts one optional input which is the index of the element to remove. If no index is provided, then the last element in the list will be removed and returned.",
+                                        "<img src=\"UIYQgHTQB89IRDhHCjv00RRX_NyVgfcvVD2Cz9FwUKaC0B-8640BPeb0rKnmyczUVfqXr_EkOKZFy1DTeCA8Rl7U5kz2S5yPIv12xU8aQzR2HsMQDTz.png\">",
+                                        ""
+                                    ],
+                                    "guid": "Oym.kaD0j<",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<span style=\"color: rgb(35, 39, 53);\">x = [0, 1, 2, 3]\n<br>y = x.pop()\n<br>print(x)\n<br>print(y)</span>",
+                                        "[0, 1, 2]\n<br>3",
+                                        "pop  method removes a single element from list and returns it. By default, pop removes and returns the last element.",
+                                        ""
+                                    ],
+                                    "guid": "Q<1{_$?~cd",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"LkycJOcxGBEn_bKfxkkRFk_tYM3sJUmDEGbBK9-oGbmh1yna16L2JgXoMtr1A0PhAr2WDYRqhQlwtug9o8Amxg1QWu0UgZgb3XboUhZUAqErNUe26Iz.png\">",
+                                        "<img src=\"gLf_07W4Tudr4ng4kLIA40TRHNlvmpFXfyppFQk7Kz4ut-oWSnEp1EOGR4_m-Lt6gCpcxsbPkKCadOvClXyzuBJPodBhTPffXtBf4doO9vzK-976mC5.png\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "DpdLF.N//O",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Using a list method, delete the number 2 from the list below<br>my_list = [1,2,3]",
+                                        "my_list.remove(2)",
+                                        "<img src=\"XNAhF9atQ48AtJuXzQ4eXxB4VumAJQDR3qs4ftu8oc69eBOMfTXV01pW8EDF17YOjT8210foRwhiwAzrqyLSslg5vCBrWwIYs96ncN04Anqc0QmBAxE.png\">",
+                                        ""
+                                    ],
+                                    "guid": "kr<3kx!&>{",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<span style=\"color: rgb(35, 39, 53);\">my_list = [1,0,1]\n<br>my_list.remove(1)\n<br>print(my_list)</span>",
+                                        "[0, 1]",
+                                        "When using the `.remove()` method In the case where two or more elements in the list have the same value, the first occurrence of the element is removed.",
+                                        ""
+                                    ],
+                                    "guid": "E&<u{P[vz?",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::.count()}}  list method searches a list for whatever search term it receives as an argument, then returns the number of matching entries found.",
+                                        "<img src=\"60qMNdJcgTgbYHDGPXjrI7F5ADiONOpbfjcudTUKzlLTAW6v9e9B81XvMUGTMWYQW73u5Xp_AIgtib1laefBrj-hxgmMx-jzqjBTU78kwTGaIMLjX90.png\">",
+                                        ""
+                                    ],
+                                    "guid": "~3xHm7gq`",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"E3yeKREgHmvSnq6AX9KtWAtq8JCvDdeTZFGLeIYduDMdSYK7zDFKo1K4xH8LNpDtOEczLRcnzbH5UOC-WZ-z7nhWNb1dRcebpzioY-9gZ03445vqjpS.png\">",
+                                        "<img src=\"N3YSj8c30TvvKdpiLdRddsQakFtNLDVxdgsFNCbeYtKrMjpxFSaPWVUeScE0fqay242oZJrhHjKWqD1ilKXt-oxnDN0YIhYvDfCiXV7A4byFSn1OdKO.png\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "O@+r~J0hVx",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::.sort()}}  list method will sort the contents of whatever list it is called on.",
+                                        "<img src=\"fbjxql5ICKSaPgg3gGizuOF5vqBeB-6MdAu6_l175VXT5k3_E6sCnFQMoSztJWejLF7SsSllSubXd7ZA7IZrxZjuVdBmdfWXtpDHZOppIpA8RuYuGjI.png\">",
+                                        ""
+                                    ],
+                                    "guid": "k7nuQ@4{YM",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<span style=\"color: rgb(35, 39, 53);\">my_list = [2, 1, 3]\n<br>my_list.sort()\n<br>print(my_list)</span>",
+                                        "[1, 2, 3]",
+                                        "the .sort() method sorts in ascending order by default.",
+                                        ""
+                                    ],
+                                    "guid": "P8K~jM-U7?",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "my_list = [\"b\", \"a\", \"c\"]\n<br>my_list.sort()\n<br>print(my_list)",
+                                        "['a', 'b', 'c']",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "s$Ya!M@Z[Z",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# using the .sort() method, change `my_list` to be `[3,2,1,0]`<br><br>my_list = [1,3,0,2]",
+                                        "my_list.sort(reverse=True)",
+                                        "pass in `reverse=True` as an argument to `.sort()` in order to indicate we want to sort the list in descending order instead of the default ascending order",
+                                        ""
+                                    ],
+                                    "guid": "bH6EnC(DLY",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# using a list method, mutate `mylist` to equal [0,1,2,3]\n<br><br>mylist = [3,0,2,1]",
+                                        "mylist.sort()",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "F]vLE81-I5",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::.insert()}} list method allows us to add an element to a specific index in a list.",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "i~#Se{(+7$",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What inputs does the .insert() method take?",
+                                        "(index, element)",
+                                        "list.insert(0, \"example\")<br><img src=\"eWS3udz6wLMyg9Vzs6_cYLc7YunorlkzW16UTpVkDK0mR7EciP6aTQ893_sTmD0WwmqHWhVUlcxqDOW2BCPpDr6Zl23p-y7G7UUZMs_h06E84uOWPy1.png\">",
+                                        ""
+                                    ],
+                                    "guid": "dBv9x@^=;v",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# using a list method, change `mylist` to be [1,2,3,4]&nbsp;<br><br>mylist = [1, 2, 4]",
+                                        "mylist.insert(2, 3)",
+                                        "So now the number 3 is in the 2nd index of the list.<br><br>Before we inserted into the array, the number 4 was in the 2nd index of the list instead.",
+                                        ""
+                                    ],
+                                    "guid": "n|mevu^BSq",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "using the range() function, create a range object that has a sequence of [0, 1, 2, 3, 4]",
+                                        "range(5)",
+                                        "`range(0, 5)` also works, but is less concise.",
+                                        ""
+                                    ],
+                                    "guid": "nF!8SU?b48",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"hZLbtVb5lipVjPm4oJoqZPdRrycehPp2eY6Wct6sAZiABeTPZhXF_JB88CFkavYRTn8KgrUxw01nJUu-Lvsoniul5P6OSS7VnCV9ghAmfOn_kruNZal.png\">",
+                                        "<img src=\"SXA8x_aNcZiD7NOIS04m0AL8qcGYSaHJBysU7G7ypZBsMcGC15-JMOOfSw-6MsNbDThVEJQefMygzYGIfmUQKM7RmTEmGW-S3Q45ky1khzTKdRKVAk0.png\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "G4+&F9T]1j",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What inputs does range() take?",
+                                        "range(start, stop, step)<br><br>`start` and `stop` are optional, so here are the possible inputs:<br>range(stop)<br>range(start, stop)<br>range(start, stop, step)",
+                                        "<img src=\"paste-6d2a721acbf338ba38f842428b082bf3fd7f9023.jpg\"><br><a href=\"https://www.w3schools.com/python/ref_func_range.asp\">https://www.w3schools.com/python/ref_func_range.asp</a>",
+                                        ""
+                                    ],
+                                    "guid": "sYm)4n1I>G",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"gW1axJRiAOU_SBKa3IbU-JakPIkiaASckBwPYWR7RpdNuzb-ueyLr-WgJO6qrXTbhQE5QGOq2DxfSqfjIVmFBAEIcBm8MXVbjelYuhRMvd2FUP-P3uR.png\">",
+                                        "<img src=\"ylCnoBAF1_F7_nGY1TdvWQ9SDv6_mbEptmO5qvSSirBHTkecUj2kX1UzWC_ANklH0K2Zs5PyRiUxMHXgbrBSuI5z824jbFAnP48O0lWuIdCbsl9JdTz.png\">",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "jh1;BOPdux",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "using the range() function, create the range object `[3, 2, 1, 0]`",
+                                        "range(3, -1, -1)",
+                                        "inputs:<br>range(start, stop, step)<br><br>So we `start` at the number 3, and then we go backwards because our `step` is -1, and we stop before we reach `stop` which is -1.<br><br>print(list(range(3,-1,-1))) # [3, 2, 1, 0]",
+                                        ""
+                                    ],
+                                    "guid": "FbVr@*Vv8l",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::int()}} function converts the specified value into an integer",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "E&/^R(6lO3",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::list()}} function converts an object into a list.",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "ff~K/$FCM<",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Syntax to get the length of a list?",
+                                        "len(my_list)",
+                                        "<img src=\"lUNCMxlhX2KPsjoKejmgIg0E-u8VJA6D04vHZWMQH0TBxZhzyS-ftGtUSw7vpDKcN9Y7XmgIJPh1KWGlpw_USZZOZEeqSvZEcWOYzCkKLkbRootKtK5.png\">",
+                                        ""
+                                    ],
+                                    "guid": "K:D#X]m`xL",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(len([1,2,3]))",
+                                        "3",
+                                        "",
+                                        ""
+                                    ],
+                                    "guid": "dnuRHTjru_",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::sorted()}} function accepts a list as an argument, and will return a new, sorted list containing the same elements as the original",
+                                        "<img src=\"vEBBBrsInivN85ZPrwJ7krpLPuGPBN_9m1ZcUFUS8QPS5bIg65ig35R6kl9IyWZ_ICa4ZeKGqfu16fDJKe3z7i-0MVsDSfQOOm6p-JUJoGL11_ifVzV.png\">",
+                                        ""
+                                    ],
+                                    "guid": "On%j,dnN?Y",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         }
                     ],
                     "crowdanki_uuid": "9607bbe2-ffe0-11eb-ac0f-3e22fb2860fe",
@@ -1233,7 +1903,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #2c3e50;\n}\n\n.cloze {\n font-weight: bold;\n color: #ffdd59;\n}",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e;\n}\n\n.cloze {\n font-weight: bold;\n color: #ffdd59;\n}",
             "flds": [
                 {
                     "font": "Arial",
@@ -1274,6 +1944,7 @@
                 ]
             ],
             "sortf": 0,
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n\n{{#Personal}}\n\t<br><br>\n\t<div style=\"color: #0be881\">\n\t<em>Personal:</em><br><br>\n\t{{Personal}}\n  </div>\n{{/Personal}}\n\n{{#Optional}}\n\t<br><br>\n\t<div style=\"color: #4bcffa\">\n\t<em>Optional:</em><br><br>\n\t{{Optional}}\n  </div>\n{{/Optional}}\n\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
@@ -1341,6 +2012,7 @@
                 ]
             ],
             "sortf": 0,
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div style=\"color: #ffdd59;\">\n\t{{Back}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n<span style=\"font-size: 8px\">Alex Ficachi Coaching</span>",
