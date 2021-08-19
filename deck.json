@@ -1493,7 +1493,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<span style=\"color: rgb(35, 39, 53);\">x = [0, 1, 2, 3]\n<br>y = x.pop()\n<br>print(x)\n<br>print(y)</span>",
+                                        "x = [0, 1, 2, 3] <br>y = x.pop() <br>print(x) <br>print(y)",
                                         "[0, 1, 2]\n<br>3",
                                         "pop  method removes a single element from list and returns it. By default, pop removes and returns the last element.",
                                         ""
@@ -1529,7 +1529,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<span style=\"color: rgb(35, 39, 53);\">my_list = [1,0,1]\n<br>my_list.remove(1)\n<br>print(my_list)</span>",
+                                        "my_list = [1,0,1] <br>my_list.remove(1) <br>print(my_list)",
                                         "[0, 1]",
                                         "When using the `.remove()` method In the case where two or more elements in the list have the same value, the first occurrence of the element is removed.",
                                         ""
@@ -1575,7 +1575,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<span style=\"color: rgb(35, 39, 53);\">my_list = [2, 1, 3]\n<br>my_list.sort()\n<br>print(my_list)</span>",
+                                        "my_list = [2, 1, 3] <br>my_list.sort() <br>print(my_list)",
                                         "[1, 2, 3]",
                                         "the .sort() method sorts in ascending order by default.",
                                         ""
