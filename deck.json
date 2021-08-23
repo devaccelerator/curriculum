@@ -577,7 +577,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "What datatype is `True` and `False`?",
+                                        "What datatype is `True` or `False`?",
                                         "boolean",
                                         "<img src=\"paste-a2318102197fe84922949801efc722c27b5517a3.jpg\">",
                                         "",
@@ -895,7 +895,7 @@
                                     "fields": [
                                         "print(True and False)",
                                         "False",
-                                        "",
+                                        "The and operator returns True only if both it's left and right operand result in True.",
                                         "",
                                         "7f33faa9-393a-44ef-8af8-2a551623cbb5"
                                     ],
@@ -996,7 +996,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "The Python {{c1::if}} statement determines the execution of code based on the evaluation of a Boolean expression.",
+                                        "The Python {{c1::if}} statement determines the execution of code based on the evaluation of a Boolean expression.<br><br>example:<br><br>num = 10<br>{{c1::if}} num == 10:<br>&nbsp; &nbsp; print(\"num equals ten\")<br>else:<br>&nbsp; &nbsp; print(\"num does not equal ten\")",
                                         "<img src=\"LBFykoHXOySsUyfqcrE3xBB7fAohbBFYv8hNLpDSsXRvB_esvdexiJ36Rz-7fBjnlo-ikb6RcadrFoG5iMmk2JZTwbqWZP6cjYIMF62qmS2XpyCRgnK.png\">",
                                         "",
                                         "43632892-5A88-4840-9B46-EC98AEF72223"
@@ -1010,7 +1010,7 @@
                                     "fields": [
                                         "if True:\n<br>&nbsp; &nbsp; print(\"A\")\n<br>if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"B\")\n<br>print(\"C\")",
                                         "A<br>C",
-                                        "`C` gets printed no matter what because it is not indented inside any `if` statement. only `A` and `B` are printed conditionally based on what the boolean expression the `if` statement evaluates to.",
+                                        "`C` gets printed no matter what because it is not indented inside any `if` statement. only `A` and `B` are printed conditionally based on what the boolean expression the `if` statement evaluates to.<br><br># Also, realize that the code above is basically the same as:<br><br>if 1 == 1:<br>&nbsp; &nbsp; print(\"A\")<br>if 1 == 2:<br>&nbsp; &nbsp; print(\"B\")<br>print(\"C\")<br><br># The code directly above turns into:<br>if True:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>if&nbsp;False:&nbsp;<br>&nbsp; &nbsp; print(\"B\")&nbsp;<br>print(\"C\")<br><br># Because the boolean expression <b>1 == 1</b>&nbsp;and <b>1 == 2</b>&nbsp;evaluate into a boolean which equal True or False.<br><br>print(1 == 1) # prints True<br>print(1 == 2) # prints False",
                                         "",
                                         "0d84db6c-bf2e-474f-b85d-66fc99ce0f2a"
                                     ],
@@ -1112,7 +1112,7 @@
                                     "fields": [
                                         "if False:&nbsp;<br>&nbsp; &nbsp; print(\"A\")&nbsp;<br>elif True:&nbsp;<br>&nbsp; &nbsp;&nbsp;print(\"B\")<br>else:<br>&nbsp; &nbsp; print(\"C\")",
                                         "B",
-                                        "The blocks of code within if, elif, and else statements are mutually exclusive.",
+                                        "The blocks of code within if, elif, and else statements are mutually exclusive.<br><br><b>elif</b> always has to come after another <b>if </b>or <b>elif </b>statement, and will only execute if the previous <b>if </b>or <b>elif</b>&nbsp;statement evaluated to <b>False</b>. Same with the <b>else</b> statement. The <b>else</b> statement doesn't execute because the previous <b>elif</b>&nbsp;statement evaluated to <b>True</b>, not <b>False</b>.",
                                         "",
                                         "4161a521-f003-47fb-9f46-0b51fe35bfcb"
                                     ],
@@ -1386,9 +1386,9 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "# Mutate the matrix below to equal [[\"A\": 0], [\"B\": 1]]<br><br>matrix = [[\"A\": 0], [\"B\": 999]]",
+                                        "# Mutate the matrix below to equal [[\"A\", 0], [\"B\", 1]]<br><br>matrix = [[\"A\", 0], [\"B\", 999]]",
                                         "matrix[1][1] = 1",
-                                        "matrix = [[“A”: 0], [“B”: 999]]<br>print(matrix) # prints [[“A”: 0], [“B”: 999]]<br>matrix[1][1] = 1<br>print(matrix) # prints [[“A”: 0], [“B”: 1]]<br><br><img src=\"paste-056241f1f011a2ef68a3cea239d0ae4a97383860.jpg\">",
+                                        "matrix = [[“A”, 0], [“B”, 999]]<br>print(matrix) # prints [[“A”, 0], [“B”, 999]]<br>matrix[1][1] = 1<br>print(matrix) # prints [[“A”, 0], [“B”, 1]]<br><br><img src=\"paste-056241f1f011a2ef68a3cea239d0ae4a97383860.jpg\">",
                                         "",
                                         "224724DF-14B1-4020-B483-3B220358B593"
                                     ],
@@ -1412,7 +1412,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "Syntax to slice the all elements of a list except the first two elements?",
+                                        "Syntax to slice all elements of a list except the first two elements?",
                                         "list[2:]",
                                         "",
                                         "",
@@ -1632,7 +1632,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "# Using a list method, delete the number 2 from the list below<br>my_list = [1,2,3]",
+                                        "# Using a list method, delete the number 2 from the list below. <br># Do <b>NOT</b>&nbsp;use the .pop() method, use a different method.<br><br>my_list = [1,2,3]<br><br>",
                                         "my_list.remove(2)",
                                         "<img src=\"XNAhF9atQ48AtJuXzQ4eXxB4VumAJQDR3qs4ftu8oc69eBOMfTXV01pW8EDF17YOjT8210foRwhiwAzrqyLSslg5vCBrWwIYs96ncN04Anqc0QmBAxE.png\">",
                                         "",
