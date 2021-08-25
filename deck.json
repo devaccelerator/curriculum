@@ -25,6 +25,7 @@
                                 "FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png",
                                 "H4fLHpN6Lsxe4KLwx672ZgHpjBrM3U0oGvr5NJ1WFUtH3h7OyEUNrt2loIEwYj8kBsrlICVvMXjdzOeTmvFPEggNaest6cjhMncLy_Q3soZHqfqcRQx.png",
                                 "NGqjZ6wa2Lpdvs8dOXF1iMW3_najuUqwfUSM77GWf9KrcyLJm4QM6jooA8acO_BGdQiqlIYmCOPbQxtzCjOE_CsWy9ggdAb3f4y0Ixh1xJBMdvUqnw8.png",
+                                "X_mXhe6XFMB-9lM2N2y8LOpGqnM8vcXMfEKbRVVSANNdEaDaWltgRVvwq0ttNrbj_4P9e814eqOTecebcg4jrmXPjpUmzp86h3CU2ksHrJbdTlZSB3y.png",
                                 "hX_zOQveJSkLRou3Fipbnip0GYKk6NadelmM1XtfY0Hb8faWGkv1OCVq9w5LlyuRtVbnkXsVRYxLjLxPsI7xyQglDyeGiCNzY9e2NC7hLH4xsbI1jc9.png",
                                 "mDHBPdzUJa4sVULySsBFD07fT5B3WMOENDPvd3UZSbOMXCVvMuOCVocFFLibkVVzJHDQpwEgUqcsae-ygzYum-bvJMLzND_rrkvZSrjC-W2eZijHLdU.png",
                                 "paste-1a9355f142d6233c6d7486339b92aca886bfb57d.jpg",
@@ -397,7 +398,7 @@
                                     "fields": [
                                         "How to concatenate strings?",
                                         "using the + operator",
-                                        "example:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\">",
+                                        "e<br>xample:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\"><br><img src=\"X_mXhe6XFMB-9lM2N2y8LOpGqnM8vcXMfEKbRVVSANNdEaDaWltgRVvwq0ttNrbj_4P9e814eqOTecebcg4jrmXPjpUmzp86h3CU2ksHrJbdTlZSB3y.png\">",
                                         "",
                                         "9751817f-4937-4d45-9f2b-c9dc36a2d009"
                                     ],
@@ -3123,6 +3124,369 @@
                                     "tags": []
                                 }
                             ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "585f642e-054a-11ec-9c94-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "2KK70I2LwFEmH7x4fwIAvVtNcdqdQu5M301i6JC6-r97_RIg9vOnejJSssXd-eZb2xpI4eJ6Wy7yOoJXTyTIfiGImCBL_1Mm7_eNVtzGr_nDAeuNE15.png",
+                                "4iQRnex_yHa7J3EhGPbk1JoPHUCawX-vFuHPGl-g18rC2C1sMlYhCM5nzCL2O83hJSsc8yA23WQiQH1KOZG7AhEQnUyIiu35rp7b3_vNK2YKN-0nD5E.png",
+                                "5CGuwT-qggDrhFx8d_N5h5JjhVvRW_tRnz_sqI5I20JSUxvdkZDpE9F0XAvMPiZRykDeRRtL-vzOl75IbHAoVXuLh0EvHmPGnBTd1IKh8kS_C5kE4WB.png",
+                                "5yfsMb7Qy9Qgkd6ZtE4s1EC8PYeLxypoVk4wTyv7eg_8xBmHx_8VCjyc2pZHIHWW0C7TvKE6ah4rbo_9P1Dw6bMeQKRNGCH8Rn6pcgchiNPHAP1nrah.png",
+                                "8hVtPwqbZ3rpwazumoHjDscQ8EEbmq0BFwJICSw6VaXqqd58YBeanPfYGQqbsTn4ybMhE7eAtPQFElkmQaoAqN9-xSZJcLVROQj0RANU6GhNMVFhw_-.png",
+                                "A-DK9veeCBCnaS7s9M6yhJo65OqXNxBLUb941xpIfONk_AjKxlOQ82Ccmv4GNWslaNKNZvs0jn7YocS4H0Tw079h32e8uD0lbiGSp28aP3W7W4uoZzF.png",
+                                "AH0X_c-jimuyrIGGz-WS07HN1HoHirxr0Uqky86uRmHoE8E-rwstehHzwGU2ypZ-X-x4cq-EKSKihcDCNcoCKOzi_UcQKRECKZ82KmSx76elNo9oNYI.png",
+                                "CeN0qFF9WJjYaFFqTSbLB8Z7powgbhyqr3kmZO746N0HUYFrZvtj_RFfl3eDhMeRM5yPbLz4WEKQ9nKO1yOFdt5VZRBCYbuX62TDnYj4kyUpQAbDnt-.png",
+                                "EI14ItNWQpy1HAN-p6pEZhD45V-ahUMFGeF8OqEOxYPdQ0KTRvEOUwcM_7h9XwxTNP3wvU6l0cCNopp_AvtRr0ZxC_uWvMjsAw2NNa0iKMa-6hB0wSo.png",
+                                "Gtj6XuCHsbUBCxcbCwO4dUmF9jsVDhRUOcTlIpz10Pe2BsxTRD9IvPu0k0ChBllpAi6N1CXyhoEiUX-B64WiGzg3yTQATCrgSyPCDlY5nMv-lJG0n1r.png",
+                                "IzJj-Z9qxdwZYIAEVITVe_rWIL87lGW8vP_vyYyLDcpLN06ndxiTml_eHBCmJl51LSc4n-Z0M823_CozfJ9DmbWFD9841So6Grg5kaRbhH7Wh3LzsId.png",
+                                "M5iqJ75_SMJgKdGGwZLK2cLuQhMWrnxUERrSyEdutBA6kLFn1_EK6-CgfNrZr5L5dJI2K-Fr6DsrxDw34yK_4hne5K7JewthfaHYXJKfCcGr0x2Ovhy.png",
+                                "MC9WoNQB9bFzuQUvPlSjseeQza1XUVUN6LHQABumVS_4oDPBXoFNffAZVXI1g70liRWgU8p4uZLcnJEe7josDDKExGcVdLGZE9l1-beAqNIDDZTNfg5.png",
+                                "RqSvcIpuxPbKIVlYa_RSXyNor5cJcDLswqbZrryP1qPlzx43m7WTSy_M3jgfI9iJh-OQ2de9llVPkrpNxp3vCDWQCUUBuWHgCz_w79J06LgR4Ak0FQq.png",
+                                "TH4uQdYdE2XAFyGWiol8eweYpygWA-GQdjb12FSdI_Qr80NkVHjN_R8wPXMOe_eCNSra2Kbgl1uaraumEz9wUdwIOFYoSu-orbzZdfMbwKCEsBXjd1H.png",
+                                "TQgVRBQx5zPMoni9d118a7iWAL8d2y1PF5lUrweyOhz5U8IZNJxOOgWt99m_RtUyNSzf4ELNPx5ml9EyNDMPS3JcgF0ceDIUFyecvY797NBSVps1arx.png",
+                                "Vhe37Jl6Cdh8owqNeoErALoZrz7lFLa-B6C4Zj-kEXutKcZHLqqVHRsqndjbGnYP303NEqxy4aochncJssvQ3MFLZr4n5p00AROVqf9JlBdc10uGM6t.png",
+                                "VsYu92dKVlf_XQmTXX_3xeiILBVlvPaVvrOWWtg2ZNNiISnXKAekOBzG5wqDerbd0ExiGtayDI-b9paVEuhkQB9usIdXsum1usfhdrwLhBalauBrjpC.png",
+                                "VyEIOTMQx0lwD-jgkWa8SIHiFz8XUXtPQbVyu_uZTPIOLoL_5PMS86tPR0si3MvpCT1aaVOkRpl1m7nEymiMl1E4Z0-rY8O2sB0j1uQhWcS8CxagORE.png",
+                                "WKBwi1itRy6vXp35DErq05ImdfD1I5guc6YG4PMdT_NTJzYenMvy5tAoi8YPgiinakjViOW4x4-_TGq6KoE_a2-Vilj-i5Gjbb_2_raZVlP8Me9QJs4.png",
+                                "fO2gECHTCTMdEgNYMkH51f1NFMCrEYd3n1IrEP0svjxvke_RLyWcHFW2OdA0EZ48AcRslQZM8N8E5zuFPdLjRzG1FzDanCF5u1fbYbIJaNuuQSneIsD.png",
+                                "gqirf7bCjRFYsAo_A31ESsArvNkZRxTcjAxpXGitYiyXtnYOr1eL6hHxhFrbez7tyZDUNWC33oCWULa0LnutfzQik0qglcdXfJm9aLbk8rztpVccoHY.png",
+                                "m-ER6m__iE15suu2GUcYjhGPGVUZlf8sfaWz-eMr4DJOBk1u02nFO4jGE3qZWjZ2VDou5jfZsY21TBxa1lYPMSGP422JoGkThEnPHwMJIe70p2h9IFR.png",
+                                "nEkrzQlx-2ZZfEFpQwHVbs4bvE69ArnT0hOz9gjL1ADb5foZRcn9viOdHNZjfQO8MF4QfP1lJDduTZQnEiptiK76dvewKUtrPHe4a1NRIa_SlHRiKJb.png",
+                                "vdTNkudz96Gm6XKxJZgE505o1tnQNAMhK7F4Wkl3DGkDdmHpXTwU6v17It6crsP6fQx6Or6YK4tFWINXwUSD4VLuOtw650xzR9GXIBXD_G7QTynfZAD.png"
+                            ],
+                            "name": "7. Strings",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"5yfsMb7Qy9Qgkd6ZtE4s1EC8PYeLxypoVk4wTyv7eg_8xBmHx_8VCjyc2pZHIHWW0C7TvKE6ah4rbo_9P1Dw6bMeQKRNGCH8Rn6pcgchiNPHAP1nrah.png\">",
+                                        "<img src=\"EI14ItNWQpy1HAN-p6pEZhD45V-ahUMFGeF8OqEOxYPdQ0KTRvEOUwcM_7h9XwxTNP3wvU6l0cCNopp_AvtRr0ZxC_uWvMjsAw2NNa0iKMa-6hB0wSo.png\">",
+                                        "",
+                                        "",
+                                        "9E10759E-951C-439A-A10C-19E424E98A85"
+                                    ],
+                                    "guid": "N]uA5qrdoK",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is the syntax for slicing and indexing strings?",
+                                        "Same as lists",
+                                        "string[index] for indexing and string[start:end] for slicing<br><br><img src=\"M5iqJ75_SMJgKdGGwZLK2cLuQhMWrnxUERrSyEdutBA6kLFn1_EK6-CgfNrZr5L5dJI2K-Fr6DsrxDw34yK_4hne5K7JewthfaHYXJKfCcGr0x2Ovhy.png\">",
+                                        "",
+                                        "C302C5AB-C954-4A4B-B15E-6CAD4D11C2FE"
+                                    ],
+                                    "guid": "uIjhCeQU44",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"IzJj-Z9qxdwZYIAEVITVe_rWIL87lGW8vP_vyYyLDcpLN06ndxiTml_eHBCmJl51LSc4n-Z0M823_CozfJ9DmbWFD9841So6Grg5kaRbhH7Wh3LzsId.png\">",
+                                        "<img src=\"WKBwi1itRy6vXp35DErq05ImdfD1I5guc6YG4PMdT_NTJzYenMvy5tAoi8YPgiinakjViOW4x4-_TGq6KoE_a2-Vilj-i5Gjbb_2_raZVlP8Me9QJs4.png\">",
+                                        "",
+                                        "",
+                                        "A7A31509-FB3D-4CF4-BE21-068118B688A5"
+                                    ],
+                                    "guid": "xc!daJigo@",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The Python string method {{c1::.find()}} returns the index of the first occurrence of the string passed as the argument. It returns -1 if no occurrence is found.",
+                                        "<img src=\"gqirf7bCjRFYsAo_A31ESsArvNkZRxTcjAxpXGitYiyXtnYOr1eL6hHxhFrbez7tyZDUNWC33oCWULa0LnutfzQik0qglcdXfJm9aLbk8rztpVccoHY.png\">",
+                                        "",
+                                        "18173DA1-5218-44E0-A116-5BCCA196148B"
+                                    ],
+                                    "guid": "tYKr/t/O+L",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"TH4uQdYdE2XAFyGWiol8eweYpygWA-GQdjb12FSdI_Qr80NkVHjN_R8wPXMOe_eCNSra2Kbgl1uaraumEz9wUdwIOFYoSu-orbzZdfMbwKCEsBXjd1H.png\">",
+                                        "<img src=\"nEkrzQlx-2ZZfEFpQwHVbs4bvE69ArnT0hOz9gjL1ADb5foZRcn9viOdHNZjfQO8MF4QfP1lJDduTZQnEiptiK76dvewKUtrPHe4a1NRIa_SlHRiKJb.png\">",
+                                        "",
+                                        "",
+                                        "E8D0ADA4-0352-4A79-8E58-0C6D71ECFF86"
+                                    ],
+                                    "guid": "BP_Jp0*E.C",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The string method {{c1::.join()}} concatenates a list of strings together to create a new string joined with the desired delimiter.<br><br># Example:<br>print(\"-\".{{c1::join}}([\"monk\", \"like\", \"discipline\"]) # prints: monk-like-discipline",
+                                        "<img src=\"MC9WoNQB9bFzuQUvPlSjseeQza1XUVUN6LHQABumVS_4oDPBXoFNffAZVXI1g70liRWgU8p4uZLcnJEe7josDDKExGcVdLGZE9l1-beAqNIDDZTNfg5.png\">",
+                                        "",
+                                        "0AF1C85D-C21B-4B86-8F54-B1E6E0480E4C"
+                                    ],
+                                    "guid": "J]<v*x3d/4",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# using a string method, print the list below as a string like this: \"this-is-an-example\"\n<br><br>example = [\"this\", \"is\", \"an\", \"example\"]\n<br><br>print({{c1::\"-\".join(example)}}) # prints: this-is-an-example",
+                                        "",
+                                        "",
+                                        "866C9719-C90E-47E8-950B-063A5D87E67F"
+                                    ],
+                                    "guid": "jIQ|:`6f76",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The string method {{c1::.lower()}} returns a string with all uppercase characters converted into lowercase.",
+                                        "<img src=\"Gtj6XuCHsbUBCxcbCwO4dUmF9jsVDhRUOcTlIpz10Pe2BsxTRD9IvPu0k0ChBllpAi6N1CXyhoEiUX-B64WiGzg3yTQATCrgSyPCDlY5nMv-lJG0n1r.png\">",
+                                        "",
+                                        "0F39C3B0-9D98-4C7B-B663-1B1C6F8478ED"
+                                    ],
+                                    "guid": "MZL@!2#@+d",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# using a string method, print the string below like this: \"monk mode\"\n<br>lifestyle = \"MONK MODE\"\n<br>print(lifestyle.{{c1::lower()}}) # prints: monk mode",
+                                        "",
+                                        "",
+                                        "D20BD86B-576B-467D-AC26-F6CE36F8CF21"
+                                    ],
+                                    "guid": "JM%BYX:s<n",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The string method {{c1::.replace()}} is used to replace the occurrence of the first argument with the second argument within the string.",
+                                        "<img src=\"2KK70I2LwFEmH7x4fwIAvVtNcdqdQu5M301i6JC6-r97_RIg9vOnejJSssXd-eZb2xpI4eJ6Wy7yOoJXTyTIfiGImCBL_1Mm7_eNVtzGr_nDAeuNE15.png\">",
+                                        "",
+                                        "FC696947-31F3-4D55-842A-33D278C0C220"
+                                    ],
+                                    "guid": "M*qhbad;-f",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The string method {{c1::.split()}} separates a string into a list of items. If no argument is passed, the default behavior is to split on whitespace. If an argument is passed to the method, that value is used as the delimiter on which to separate the string.",
+                                        "<img src=\"m-ER6m__iE15suu2GUcYjhGPGVUZlf8sfaWz-eMr4DJOBk1u02nFO4jGE3qZWjZ2VDou5jfZsY21TBxa1lYPMSGP422JoGkThEnPHwMJIe70p2h9IFR.png\">",
+                                        "",
+                                        "23A309B8-3160-43FD-91D2-2C524F9D6E20"
+                                    ],
+                                    "guid": "vHlo+uk3zu",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(\"Silicon Valley\".split())",
+                                        "['Silicon', 'Valley']",
+                                        "",
+                                        "",
+                                        "E2179A58-6EEE-43FD-ADFF-DAFD943F4B03"
+                                    ],
+                                    "guid": "ySJ<cE*)/o",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(\"Silicon Valley\".split('i'))",
+                                        "['S', 'l', 'con Valley']",
+                                        "",
+                                        "",
+                                        "AEBB8BB3-BEB8-43F5-8B6D-2DD1DC573336"
+                                    ],
+                                    "guid": "fyT)BN)X##",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# using a string method, print the string below as a list like this:&nbsp;[\"relentless\", \"focus\", \"deep\", \"work\", \"monk\", \"mode\"]\n<br><br>my_string = \"relentless focus deep work monk mode\"\n<br>print(my_string.{{c1::split()}}) # prints [\"relentless\", \"focus\", \"deep\", \"work\", \"monk\", \"mode\"]",
+                                        "",
+                                        "",
+                                        "4EEAE577-C57B-4EF3-8359-254B4C80E38C"
+                                    ],
+                                    "guid": "M2UV2kb5mN",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"CeN0qFF9WJjYaFFqTSbLB8Z7powgbhyqr3kmZO746N0HUYFrZvtj_RFfl3eDhMeRM5yPbLz4WEKQ9nKO1yOFdt5VZRBCYbuX62TDnYj4kyUpQAbDnt-.png\"><br><img src=\"TQgVRBQx5zPMoni9d118a7iWAL8d2y1PF5lUrweyOhz5U8IZNJxOOgWt99m_RtUyNSzf4ELNPx5ml9EyNDMPS3JcgF0ceDIUFyecvY797NBSVps1arx.png\">",
+                                        "<img src=\"4iQRnex_yHa7J3EhGPbk1JoPHUCawX-vFuHPGl-g18rC2C1sMlYhCM5nzCL2O83hJSsc8yA23WQiQH1KOZG7AhEQnUyIiu35rp7b3_vNK2YKN-0nD5E.png\">",
+                                        "",
+                                        "",
+                                        "3B9E1C14-6F85-492E-B050-258F570A1280"
+                                    ],
+                                    "guid": "Ii}*0ux)1p",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The string method {{c1::.strip()}} can be used to remove characters from the beginning and end of a string.",
+                                        "<img src=\"8hVtPwqbZ3rpwazumoHjDscQ8EEbmq0BFwJICSw6VaXqqd58YBeanPfYGQqbsTn4ybMhE7eAtPQFElkmQaoAqN9-xSZJcLVROQj0RANU6GhNMVFhw_-.png\">",
+                                        "",
+                                        "AC38142E-16F3-480E-90DE-0C638B987C4C"
+                                    ],
+                                    "guid": "t$cC+MY3>Q",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"vdTNkudz96Gm6XKxJZgE505o1tnQNAMhK7F4Wkl3DGkDdmHpXTwU6v17It6crsP6fQx6Or6YK4tFWINXwUSD4VLuOtw650xzR9GXIBXD_G7QTynfZAD.png\">",
+                                        "<img src=\"VyEIOTMQx0lwD-jgkWa8SIHiFz8XUXtPQbVyu_uZTPIOLoL_5PMS86tPR0si3MvpCT1aaVOkRpl1m7nEymiMl1E4Z0-rY8O2sB0j1uQhWcS8CxagORE.png\">",
+                                        "",
+                                        "",
+                                        "C114AC59-41ED-4D3D-AF3E-C62B6A910AA7"
+                                    ],
+                                    "guid": "fqs-i<JMv4",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The string method {{c1::.title()}} returns the string in title case.",
+                                        "<img src=\"Vhe37Jl6Cdh8owqNeoErALoZrz7lFLa-B6C4Zj-kEXutKcZHLqqVHRsqndjbGnYP303NEqxy4aochncJssvQ3MFLZr4n5p00AROVqf9JlBdc10uGM6t.png\">",
+                                        "",
+                                        "CE3F2646-1554-440A-85BC-42FC877C78F0"
+                                    ],
+                                    "guid": "QERj_YM~b3",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The string method {{c1::.upper()}} returns the string with all lowercase characters converted to uppercase.",
+                                        "<img src=\"VsYu92dKVlf_XQmTXX_3xeiILBVlvPaVvrOWWtg2ZNNiISnXKAekOBzG5wqDerbd0ExiGtayDI-b9paVEuhkQB9usIdXsum1usfhdrwLhBalauBrjpC.png\">",
+                                        "",
+                                        "C31BA2C0-3AA6-496E-ADE4-799A90271E74"
+                                    ],
+                                    "guid": "cW|=B+58n(",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "How to find the length of a string?<br>For example, the length of the string \"text\" is 4.",
+                                        "len(string)",
+                                        "<img src=\"AH0X_c-jimuyrIGGz-WS07HN1HoHirxr0Uqky86uRmHoE8E-rwstehHzwGU2ypZ-X-x4cq-EKSKihcDCNcoCKOzi_UcQKRECKZ82KmSx76elNo9oNYI.png\">",
+                                        "",
+                                        "1803C7D3-2938-4FB7-8A42-B7544B75F64C"
+                                    ],
+                                    "guid": "-OHupiH^]",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Are strings mutable, or immutable?",
+                                        "immutable",
+                                        "# Example of how lists are mutable\n<br>my_list = [1, 2, 4]\n<br>print(my_list) # prints [1, 2, 4]\n<br>my_list[-1] = 3\n<br>print(my_list) # prints [1, 2, 3]\n<br><br># Example of how string are immutable\n<br>my_string = \"124\"\n<br>print(my_string) # prints \"124\"\n<br>my_string[-1] = 3 # throws error because strings are immutable, we cannot mutate it.<br><br><img src=\"5CGuwT-qggDrhFx8d_N5h5JjhVvRW_tRnz_sqI5I20JSUxvdkZDpE9F0XAvMPiZRykDeRRtL-vzOl75IbHAoVXuLh0EvHmPGnBTd1IKh8kS_C5kE4WB.png\">",
+                                        "",
+                                        "4AC2F8FF-1543-470F-A12C-B68FEC78596D"
+                                    ],
+                                    "guid": "c-Pz.//M)=",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What does it mean for something to be immutable in Python?",
+                                        "Something that can't be changed after being created",
+                                        "Here are examples of immutable objects in python: integers, floats, booleans, strings, and tuples",
+                                        "",
+                                        "250BC8B2-C7D2-40A9-BAAC-EB24BD880F71"
+                                    ],
+                                    "guid": "PBeH$8^x_p",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "{{c1::Backslashes \\}} are used to escape characters in a Python string.",
+                                        "<img src=\"RqSvcIpuxPbKIVlYa_RSXyNor5cJcDLswqbZrryP1qPlzx43m7WTSy_M3jgfI9iJh-OQ2de9llVPkrpNxp3vCDWQCUUBuWHgCz_w79J06LgR4Ak0FQq.png\">",
+                                        "",
+                                        "87E800B5-D072-45E9-80E9-B44B4026D37D"
+                                    ],
+                                    "guid": "l8MDU9Gw1m",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Given the string below, print every single character inside the string one by one<br><br>my_string = \"This is an example\"<br><br>{{c1::for char in my_string:<br>&nbsp; &nbsp; print(char)}}<br><br>'''<br># Should print:<br>T<br>h<br>i<br>s<br><br>i<br>s<br><br>a<br>n<br><br>e<br>x<br>a<br>m<br>p<br>l<br>e<br>'''",
+                                        "# the 'char' variable can be anything. For example, this works too:<br>for x in my_string:<br>&nbsp; &nbsp; print(char)<br><br><img src=\"fO2gECHTCTMdEgNYMkH51f1NFMCrEYd3n1IrEP0svjxvke_RLyWcHFW2OdA0EZ48AcRslQZM8N8E5zuFPdLjRzG1FzDanCF5u1fbYbIJaNuuQSneIsD.png\">",
+                                        "",
+                                        "604256C1-CC5E-438D-9EF8-A90FF676FD72"
+                                    ],
+                                    "guid": "FCQP;rxTT/",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "print(\"quotations {{c1::'within' \\\"a\\\"}} string\") # prints: quotations 'within' \"a\" string",
+                                        "since the string above is enclosed by the \" \" quotation marks, we need to escape those same quotation marks within the string with a back slash \\",
+                                        "",
+                                        "BF2EE874-E3D6-423B-B6B2-787B4CF53CF4"
+                                    ],
+                                    "guid": "o#M<!>5FfN",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "The {{c1::in}} keyword is used to determine if a letter or a substring exists in a string. It returns True if a match is found, otherwise False is returned.<br><br>print(\"a\" {{c1::in}} \"apple\") # prints True<br>print(\"b\" {{c1::in}} \"apple\") # print False",
+                                        "<img src=\"A-DK9veeCBCnaS7s9M6yhJo65OqXNxBLUb941xpIfONk_AjKxlOQ82Ccmv4GNWslaNKNZvs0jn7YocS4H0Tw079h32e8uD0lbiGSp28aP3W7W4uoZzF.png\">",
+                                        "",
+                                        "56A52540-D776-426B-879B-A53910BEF019"
+                                    ],
+                                    "guid": "e*$*h:y0}Y",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         }
                     ],
                     "crowdanki_uuid": "9607bbe2-ffe0-11eb-ac0f-3e22fb2860fe",
@@ -3556,7 +3920,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{Tests}}):\n{{Tests}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{URL}}\n</div>\n\n{{#Answer}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Answer}}\n\t</div>\n{{/Answer}}\n\n{{#URL Instructions}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{URL Instructions}}\n\t</div>\n{{/URL Instructions}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{Optional}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
+                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL}}):\n{{Tests}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{URL Instructions}}\n</div>\n\n{{#Optional}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n\n{{#Answer}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Answer}}\n\t</div>\n{{/Answer}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{Personal}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
