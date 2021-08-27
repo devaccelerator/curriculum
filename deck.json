@@ -2546,7 +2546,7 @@
                                         "Go to <b>1. Large Power</b>",
                                         "def large_power(base, exponent):<br>&nbsp; &nbsp; if base ** exponent &gt; 5000:<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False",
                                         "# In this solution, we have an example of how the operation can be performed in the condition of the <b>if</b> statement. This prevents us from needing to create an extra variable. If the condition is true, then the indented code is executed which returns <b>True</b>, otherwise the indented code in the <b>else</b> statement is executed.",
-                                        "# In this solution, we have an example of how the operation can be performed in the condition of the <b>if</b> statement. This prevents us from needing to create an extra variable. If the condition is true, then the indented code is executed which returns <b>True</b>, otherwise the indented code in the <b>else</b> statement is executed.",
+                                        "",
                                         "A11BE85D-1873-474C-B554-5F24AA79E091"
                                     ],
                                     "guid": "rh;RsJI+(R",
@@ -2564,7 +2564,7 @@
                                         "Go to <b>3. Twice As Large</b>",
                                         "def twice_as_large(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 &gt; 2 * num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
                                         "In this function, we performed the operation within the condition of the if statement. The second input is multiplied by 2 and then compared to the first input on the same line.<br><br>The condition&nbsp;<b>num1 / 2 &gt; num2&nbsp;</b>also works",
-                                        "In this function, we performed the operation within the condition of the if statement. The second input is multiplied by 2 and then compared to the first input on the same line.<br><br>The condition&nbsp;<b>num1 / 2 &gt; num2&nbsp;</b>also works",
+                                        "",
                                         "e5700982-8d69-4fe7-932f-876995f7332b"
                                     ],
                                     "guid": "DIu<`cE8(F",
@@ -2582,7 +2582,7 @@
                                         "Go to <b>4. Divisible By Ten</b>",
                                         "# Make sure to use the modulus operator when solving this problem.<br><br>def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
                                         "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
-                                        "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
+                                        "",
                                         "3be29ad2-967d-41f6-8dab-3677543f44e2"
                                     ],
                                     "guid": "i+gRzn@%YZ",
@@ -2600,7 +2600,7 @@
                                         "Go to <b>1. In Range</b>",
                                         "def in_range(num, lower, upper):<br><b>&nbsp;&nbsp;&nbsp; if num &gt;= lower and num &lt;= upper:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; return False</b>",
                                         "In this solution, we test the two bounds connected with an&nbsp;<b>and</b>&nbsp;boolean operator. This means that the code nested in the&nbsp;<b>if</b>&nbsp;statement will only execute if both of the conditions are true. We also do not include the&nbsp;<b>else</b>&nbsp;statement here. Since our&nbsp;if&nbsp;statement will return&nbsp;<b>True</b>&nbsp;and exit the function if the condition is true, the last line will only be reached if the condition was false.",
-                                        "In this solution, we test the two bounds connected with an&nbsp;<b>and</b>&nbsp;boolean operator. This means that the code nested in the&nbsp;<b>if</b>&nbsp;statement will only execute if both of the conditions are true. We also do not include the&nbsp;<b>else</b>&nbsp;statement here. Since our&nbsp;if&nbsp;statement will return&nbsp;<b>True</b>&nbsp;and exit the function if the condition is true, the last line will only be reached if the condition was false.",
+                                        "",
                                         "2bdd76b8-96c9-4f0b-9f0e-413e38e0b526"
                                     ],
                                     "guid": "fsqN;Nvy<J",
@@ -2618,7 +2618,7 @@
                                         "Go to <b>2. Same Name</b>",
                                         "def same_name(your_name, my_name):<br><b>&nbsp; &nbsp; if (your_name == my_name):<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
                                         "As you can see in this solution code, comparing two strings in python can be done using the&nbsp;<b>==</b>&nbsp;operator. If you want an added challenge, you can try shortening the function body to one line of code!",
-                                        "As you can see in this solution code, comparing two strings in python can be done using the&nbsp;<b>==</b>&nbsp;operator. If you want an added challenge, you can try shortening the function body to one line of code!",
+                                        "",
                                         "c68ef10f-4334-47ed-81aa-a1f38ab9b962"
                                     ],
                                     "guid": "g=iT$hCXT+",
@@ -2636,7 +2636,7 @@
                                         "Go to <b>4. Movie Review</b>",
                                         "def movie_review(rating):<br>&nbsp;&nbsp;&nbsp; if rating &lt;= 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"Avoid at all costs!\"<br>&nbsp;&nbsp;&nbsp; if rating &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"This one was fun.\"<br>&nbsp;&nbsp;&nbsp; return \"Outstanding!\"",
                                         "To solve this, we used a series of&nbsp;<b>if</b>&nbsp;statements to select which string to return. Another way of solving this would be to use&nbsp;<b>if</b>,&nbsp;<b>elif</b>&nbsp;and&nbsp;<b>else</b>&nbsp;statements.",
-                                        "To solve this, we used a series of&nbsp;<b>if</b>&nbsp;statements to select which string to return. Another way of solving this would be to use&nbsp;<b>if</b>,&nbsp;<b>elif</b>&nbsp;and&nbsp;<b>else</b>&nbsp;statements.",
+                                        "",
                                         "18a7ddca-d0df-4699-9ca7-5322e54b8f7f"
                                     ],
                                     "guid": "L#vq%[eULg",
@@ -2654,7 +2654,7 @@
                                         "Go to <b>5. Max Number</b>",
                                         "def max_num(num1, num2, num3):<br>&nbsp;&nbsp;&nbsp; if num1 &gt; num2 and num1 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num1<br>&nbsp;&nbsp;&nbsp; elif num2 &gt; num1 and num2 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num2<br>&nbsp;&nbsp;&nbsp; elif num3 &gt; num1 and num3 &gt; num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num3<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"It's a tie!\"",
                                         "In this code, we use a series of&nbsp;<b>if</b>,&nbsp;<b>elif</b>, and&nbsp;<b>else</b>&nbsp;statements. We test the first parameter against the other two parameters and return the value if it is greater than the other two. We have two more tests to check if the second parameter is greater than the other two, then if the third parameter is greater than the other two. In the case where none of the parameters were greater than both of the other parameters, then we know that there must have been a tie and the final return statement is reached.",
-                                        "In this code, we use a series of&nbsp;<b>if</b>,&nbsp;<b>elif</b>, and&nbsp;<b>else</b>&nbsp;statements. We test the first parameter against the other two parameters and return the value if it is greater than the other two. We have two more tests to check if the second parameter is greater than the other two, then if the third parameter is greater than the other two. In the case where none of the parameters were greater than both of the other parameters, then we know that there must have been a tie and the final return statement is reached.",
+                                        "",
                                         "db26d26e-a48d-4e16-b612-0abc0f1c83b9"
                                     ],
                                     "guid": "t<[oZd:,9|",
@@ -2672,7 +2672,7 @@
                                         "Go to <b>2. Over Budget</b>",
                                         "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent): <br><b>&nbsp; &nbsp; if (budget &lt; food_bill + electricity_bill + internet_bill + rent): <br>&nbsp; &nbsp; &nbsp; &nbsp; return True <br>&nbsp; &nbsp; else: <br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
                                         "We can perform the operations within the condition of the <b>if</b> statement to prevent us from creating an extra variable. We calculate the sum and compare it to <b>budget</b> at the same time and return <b>True</b> if the condition is met, otherwise we return <b>False</b>.",
-                                        "We can perform the operations within the condition of the <b>if</b> statement to prevent us from creating an extra variable. We calculate the sum and compare it to <b>budget</b> at the same time and return <b>True</b> if the condition is met, otherwise we return <b>False</b>.",
+                                        "",
                                         "1cd58f94-6cc9-4bc5-9a13-7eeb47ef48b3"
                                     ],
                                     "guid": "qHJ6T9`7Tq",
@@ -2690,7 +2690,7 @@
                                         "Go to <b>5. Not Sum To Ten Ten</b>",
                                         "def not_sum_to_ten(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 + num2 != 10:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
                                         "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return&nbsp;<b>True</b>&nbsp;otherwise we return&nbsp;<b>False</b>.",
-                                        "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return&nbsp;<b>True</b>&nbsp;otherwise we return&nbsp;<b>False</b>.",
+                                        "",
                                         "87c9c773-7dc1-4817-b15d-4bec84def56f"
                                     ],
                                     "guid": "H_cQMwggh?",
@@ -2708,7 +2708,7 @@
                                         "Go to <b>1. Append Size</b>",
                                         "def append_size(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(len(lst))<br>&nbsp;&nbsp;&nbsp; return lst",
                                         "<div><div>We can get the length and append it at the same time by nesting the function calls as shown in the solution. Afterward, we return the modified list.</div></div>",
-                                        "<div><div>We can get the length and append it at the same time by nesting the function calls as shown in the solution. Afterward, we return the modified list.</div></div>",
+                                        "",
                                         "2fbbdefe-0a68-4ffe-90c7-852fa7915fe3"
                                     ],
                                     "guid": "dB}WvVmo]J",
@@ -2726,7 +2726,7 @@
                                         "Go to <b>2. Append Sum</b>",
                                         "def append_sum(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; return lst",
                                         "In our solution, we add the numbers and append the result in one line. We add the last and second to last elements within the&nbsp;<b>.append()</b>&nbsp;function and we repeat this line two more times. Remember that when we use negative indices, it starts from the end of the list and goes towards the beginning of the list. You could also use a loop to solve this instead of repeating the lines.",
-                                        "In our solution, we add the numbers and append the result in one line. We add the last and second to last elements within the&nbsp;<b>.append()</b>&nbsp;function and we repeat this line two more times. Remember that when we use negative indices, it starts from the end of the list and goes towards the beginning of the list. You could also use a loop to solve this instead of repeating the lines.",
+                                        "",
                                         "3714ed1a-22a8-48ab-a8eb-2b22f3f5933e"
                                     ],
                                     "guid": "znq@{A--0c",
@@ -2744,7 +2744,7 @@
                                         "Go to <b>3. Larger List</b>",
                                         "def larger_list(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; if len(lst1) &gt;= len(lst2):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst1[-1]<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst2[-1]",
                                         "<div>We start by comparing the lengths of each of the lists using the&nbsp;<b>len()</b>&nbsp;function. This determines whether to return the last element of the first list or the second list. Notice that we use&nbsp;<b>&gt;=</b>. This way, we know what to do if the lists have an equal length.<br><br></div><div>In order to get the last element, we get the element at the -1 index. The negative index starts at the end of the list and works towards the start of the list.</div>",
-                                        "<div>We start by comparing the lengths of each of the lists using the&nbsp;<b>len()</b>&nbsp;function. This determines whether to return the last element of the first list or the second list. Notice that we use&nbsp;<b>&gt;=</b>. This way, we know what to do if the lists have an equal length.<br><br></div><div>In order to get the last element, we get the element at the -1 index. The negative index starts at the end of the list and works towards the start of the list.</div>",
+                                        "",
                                         "9bb9364f-9aeb-4e6e-b900-3b3c820a9a44"
                                     ],
                                     "guid": "pzh6*-%rdt",
@@ -2762,7 +2762,7 @@
                                         "Go to <b>4. More Than N</b>",
                                         "def more_than_n(lst, item, n):<br>&nbsp;&nbsp;&nbsp; if lst.count(item) &gt; n:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
                                         "We use the&nbsp;<b>count()</b>&nbsp;list method to count the number of times&nbsp;<b>item</b>&nbsp;appears in&nbsp;<b>lst</b>. You could also do this manually by looping through&nbsp;<b>lst</b>&nbsp;and incrementing a variable every time you see&nbsp;<b>item</b>. We then compare the result to&nbsp;<b>n</b>.",
-                                        "We use the&nbsp;<b>count()</b>&nbsp;list method to count the number of times&nbsp;<b>item</b>&nbsp;appears in&nbsp;<b>lst</b>. You could also do this manually by looping through&nbsp;<b>lst</b>&nbsp;and incrementing a variable every time you see&nbsp;<b>item</b>. We then compare the result to&nbsp;<b>n</b>.",
+                                        "",
                                         "8bf60e60-9656-4a8e-b3f5-b65123cb54c3"
                                     ],
                                     "guid": "Aer:)MCmU%",
@@ -2780,7 +2780,7 @@
                                         "Go to <b>5. Combine Sort</b>",
                                         "def combine_sort(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; unsorted = lst1 + lst2<br>&nbsp;&nbsp;&nbsp; sortedList = sorted(unsorted)<br>&nbsp;&nbsp;&nbsp; return sortedList",
                                         "We start by combining the two lists together using&nbsp;<b>+</b>&nbsp;in order to get a new list. Next, in order to sort them, we use the&nbsp;<b>sorted()</b>&nbsp;function which returns a new sorted version of the list.",
-                                        "We start by combining the two lists together using&nbsp;<b>+</b>&nbsp;in order to get a new list. Next, in order to sort them, we use the&nbsp;<b>sorted()</b>&nbsp;function which returns a new sorted version of the list.",
+                                        "",
                                         "27673cda-5d7d-4936-8270-c95eeb7feda5"
                                     ],
                                     "guid": "f5TT4dHd$D",
@@ -2798,7 +2798,7 @@
                                         "Go to <b>1. Every Three Numbers</b>",
                                         "def every_three_nums(start):<br>&nbsp; &nbsp; return list(range(start, 101, 3))",
                                         "We can write the body of this function in one line by nesting the&nbsp;<b>range()</b>&nbsp;function inside of the&nbsp;<b>list()</b>&nbsp;function. The range function accepts the starting number, the ending number (exclusive), and the amount to increment by.",
-                                        "We can write the body of this function in one line by nesting the&nbsp;<b>range()</b>&nbsp;function inside of the&nbsp;<b>list()</b>&nbsp;function. The range function accepts the starting number, the ending number (exclusive), and the amount to increment by.",
+                                        "",
                                         "1e4fd6ea-05c9-4008-a252-ed536a839628"
                                     ],
                                     "guid": "h3BZbg29ET",
@@ -2816,7 +2816,7 @@
                                         "Go to <b>2. Remove Middle</b>",
                                         "def remove_middle(lst, start, end):<br>&nbsp; &nbsp; return lst[:start] +&nbsp;lst[end+1:]",
                                         "This can be solved using one line of code if you combine and slice the lists at the same time. Slicing allows us to get the segments of the list before and after the index range and the operation&nbsp;+&nbsp;allows us to combine them together.",
-                                        "This can be solved using one line of code if you combine and slice the lists at the same time. Slicing allows us to get the segments of the list before and after the index range and the operation&nbsp;+&nbsp;allows us to combine them together.",
+                                        "",
                                         "09ce0a34-5b75-49c5-8abe-548a8738f3d8"
                                     ],
                                     "guid": "saJr6R&a?w",
@@ -2834,7 +2834,7 @@
                                         "Go to <b>3. More Frequent Item</b>",
                                         "def more_frequent_item(lst, item1, item2):<br>&nbsp; &nbsp; if lst.count(item1) &gt;= lst.count(item2):<br>&nbsp; &nbsp; &nbsp; &nbsp; return item1<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return item2",
                                         "<div><div>We use the&nbsp;<b>count()</b>&nbsp;function to find the number of occurrences for each item. We then compare the counts against each other to find the item which appears the most in the list. The item with the most appearances is returned by the function.</div></div>",
-                                        "<div><div>We use the&nbsp;<b>count()</b>&nbsp;function to find the number of occurrences for each item. We then compare the counts against each other to find the item which appears the most in the list. The item with the most appearances is returned by the function.</div></div>",
+                                        "",
                                         "abcbfd34-305b-4b78-b61a-205ce6de779c"
                                     ],
                                     "guid": "uowp%e^m^`",
@@ -2852,7 +2852,7 @@
                                         "Go to <b>4. Double Index</b>",
                                         "def double_index(lst, index):<br>&nbsp; &nbsp; # Checks to see if index is too big or too small<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; # Gets the original list up to index<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_lst = lst[0:index]<br><br>&nbsp; &nbsp; # Adds double the value at index to the new list<br>&nbsp;&nbsp;&nbsp; new_lst.append(lst[index] * 2)<br><br>&nbsp; &nbsp; #&nbsp; Adds the rest of the original list<br>&nbsp;&nbsp;&nbsp; new_lst = new_lst + lst[index + 1:]<br>&nbsp;&nbsp;&nbsp; return new_lst",
                                         "Note that this solution is careful not to modify the original input list. If we were to simply use&nbsp;<b>lst[index] = lst[index] * 2</b>&nbsp;then the list that was passed into the function would be modified outside of the function as well. Creating a new list and writing the values to it prevents this from happening. We use slicing to extract the values before and after the index and we append the modified value at the index to our new list.<br><br># A more concise solution:<br>def double_index(lst, index):<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; answer = lst[:]<br>&nbsp;&nbsp;&nbsp; answer[index] *= 2<br>&nbsp;&nbsp;&nbsp; return answer",
-                                        "Note that this solution is careful not to modify the original input list. If we were to simply use&nbsp;<b>lst[index] = lst[index] * 2</b>&nbsp;then the list that was passed into the function would be modified outside of the function as well. Creating a new list and writing the values to it prevents this from happening. We use slicing to extract the values before and after the index and we append the modified value at the index to our new list.<br><br># A more concise solution:<br>def double_index(lst, index):<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; answer = lst[:]<br>&nbsp;&nbsp;&nbsp; answer[index] *= 2<br>&nbsp;&nbsp;&nbsp; return answer",
+                                        "",
                                         "0510ce50-39fb-4dfa-91d5-33c1e3e6031a"
                                     ],
                                     "guid": "QsMYV0+?7d",
@@ -2870,7 +2870,7 @@
                                         "Go to <b>5. Middle Item</b>",
                                         "def middle_element(lst):<br>&nbsp;&nbsp;&nbsp; if len(lst) % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = lst[int(len(lst) / 2)] + lst[int(len(lst) / 2) - 1]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return sum / 2<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst[int(len(lst) / 2)]",
                                         "<div>We used modulus to determine if the list had an even or odd number of elements. After determining this, for an odd number of elements, we calculate the middle index and return the middle element from the list. For an even number of elements, we calculate the index of the element close to the middle and the other element close to the middle (by subtracting 1 from the middle calculation). We get the values at those indices and calculate the average.<br><br></div><div>Note that the math to find the middle index is a bit tricky. In some cases, when we divide by&nbsp;<b>2</b>, we would get a double. For example, if our list had&nbsp;<b>3</b>&nbsp;items in it, then&nbsp;<b>3/2</b>&nbsp;would give us&nbsp;<b>1.5</b>. The middle index should be&nbsp;<b>1</b>, so in order to go from&nbsp;<b>1.5</b>&nbsp;to&nbsp;<b>1</b>, we cast&nbsp;<b>1.5</b>&nbsp;as an&nbsp;int. In total, this is&nbsp;<b>int(len(lst)/2)</b>.</div>",
-                                        "<div>We used modulus to determine if the list had an even or odd number of elements. After determining this, for an odd number of elements, we calculate the middle index and return the middle element from the list. For an even number of elements, we calculate the index of the element close to the middle and the other element close to the middle (by subtracting 1 from the middle calculation). We get the values at those indices and calculate the average.<br><br></div><div>Note that the math to find the middle index is a bit tricky. In some cases, when we divide by&nbsp;<b>2</b>, we would get a double. For example, if our list had&nbsp;<b>3</b>&nbsp;items in it, then&nbsp;<b>3/2</b>&nbsp;would give us&nbsp;<b>1.5</b>. The middle index should be&nbsp;<b>1</b>, so in order to go from&nbsp;<b>1.5</b>&nbsp;to&nbsp;<b>1</b>, we cast&nbsp;<b>1.5</b>&nbsp;as an&nbsp;int. In total, this is&nbsp;<b>int(len(lst)/2)</b>.</div>",
+                                        "",
                                         "a16ba1d2-3ceb-4929-8d31-56b922b585f3"
                                     ],
                                     "guid": "AI|{CfE1fH",
@@ -2888,7 +2888,7 @@
                                         "Go to <b>1. Divisible By Ten</b>",
                                         "def divisible_by_ten(nums):<br>&nbsp;&nbsp;&nbsp; count = 0<br>&nbsp;&nbsp;&nbsp; for number in nums:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if number % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count += 1<br>&nbsp;&nbsp;&nbsp; return count",
                                         "In this solution, we defined the function and set up our counter. We use a&nbsp;<b>for</b>&nbsp;loop to iterate through each number and check if its divisible by ten. If a number is divisible by another number then the remainder should be zero, so we use modulus. After the loop has finished, we return our count.",
-                                        "In this solution, we defined the function and set up our counter. We use a&nbsp;<b>for</b>&nbsp;loop to iterate through each number and check if its divisible by ten. If a number is divisible by another number then the remainder should be zero, so we use modulus. After the loop has finished, we return our count.",
+                                        "",
                                         "21cf6d71-3eca-4e77-8cc7-5e5f3995b2c7"
                                     ],
                                     "guid": "gA;A:D0#Qd",
@@ -2906,7 +2906,7 @@
                                         "Go to <b>2. Greetings</b>",
                                         "def add_greetings(names):<br>&nbsp;&nbsp;&nbsp; new_list = []<br>&nbsp;&nbsp;&nbsp; for name in names:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_list.append('Hello, ' + name)<br>&nbsp;&nbsp;&nbsp; return new_list",
                                         "First, we set up our function to accept the list of strings and we initialized a new list of strings to hold our greetings. We iterate through each name and we append and concatenate the strings at the same time within our loop. Finally, we return the list containing all of our eloquent greetings.",
-                                        "First, we set up our function to accept the list of strings and we initialized a new list of strings to hold our greetings. We iterate through each name and we append and concatenate the strings at the same time within our loop. Finally, we return the list containing all of our eloquent greetings.",
+                                        "",
                                         "b6242453-2024-4c1d-8a75-a4e195487368"
                                     ],
                                     "guid": "CxE,3a~!g5",
@@ -2924,7 +2924,7 @@
                                         "Go to <b>3. Delete Starting Even Numbers</b>",
                                         "def delete_starting_evens(lst):<br>&nbsp;&nbsp;&nbsp; while len(lst) &gt; 0 and lst[0] % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lst = lst[1:]<br>&nbsp;&nbsp;&nbsp; return lst",
                                         "After defining our method, we use a&nbsp;<b>while</b>&nbsp;loop to keep iterating as long as some provided conditions are true. We provide two conditions for the&nbsp;<b>while</b>&nbsp;loop to continue. We will keep iterating as long as there is at least one number left in the list&nbsp;<b>len(lst) &gt; 0</b>&nbsp;and if the first element in the list is even&nbsp;<b>lst[0] % 2 == 0</b>. If both of these conditions are true, then we replace the list with every element except for the first one using&nbsp;<b>lst[1:]</b>. Once the list is empty or we hit an odd number, the&nbsp;<b>while</b>&nbsp;loop terminates and we return the modified list.",
-                                        "After defining our method, we use a&nbsp;<b>while</b>&nbsp;loop to keep iterating as long as some provided conditions are true. We provide two conditions for the&nbsp;<b>while</b>&nbsp;loop to continue. We will keep iterating as long as there is at least one number left in the list&nbsp;<b>len(lst) &gt; 0</b>&nbsp;and if the first element in the list is even&nbsp;<b>lst[0] % 2 == 0</b>. If both of these conditions are true, then we replace the list with every element except for the first one using&nbsp;<b>lst[1:]</b>. Once the list is empty or we hit an odd number, the&nbsp;<b>while</b>&nbsp;loop terminates and we return the modified list.",
+                                        "",
                                         "b78e2d1a-2748-4e8a-943a-b461950e6831"
                                     ],
                                     "guid": "n,hpJEc~f=",
@@ -2942,7 +2942,7 @@
                                         "Go to <b>4. Odd Indices</b>",
                                         "<img src=\"paste-80c066ce842676c2e4bcfa2cbf22a612fb314e86.jpg\">",
                                         "<img src=\"paste-3085956e2b51bb3adceb3b481485e1cb061e3696.jpg\">",
-                                        "<img src=\"paste-3085956e2b51bb3adceb3b481485e1cb061e3696.jpg\">",
+                                        "",
                                         "c631c97f-64b9-46c6-bf8d-c520ec046175"
                                     ],
                                     "guid": "G1Kk^Y<+rB",
@@ -2960,7 +2960,7 @@
                                         "Go to <b>5. Exponents</b>",
                                         "<img src=\"paste-5844996fd259dedb3fd684a67698333904129ae5.jpg\">",
                                         "<img src=\"paste-cee074307529ee12f9310f33aef138f6f6be346e.jpg\">",
-                                        "<img src=\"paste-cee074307529ee12f9310f33aef138f6f6be346e.jpg\">",
+                                        "",
                                         "72ce9fd2-82d4-4485-9c9d-221d4edb76a0"
                                     ],
                                     "guid": "b5D&/z(uoZ",
@@ -2978,7 +2978,7 @@
                                         "Go to <b>1. Larger Sum</b>",
                                         "<img src=\"paste-c95536e10c7e26bd7869be0a72cbb976a1b8edac.jpg\">",
                                         "<img src=\"paste-d9219e1a72bf9719c9da74b0e76c6a31ca2185f8.jpg\">",
-                                        "<img src=\"paste-d9219e1a72bf9719c9da74b0e76c6a31ca2185f8.jpg\">",
+                                        "",
                                         "615aaa9c-54d5-4e38-92b7-9d711542fb57"
                                     ],
                                     "guid": "q4e*LvO/qF",
@@ -2996,7 +2996,7 @@
                                         "Go to <b>2. Over 9000</b>",
                                         "<img src=\"paste-fced8da294105490e7eb026b9e97952eb3247c83.jpg\">",
                                         "<img src=\"paste-d116ff3e8ab6ee5f13dd1dae76ada53d5dddca62.jpg\">",
-                                        "<img src=\"paste-d116ff3e8ab6ee5f13dd1dae76ada53d5dddca62.jpg\">",
+                                        "",
                                         "113ec108-02fc-4e7b-b327-4f23ea1392e1"
                                     ],
                                     "guid": "G-:(Uph@X~",
@@ -3014,7 +3014,7 @@
                                         "Go to <b>3. Max Num</b>",
                                         "<img src=\"paste-b1d59ef498e07940c4e595b8fc43e3098300671a.jpg\">",
                                         "<img src=\"paste-b96cc7275f8062e730958b75b09e790052dab7a7.jpg\">",
-                                        "<img src=\"paste-b96cc7275f8062e730958b75b09e790052dab7a7.jpg\">",
+                                        "",
                                         "9d9f7968-df11-47a3-a55a-e35daf28fe32"
                                     ],
                                     "guid": "c>?O![T/Z}",
@@ -3032,7 +3032,7 @@
                                         "Go to <b>4. Same Values</b>",
                                         "<img src=\"paste-da74bad6b566275caf1f964216fe435212b24903.jpg\">",
                                         "<img src=\"paste-fba9cb53fd3607915cfd773693ef3cb59ec405f2.jpg\">",
-                                        "<img src=\"paste-fba9cb53fd3607915cfd773693ef3cb59ec405f2.jpg\">",
+                                        "",
                                         "49c85d80-b6f8-4bcb-befb-98ac3d629e33"
                                     ],
                                     "guid": "PUGpc)K>38",
@@ -3050,7 +3050,7 @@
                                         "Go to <b>5. Reversed List</b>",
                                         "<img src=\"paste-07f14e534e22e361f5d7dec8b7617966be235df0.jpg\">",
                                         "<img src=\"paste-cf9d00758e503bcae0d5f574f91a8fc40a228b93.jpg\">",
-                                        "<img src=\"paste-cf9d00758e503bcae0d5f574f91a8fc40a228b93.jpg\">",
+                                        "",
                                         "ded416e1-159d-4392-a501-bff338c6fc65"
                                     ],
                                     "guid": "mQS:KCdi*T",
@@ -3068,7 +3068,7 @@
                                         "Go to <b>3. Bond, James Bond</b>",
                                         "def introduction(first_name, last_name):<br>&nbsp; &nbsp; return last_name +&nbsp;\", \" +&nbsp;first_name +&nbsp;\" \" +&nbsp;last_name",
                                         "<img src=\"paste-bad1754d549f78ea49da0bdf52aa46002b24acd4.jpg\">",
-                                        "<img src=\"paste-bad1754d549f78ea49da0bdf52aa46002b24acd4.jpg\">",
+                                        "",
                                         "4B2F7F7F-BFAD-40CE-B2C7-ED1662A0DA51"
                                     ],
                                     "guid": "m<CgM1S3qp",
@@ -3086,7 +3086,7 @@
                                         "Go to <b>4. Dog Years</b>",
                                         "def dog_years(name, age):<br>&nbsp; &nbsp; return name+\", you are \"+str(age *&nbsp;7)+\" years old in dog years\"",
                                         "<img src=\"paste-6c501869dd1914fbf974da98d0fc9452db1b5ab4.jpg\">",
-                                        "<img src=\"paste-6c501869dd1914fbf974da98d0fc9452db1b5ab4.jpg\">",
+                                        "",
                                         "0BD5C3B1-73B9-41FB-A88B-3FE29168D3D4"
                                     ],
                                     "guid": "e17jE8?LB3",
@@ -3104,7 +3104,7 @@
                                         "Go to <b>5. All Operations</b>",
                                         "def lots_of_math(a, b, c, d):<br>&nbsp;&nbsp;&nbsp; first =&nbsp;a +&nbsp;b<br>&nbsp;&nbsp;&nbsp;&nbsp;second =&nbsp;c -&nbsp;d<br>&nbsp;&nbsp;&nbsp;&nbsp;third =&nbsp;first *&nbsp;second<br>&nbsp;&nbsp;&nbsp; fourth =&nbsp;third %&nbsp;a<br>&nbsp;&nbsp;&nbsp; print(first)<br>&nbsp;&nbsp;&nbsp; print(second)<br>&nbsp;&nbsp;&nbsp; print(third)<br>&nbsp;&nbsp;&nbsp; return fourth",
                                         "<img src=\"paste-5aace55ea8ea45229a4442d6d9a912cc107cfb5e.jpg\">",
-                                        "<img src=\"paste-5aace55ea8ea45229a4442d6d9a912cc107cfb5e.jpg\">",
+                                        "",
                                         "56000CF9-5A14-4239-A99F-C42824E097A1"
                                     ],
                                     "guid": "sIiEOZE]tH",
@@ -4591,7 +4591,7 @@
                         "Go to <b>3. Always False</b>",
                         "def always_false(num):<br>&nbsp;&nbsp;&nbsp; if num &gt; 0 and num &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
                         "In our example, we use the contradiction of being greater than and less than 0 at the same time. No matter what value we pass into the function, our condition will always be false since it is not logically possible. You normally want to avoid creating conditions like this.",
-                        "In our example, we use the contradiction of being greater than and less than 0 at the same time. No matter what value we pass into the function, our condition will always be false since it is not logically possible. You normally want to avoid creating conditions like this.",
+                        "",
                         "1ee91d01-9753-4d09-8760-a157dce1f086"
                     ],
                     "guid": "d(Dm~V5VS&",
