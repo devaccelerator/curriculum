@@ -4060,6 +4060,455 @@
                                     "tags": []
                                 }
                             ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad75cca-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-060c3145548004071272de1bbeb37f5d1be9958e.jpg",
+                                        "paste-09af0066a6b9b159b2bb9947d9f3e7974fa33f81.jpg",
+                                        "paste-18ca305a644c8c4a72cd23de7f19240ddde7756d.jpg",
+                                        "paste-4831628c9d4dd22d74524c4d76e20bdaf834b965.jpg",
+                                        "paste-81a99cc02275bdb77613986e668ce7f7abe714a7.jpg",
+                                        "paste-959d856ab5fa66ce6ec6ae03c121cb3cdfa7d412.jpg",
+                                        "paste-99c1ad39588bbc814a58a36bb99aa05603605ea8.jpg",
+                                        "paste-da30fcaf9b26e070a1941216ad8df291f31b1b87.jpg"
+                                    ],
+                                    "name": "1. Strings",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-da30fcaf9b26e070a1941216ad8df291f31b1b87.jpg\">",
+                                                "<b>Example 1:<br>input: </b>word = \"mississippi\"<br><b>output:&nbsp;</b>4<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>word = \"Apple\"<br><b>output: </b>4<br><br><b>Example 3:</b><br><b>input: </b>word = \"ABCabc\"<br><b>output: </b>6",
+                                                "def unique_english_letters(word):<br>&nbsp; letters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\"",
+                                                "print(unique_english_letters(\"mississippi\"))<br># should print: 4<br>print(unique_english_letters(\"Apple\"))<br># should print: 4<br>print(unique_english_letters(\"ABCabc\"))<br># should print: 6",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>1. Count Letters</b>",
+                                                "def unique_english_letters(word):<br>&nbsp; letters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\"<br>&nbsp;&nbsp;uniques =&nbsp;0<br>&nbsp;&nbsp;for letter in letters:<br>&nbsp;&nbsp;&nbsp;&nbsp;if letter in word:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uniques += 1<br>&nbsp;&nbsp;return uniques",
+                                                "<img src=\"paste-81a99cc02275bdb77613986e668ce7f7abe714a7.jpg\">",
+                                                "",
+                                                "F70CB574-250B-44F8-9638-6DAB2C00EA3D"
+                                            ],
+                                            "guid": "<nME4V}FR",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-99c1ad39588bbc814a58a36bb99aa05603605ea8.jpg\">",
+                                                "",
+                                                "def count_char_x(word, x):",
+                                                "<div><div>print(count_char_x(\"mississippi\", \"s\"))</div><div># should print: 4</div><div>print(count_char_x(\"mississippi\", \"m\"))</div><div># should print: 1</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>2. Count X</b>",
+                                                "def count_char_x(word, x):<br>&nbsp;&nbsp;occurrences =&nbsp;0<br>&nbsp;&nbsp;for letter in word:<br>&nbsp;&nbsp;&nbsp;&nbsp;if letter == x:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;occurrences += 1<br>&nbsp;&nbsp;return occurrences",
+                                                "This solution loops through the input string and compares it against the input character. If they are the same, then we increase the counter.",
+                                                "",
+                                                "EBB99425-FAB3-47C4-B11B-0439FB0827AB"
+                                            ],
+                                            "guid": "n5dqZlReQ0",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Write a function named&nbsp;<b>count_multi_char_x</b>&nbsp;that takes a string named&nbsp;<b>word</b>&nbsp;and a string named&nbsp;<b>x.</b> This function should return the number of times&nbsp;<b>x</b>&nbsp;appears in&nbsp;<b>word</b>. Make sure your function works when&nbsp;<b>x</b>&nbsp;is multiple characters long.",
+                                                "",
+                                                "def count_multi_char_x(word, x):",
+                                                "<div><div>print(count_multi_char_x(\"mississippi\", \"iss\"))</div><div># should print: 2</div><div>print(count_multi_char_x(\"apple\", \"pp\"))</div><div># should print :1</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>3. Count Multi X</b>",
+                                                "def count_multi_char_x(word, x):<br>&nbsp;&nbsp;splits =&nbsp;word.split(x)<br>&nbsp;&nbsp;return(len(splits)-1)",
+                                                "<img src=\"paste-09af0066a6b9b159b2bb9947d9f3e7974fa33f81.jpg\">",
+                                                "",
+                                                "82754D24-9034-462D-A33C-50069124401F"
+                                            ],
+                                            "guid": "o6>wQ[u;mD",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-4831628c9d4dd22d74524c4d76e20bdaf834b965.jpg\">",
+                                                "",
+                                                "def substring_between_letters(word, start, end):",
+                                                "<div><div>print(substring_between_letters(\"apple\", \"p\", \"e\"))</div><div># should print \"pl\"</div><div>print(substring_between_letters(\"apple\", \"p\", \"c\"))</div><div># should print \"apple\"</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>4. Substring Between</b>",
+                                                "def substring_between_letters(word, start, end):<br>&nbsp;&nbsp;start_ind =&nbsp;word.find(start)<br>&nbsp;&nbsp;end_ind =&nbsp;word.find(end)<br>&nbsp;&nbsp;if start_ind &gt; -1 and end_ind &gt; -1:<br>&nbsp;&nbsp;&nbsp;&nbsp;return(word[start_ind+1:end_ind])<br>&nbsp;&nbsp;return word",
+                                                "The .find() string method returns -1 if the string we're searching for is not found.<br><img src=\"paste-959d856ab5fa66ce6ec6ae03c121cb3cdfa7d412.jpg\">",
+                                                "",
+                                                "E977D9D1-9B52-498D-9645-A961A1509CA1"
+                                            ],
+                                            "guid": "x5Og=:a8V",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-18ca305a644c8c4a72cd23de7f19240ddde7756d.jpg\">",
+                                                "",
+                                                "def x_length_words(sentence, x):",
+                                                "<div><div>print(x_length_words(\"i like apples\", 2))</div><div># should print False</div><div>print(x_length_words(\"he likes apples\", 2))</div><div># should print True</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>5. X Length</b>",
+                                                "def x_length_words(sentence, x):<br>&nbsp;&nbsp;words =&nbsp;sentence.split(\" \")<br>&nbsp;&nbsp;for word in words:<br>&nbsp;&nbsp;&nbsp;&nbsp;if len(word) &lt; x:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False<br>&nbsp;&nbsp;return True",
+                                                "<img src=\"paste-060c3145548004071272de1bbeb37f5d1be9958e.jpg\">",
+                                                "",
+                                                "05FB15A6-A3DF-4331-B4E7-D937EAA85A81"
+                                            ],
+                                            "guid": "MU]c*_beiG",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad77c82-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-3d1643b04e60a639fb8af1c04e8e32fbafc62497.jpg",
+                                        "paste-429aa5e3d49be79f6481dc91229b2d68bf20a892.jpg",
+                                        "paste-4c8af601b487cdeda13bdef22bc21ca4be29eff3.jpg",
+                                        "paste-605a6de882c4fee31bc5b910f1b0a63e037f6ea2.jpg",
+                                        "paste-6d71419887f7808fbe56f226b1db37a205b88935.jpg",
+                                        "paste-8b7cd694e1b93a90d4778f13c60b022ab6eb7497.jpg",
+                                        "paste-b4deefab4546438939f344ed10645756a5c527cc.jpg",
+                                        "paste-fc1039c0283603bfcc558e15baf02be972299a3c.jpg",
+                                        "paste-fedb2d0631b13ca39d8dfa817be0c8d12916efa8.jpg"
+                                    ],
+                                    "name": "2. Strings (Advanced)",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-4c8af601b487cdeda13bdef22bc21ca4be29eff3.jpg\">",
+                                                "",
+                                                "def check_for_name(sentence, name):",
+                                                "<div><div>print(check_for_name(\"My name is Jamie\", \"Jamie\"))</div><div># should print True</div><div>print(check_for_name(\"My name is jamie\", \"Jamie\"))</div><div># should print True</div><div>print(check_for_name(\"My name is Samantha\", \"Jamie\"))</div><div># should print False</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>1. Check Name</b>",
+                                                "def check_for_name(sentence, name):<br>&nbsp;&nbsp;return name.lower() in sentence.lower()",
+                                                "<img src=\"paste-605a6de882c4fee31bc5b910f1b0a63e037f6ea2.jpg\">",
+                                                "",
+                                                "7DFC1888-BC02-4088-A0AD-364E7FBAC83B"
+                                            ],
+                                            "guid": "D?FHtP+Qpn",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-6d71419887f7808fbe56f226b1db37a205b88935.jpg\">",
+                                                "",
+                                                "def every_other_letter(word):",
+                                                "<div><div>print(every_other_letter(\"Codecademy\"))</div><div># should print Cdcdm</div><div>print(every_other_letter(\"Hello world!\"))</div><div># should print Hlowrd</div><div>print(every_other_letter(\"\"))</div><div># should print&nbsp;</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>2. Every Other Letter</b>",
+                                                "def every_other_letter(word):<br>&nbsp;&nbsp;every_other =&nbsp;\"\"<br>&nbsp;&nbsp;for i in range(0, len(word), 2):<br>&nbsp;&nbsp;&nbsp;&nbsp;every_other += word[i]<br>&nbsp;&nbsp;return every_other",
+                                                "<img src=\"paste-8b7cd694e1b93a90d4778f13c60b022ab6eb7497.jpg\">",
+                                                "",
+                                                "092C73B2-E59D-427A-AB17-D2FA8BD2CDC9"
+                                            ],
+                                            "guid": "bnwTjguin]",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-b4deefab4546438939f344ed10645756a5c527cc.jpg\">",
+                                                "",
+                                                "def reverse_string(word):",
+                                                "<div><div>print(reverse_string(\"Codecademy\"))</div><div># should print ymedacedoC</div><div>print(reverse_string(\"Hello world!\"))</div><div># should print !dlrow olleH</div><div>print(reverse_string(\"\"))</div><div># should print</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>3. Reverse</b>",
+                                                "def reverse_string(word):<br>&nbsp;&nbsp;reverse =&nbsp;\"\"<br>&nbsp;&nbsp;for i in range(len(word)-1, -1, -1):<br>&nbsp;&nbsp;&nbsp;&nbsp;reverse += word[i]<br>&nbsp;&nbsp;return reverse",
+                                                "<b>Range</b>&nbsp;has been modified in order to start at the last index of the string (length of the string minus one) up to the first index. Since the parameter for the ending index is exclusive we need to provide the index of one more iteration than what we want to stop at. We want to stop at&nbsp;0, and since we are incrementing by -1, we will set the ending index to -1. Finally, make sure to add the third parameter of&nbsp;<b>-1</b>. This makes us increment by&nbsp;<b>-1</b>&nbsp;at each step.",
+                                                "",
+                                                "C6854318-F447-41A4-98ED-B7A135C0D7DF"
+                                            ],
+                                            "guid": "OrkEcf<3#_",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-3d1643b04e60a639fb8af1c04e8e32fbafc62497.jpg\">",
+                                                "",
+                                                "def make_spoonerism(word1, word2):",
+                                                "<div><div>print(make_spoonerism(\"Codecademy\", \"Learn\"))</div><div># should print Lodecademy Cearn</div><div>print(make_spoonerism(\"Hello\", \"world!\"))</div><div># should print wello Horld!</div><div>print(make_spoonerism(\"a\", \"b\"))</div><div># should print b a</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>4. Make Spoonerism</b>",
+                                                "def make_spoonerism(word1, word2):<br>&nbsp;&nbsp;return word2[0]+word1[1:]+\" \"+word1[0]+word2[1:]",
+                                                "<img src=\"paste-fedb2d0631b13ca39d8dfa817be0c8d12916efa8.jpg\">",
+                                                "",
+                                                "71C0A63B-F056-409D-B54E-D10111EF8087"
+                                            ],
+                                            "guid": "E8X{2@Bp^{",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-fc1039c0283603bfcc558e15baf02be972299a3c.jpg\">",
+                                                "",
+                                                "def add_exclamation(word):",
+                                                "<div><div>print(add_exclamation(\"Codecademy\"))</div><div># should print Codecademy!!!!!!!!!!</div><div>print(add_exclamation(\"Codecademy is the best place to learn\"))</div><div># should print Codecademy is the best place to learn</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>5. Add Exclamation</b>",
+                                                "def add_exclamation(word):<br>&nbsp;&nbsp;while(len(word) &lt; 20):<br>&nbsp;&nbsp;&nbsp;&nbsp;word += \"!\"<br>&nbsp;&nbsp;return word",
+                                                "<img src=\"paste-429aa5e3d49be79f6481dc91229b2d68bf20a892.jpg\">",
+                                                "",
+                                                "875DBA0B-8B06-43FF-82C2-FA2D4B45D72E"
+                                            ],
+                                            "guid": "vJ56?<cyk8",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad7b026-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-08f2210779324abf6685092fb792c70b596d9e6c.jpg",
+                                        "paste-1296bded7a2e72e4c28b8bb1bcc6ca1287804780.jpg",
+                                        "paste-1ac6dade981f822fdf128ff4ca98a2804437deae.jpg",
+                                        "paste-212f9dccf2a8ea3536a3be8065a7cdfaa52485a0.jpg",
+                                        "paste-2ab44e923c53d778f6aef2d6bac960f6023fc380.jpg",
+                                        "paste-837f1bf50fb0e2bb4d9e794e8fed987ab852fc87.jpg",
+                                        "paste-c780c2499be859c8ef7ac805232fb61ff13fa9ca.jpg",
+                                        "paste-dc20c8aebe3b5fb2a104d3c54b8a5b1490d4cebc.jpg",
+                                        "paste-f8a040a0a5d5125c324275c6eac3c507dab42e7d.jpg"
+                                    ],
+                                    "name": "3. Dictionaries",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-1296bded7a2e72e4c28b8bb1bcc6ca1287804780.jpg\">",
+                                                "",
+                                                "def sum_values(my_dictionary):",
+                                                "<div><div>print(sum_values({\"milk\":5, \"eggs\":2, \"flour\": 3}))</div><div># should print 10</div><div>print(sum_values({10:1, 100:2, 1000:3}))</div><div># should print 6</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>1. Sum Values</b>",
+                                                "def sum_values(my_dictionary):<br>&nbsp;&nbsp;total =&nbsp;0<br>&nbsp;&nbsp;for value in my_dictionary.values():<br>&nbsp;&nbsp;&nbsp;&nbsp;total += value<br>&nbsp;&nbsp;return total",
+                                                "<img src=\"paste-1ac6dade981f822fdf128ff4ca98a2804437deae.jpg\">",
+                                                "",
+                                                "722CC226-04A5-4099-8F3A-EBD04AC9B6D6"
+                                            ],
+                                            "guid": "H%{uaFu*M/",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-dc20c8aebe3b5fb2a104d3c54b8a5b1490d4cebc.jpg\">",
+                                                "",
+                                                "def sum_even_keys(my_dictionary):",
+                                                "<div><div>print(sum_even_keys({1:5, 2:2, 3:3}))</div><div># should print 2</div><div>print(sum_even_keys({10:1, 100:2, 1000:3}))</div><div># should print 6<br><div>print(sum_even_keys({1: 7, 2: 3, 3: 9, 4: 20}))</div><div># should print 23</div></div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>2. Even Keys</b>",
+                                                "<div>def sum_even_keys(my_dictionary):<br>&nbsp;&nbsp;total =&nbsp;0<br>&nbsp;&nbsp;for key in my_dictionary.keys():<br>&nbsp;&nbsp;&nbsp;&nbsp;if key%2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total += my_dictionary[key]<br>&nbsp;&nbsp;return total</div>",
+                                                "We are iterate through the keys of our dictionary. In order to get the keys we use the&nbsp;<b>keys()</b>&nbsp;function and to get the value of a key we can use brackets. To test if the key is even we use the modulus operator and test if the remainder is 0 when dividing by 2.",
+                                                "",
+                                                "CFBE08BD-5B8A-4F8D-8D5D-C0D3B5A7769B"
+                                            ],
+                                            "guid": "mZ4Z[iU,$}",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-2ab44e923c53d778f6aef2d6bac960f6023fc380.jpg\">",
+                                                "",
+                                                "def add_ten(my_dictionary):",
+                                                "<div>print(add_ten({1:5, 2:2, 3:3}))</div><div># should print {1:15, 2:12, 3:13}</div><div>print(add_ten({10:1, 100:2, 1000:3}))</div><div># should print {10:11, 100:12, 1000:13}</div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>3. Add Ten</b>",
+                                                "def add_ten(my_dictionary):<br>&nbsp;&nbsp;for key in my_dictionary.keys():<br>&nbsp;&nbsp;&nbsp;&nbsp;my_dictionary[key] += 10<br>&nbsp;&nbsp;return my_dictionary",
+                                                "<img src=\"paste-c780c2499be859c8ef7ac805232fb61ff13fa9ca.jpg\">",
+                                                "",
+                                                "C1EC3B8C-2A26-4294-AFC9-84E678003EA1"
+                                            ],
+                                            "guid": "kTbAm&~Anb",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-f8a040a0a5d5125c324275c6eac3c507dab42e7d.jpg\">",
+                                                "",
+                                                "def values_that_are_keys(my_dictionary):",
+                                                "<div><div>print(values_that_are_keys({1:100, 2:1, 3:4, 4:10}))</div><div># should print [1, 4]</div><div>print(values_that_are_keys({\"a\":\"apple\", \"b\":\"a\", \"c\":100}))</div><div># should print [\"a\"]</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>4. Values That Are Keys</b>",
+                                                "def values_that_are_keys(my_dictionary):<br>&nbsp;&nbsp;value_keys =&nbsp;[]<br>&nbsp;&nbsp;for value in my_dictionary.values():<br>&nbsp;&nbsp;&nbsp;&nbsp;if value in my_dictionary:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value_keys.append(value)<br>&nbsp;&nbsp;return value_keys",
+                                                "<img src=\"paste-08f2210779324abf6685092fb792c70b596d9e6c.jpg\">",
+                                                "",
+                                                "11DBCD5E-E9A2-4ADE-9649-A395994EFFCF"
+                                            ],
+                                            "guid": "k<5cP&NBu~",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-212f9dccf2a8ea3536a3be8065a7cdfaa52485a0.jpg\">",
+                                                "",
+                                                "def max_key(my_dictionary):",
+                                                "<div><div>print(max_key({1:100, 2:1, 3:4, 4:10}))</div><div># should print 1</div><div>print(max_key({\"a\":100, \"b\":10, \"c\":1000}))</div><div># should print \"c\"</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>5. Largest Value</b>",
+                                                "def max_key(my_dictionary):<br>&nbsp;&nbsp;largest_key =&nbsp;float(\"-inf\")<br>&nbsp;&nbsp;largest_value =&nbsp;float(\"-inf\")<br>&nbsp;&nbsp;for key, value in my_dictionary.items():<br>&nbsp;&nbsp;&nbsp;&nbsp;if value &gt; largest_value:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largest_value =&nbsp;value<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largest_key =&nbsp;key<br>&nbsp;&nbsp;return largest_key",
+                                                "<img src=\"paste-837f1bf50fb0e2bb4d9e794e8fed987ab852fc87.jpg\">",
+                                                "",
+                                                "61C4EEB9-C8D9-4530-AD08-0E04579EE4C0"
+                                            ],
+                                            "guid": "Eqe}%-90.?",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad7d6d2-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-2cd8b2d6d1f03683f55fe5e3dbe8766da1c9f6ed.jpg",
+                                        "paste-2e37345e328b895fff205e83cd598dad179f01af.jpg",
+                                        "paste-5ae75c88fffda1466bd60b38cd121c772a2ac4b6.jpg",
+                                        "paste-abcf77624a0920c93bd258d324fa4ed799e643bd.jpg",
+                                        "paste-b2f9c6e3f3dc61f879ecbb59d6a9640ba943e1f3.jpg",
+                                        "paste-bddccb95cbb1ed56030dbea87b94c10831206454.jpg",
+                                        "paste-d3f5ee7cfe23e0e2dbeb85e434abcef2c71bde7f.jpg"
+                                    ],
+                                    "name": "4. Dictionaries (Advanced)",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-d3f5ee7cfe23e0e2dbeb85e434abcef2c71bde7f.jpg\">",
+                                                "",
+                                                "def word_length_dictionary(words):",
+                                                "<div><div>print(word_length_dictionary([\"apple\", \"dog\", \"cat\"]))</div><div># should print {\"apple\":5, \"dog\": 3, \"cat\":3}</div><div>print(word_length_dictionary([\"a\", \"\"]))</div><div># should print {\"a\": 1, \"\": 0}</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>1. Word Length Dict</b>",
+                                                "def word_length_dictionary(words):<br>&nbsp;&nbsp;word_lengths =&nbsp;{}<br>&nbsp;&nbsp;for word in words:<br>&nbsp;&nbsp;&nbsp;&nbsp;word_lengths[word] =&nbsp;len(word)<br>&nbsp;&nbsp;return word_lengths",
+                                                "<img src=\"paste-bddccb95cbb1ed56030dbea87b94c10831206454.jpg\">",
+                                                "",
+                                                "79989126-1CA9-44D6-83E0-13137C98AA98"
+                                            ],
+                                            "guid": "xF3Y?2/d:l",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-2e37345e328b895fff205e83cd598dad179f01af.jpg\">",
+                                                "",
+                                                "def frequency_dictionary(words):",
+                                                "<div><div>print(frequency_dictionary([\"apple\", \"apple\", \"cat\", 1]))</div><div># should print {\"apple\":2, \"cat\":1, 1:1}</div><div>print(frequency_dictionary([0,0,0,0,0]))</div><div># should print {0:5}</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>2. Frequency Count</b>",
+                                                "def frequency_dictionary(words):<br>&nbsp;&nbsp;freqs =&nbsp;{}<br>&nbsp;&nbsp;for word in words:<br>&nbsp;&nbsp;&nbsp;&nbsp;if word not in freqs:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;freqs[word] =&nbsp;0<br>&nbsp;&nbsp;&nbsp;&nbsp;freqs[word] += 1<br>&nbsp;&nbsp;return freqs",
+                                                "<img src=\"paste-b2f9c6e3f3dc61f879ecbb59d6a9640ba943e1f3.jpg\">",
+                                                "",
+                                                "30DD7A0E-7C75-4758-ABB5-8257F6B55D1F"
+                                            ],
+                                            "guid": "x[;RI5nlO/",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-5ae75c88fffda1466bd60b38cd121c772a2ac4b6.jpg\">",
+                                                "",
+                                                "def unique_values(my_dictionary):",
+                                                "<div><div>print(unique_values({0:3, 1:1, 4:1, 5:3}))</div><div># should print 2</div><div>print(unique_values({0:3, 1:3, 4:3, 5:3}))</div><div># should print 1</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>3. Unique Values</b>",
+                                                "def unique_values(my_dictionary):<br>&nbsp;&nbsp;seen_values =&nbsp;[]<br>&nbsp;&nbsp;for value in my_dictionary.values():<br>&nbsp;&nbsp;&nbsp;&nbsp;if value not in seen_values:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seen_values.append(value)<br>&nbsp;&nbsp;return len(seen_values)",
+                                                "We iterate through each of the values and whenever we find one we have not added to our list already, we add it to the list. After the loop, we return the length of the list since that contains all unique values from the dictionary.",
+                                                "",
+                                                "7801ED9C-AAD8-4403-A1C4-AF542FDB06BA"
+                                            ],
+                                            "guid": "dv#y$7vr0.",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-abcf77624a0920c93bd258d324fa4ed799e643bd.jpg\">",
+                                                "",
+                                                "def count_first_letter(names):",
+                                                "<div><div>print(count_first_letter({\"Stark\": [\"Ned\", \"Robb\", \"Sansa\"], \"Snow\" : [\"Jon\"], \"Lannister\": [\"Jaime\", \"Cersei\", \"Tywin\"]}))</div><div># should print {\"S\": 4, \"L\": 3}</div><div><br>print(count_first_letter({\"Stark\": [\"Ned\", \"Robb\", \"Sansa\"], \"Snow\" : [\"Jon\"], \"Sannister\": [\"Jaime\", \"Cersei\", \"Tywin\"]}))</div><div># should print {\"S\": 7}</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>4. Count First Letter</b>",
+                                                "def count_first_letter(names):<br>&nbsp;&nbsp;letters =&nbsp;{}<br>&nbsp;&nbsp;for key in names:<br>&nbsp;&nbsp;&nbsp;&nbsp;first_letter =&nbsp;key[0]<br>&nbsp;&nbsp;&nbsp;&nbsp;if first_letter not in letters:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;letters[first_letter] =&nbsp;0<br>&nbsp;&nbsp;&nbsp;&nbsp;letters[first_letter] += len(names[key])<br>&nbsp;&nbsp;return letters",
+                                                "<img src=\"paste-2cd8b2d6d1f03683f55fe5e3dbe8766da1c9f6ed.jpg\">",
+                                                "",
+                                                "C508F5CF-F793-40BD-9CCC-3807A9D949FA"
+                                            ],
+                                            "guid": "tVo`YdG&%#",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "crowdanki_uuid": "fad749c4-074d-11ec-9e1c-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "Code Challenges ||",
+                            "notes": []
                         }
                     ],
                     "crowdanki_uuid": "9607bbe2-ffe0-11eb-ac0f-3e22fb2860fe",
@@ -4402,7 +4851,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \t   display: none;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\na{\n\tcolor: #82ccdd;\n  text-decoration: underline;\n}\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \t   display: none;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
             "flds": [
                 {
                     "font": "Arial",
@@ -4497,7 +4946,9 @@
                         0,
                         1,
                         2,
-                        3
+                        3,
+                        4,
+                        5
                     ]
                 ]
             ],
@@ -4505,7 +4956,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\nTest your code here:<br>\n({{URL}}):\n{{Tests}}\n<br><br>\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{URL Instructions}}\n</div>\n\n{{#Optional}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n\n{{#Answer}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Answer}}\n\t</div>\n{{/Answer}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{Personal}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
+                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{ID}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -4513,7 +4964,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Test your code here: <br>\n{{Tests}}\n{{/Tests}}"
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
                 }
             ],
             "type": 0
