@@ -3874,6 +3874,20 @@
                                     "tags": []
                                 }
                             ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "84c49aa4-20b4-11ec-aa0f-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "mid": 1629309172341,
+                            "name": "Classes & Pointers",
+                            "notes": []
                         }
                     ],
                     "crowdanki_uuid": "fa14c30e-1f49-11ec-b9c6-acde48001122",
