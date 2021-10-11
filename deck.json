@@ -3494,6 +3494,386 @@
         },
         {
             "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a335f736-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-a8107ec6f190748466a9862b573d61db12feeb6e.jpg"
+                            ],
+                            "mid": 1629415528401,
+                            "name": "1. First Unique Character",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Solve in O(n) time and O(1) space:<br><br><img src=\"paste-a8107ec6f190748466a9862b573d61db12feeb6e.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def firstUniqChar(self, s):<br>&nbsp; &nbsp; &nbsp; &nbsp;",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/first-unique-character-in-a-string/\">https://leetcode.com/problems/first-unique-character-in-a-string/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def firstUniqChar(self, s):<br><b>&nbsp; &nbsp; &nbsp; &nbsp; char_to_count_map = {}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for char in s:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if char in char_to_count_map:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; char_to_count_map[char] += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; char_to_count_map[char] = 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i, char in enumerate(s):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if char_to_count_map[char] == 1:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return -1</b>",
+                                        "Code walkthrough on Interview Espresso:&nbsp;<br><a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259946\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259946</a>",
+                                        "",
+                                        "D078F897-2980-49BC-825A-C314030F45C9"
+                                    ],
+                                    "guid": "Q?DB.UT=4I",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a336173e-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "2. Group Anagrams",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a33632aa-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "3. Valid Palindrome",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3364db2-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "4. Valid Parentheses",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3366928-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "5. Search Insert Position (Binary Search)",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a33684a8-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "6. Rotate Image (Matrix)",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3369fec-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "7. Two Sum",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a336bb76-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "8. Three Sum",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "a335dbde-2ad1-11ec-bf63-acde48001122",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "1. Strings and Arrays",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a336f53c-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "1. Delete Nth Node From End",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3371134-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "2. Reverse Linked LIst",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3372c46-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "3. Detect Linked List Cycle",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "a336d746-2ad1-11ec-bf63-acde48001122",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "2. Linked Lists",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a337624c-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "1. Level Order Traversal",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3377d0e-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "2. Binary Treee Max Depth",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3379870-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "3. Validate Binary Search Tree",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a337b36e-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "4. Balanced Binary Tree",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "a3374762-2ad1-11ec-bf63-acde48001122",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "3. Binary Trees",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a337e974-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "1. Merge Sort",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "a337ce3a-2ad1-11ec-bf63-acde48001122",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "4. Sorting",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3381fe8-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "1. Buy and Sell Stock",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a33839c4-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "2. Coin Change",
+                            "notes": []
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a3385454-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "3. Longest Common Subsequence",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "a33804c2-2ad1-11ec-bf63-acde48001122",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "5. Dynamic Programming",
+                    "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "a33888b6-2ad1-11ec-bf63-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "1. Subsets (Power set)",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "a3386ec6-2ad1-11ec-bf63-acde48001122",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "6. Sets",
+                    "notes": []
+                }
+            ],
+            "crowdanki_uuid": "a335bfa0-2ad1-11ec-bf63-acde48001122",
+            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Interview Espresso",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
             "children": [],
             "crowdanki_uuid": "4d457cac-042a-11ec-9a50-3e22fb2860fe",
             "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
@@ -4274,7 +4654,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n{{#URL}}\nTest your code here:<br>\n{{#URL Instructions}}\n({{URL Instructions}}):\n{{/URL Instructions}}\n{{URL}}\n{{/URL}}\n<br><br>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n{{#URL}}\nTest your code here:<br>\n{{#URL Instructions}}\n({{URL Instructions}}):\n{{/URL Instructions}}\n{{URL}}\n{{/URL}}\n<br><br>\n\n{{#Description}}\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n{{/Description}}\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
                 }
             ],
             "type": 0
