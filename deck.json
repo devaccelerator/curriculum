@@ -562,7 +562,6 @@
                             "media_files": [
                                 "467AGnY6M1UO9FOAweD6y4ykuFWyO9RvCMUnMC6XkFiSGPODYyhOT48Ha9BFK7nl69Pt-7KIwtQvPBDWbOhEN2XMC-hxPDuj82vOKH_tOipNo1v4dKU.png",
                                 "LBFykoHXOySsUyfqcrE3xBB7fAohbBFYv8hNLpDSsXRvB_esvdexiJ36Rz-7fBjnlo-ikb6RcadrFoG5iMmk2JZTwbqWZP6cjYIMF62qmS2XpyCRgnK.png",
-                                "e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png",
                                 "mclIg-zOYABsHq7n1lmDQKB4SS5epQBx8bqX6st7eCw8ARCnbio_Rr54b6o1ClZWMKP6z7v_qE4vtYo-jtNFu47pOUUArSDDLZ4Q7shkw4kHjLw-HF1.png",
                                 "nPgQ1J8suQD9OT0cTFD2E6MpHo1onsaVD_d1h1jMAW9b2KeqUuY8K0HxsOtlFY_MMyZQ6fLhBTW5nIHqXn3HNhnQCsyPgKygJOY-1P0EKDmmmYgo9CI.png",
                                 "paste-a2318102197fe84922949801efc722c27b5517a3.jpg",
@@ -1107,18 +1106,6 @@
                                     ],
                                     "guid": "wq%n*<-Xj[",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": []
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "A {{c1::try}}<i></i> and {{c1::except}}<i></i> block can be used to handle error in code block.",
-                                        "<img src=\"e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png\">",
-                                        "",
-                                        "7D139D9F-F139-4104-878B-3BF5ABF7A1F6"
-                                    ],
-                                    "guid": "d*#/ga-xam",
-                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
@@ -3881,7 +3868,9 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png"
+            ],
             "name": "Trash",
             "notes": [
                 {
@@ -3905,6 +3894,18 @@
                         "E32DADA5-1C9F-4C94-888D-BEA6B019C7DD"
                     ],
                     "guid": "JOL}PkI0:}",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "A {{c1::try}}<i></i> and {{c1::except}}<i></i> block can be used to handle error in code block.",
+                        "<img src=\"e2sDqVgd_12rfVKEknSw750a_altjFds0yr6m9mS63OTDM1CSpcjlJ7-eJSvu9mMFZwA4VZEg38pTneZC6bC19zmv4tGobwJ8OxPRLvrMu0RGwxygWe.png\">",
+                        "",
+                        "7D139D9F-F139-4104-878B-3BF5ABF7A1F6"
+                    ],
+                    "guid": "d*#/ga-xam",
                     "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                     "tags": []
                 },
