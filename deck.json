@@ -4654,7 +4654,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n{{#URL}}\nTest your code here:<br>\n{{#URL Instructions}}\n({{URL Instructions}}):\n{{/URL Instructions}}\n{{URL}}\n{{/URL}}\n<br><br>\n\n{{#Description}}\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n{{/Description}}\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\n{{#URL}}\nTest your code here:<br>\n{{#URL Instructions}}\n({{URL Instructions}}):\n{{/URL Instructions}}\n{{URL}}\n{{/URL}}\n<br><br>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
                 }
             ],
             "type": 0
