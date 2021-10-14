@@ -3529,9 +3529,30 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-71826a53d55e5a64d54731052a60291ef7f74a73.jpg"
+                            ],
                             "name": "2. Group Anagrams",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-71826a53d55e5a64d54731052a60291ef7f74a73.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def groupAnagrams(self, strs):<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp;",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/group-anagrams/\">https://leetcode.com/problems/group-anagrams/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def groupAnagrams(self, strs):<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sorted_to_string_map = {}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for string in strs:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sorted_string = ''.join(sorted(string))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if sorted_string in sorted_to_string_map:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sorted_to_string_map[sorted_string].append(string)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sorted_to_string_map[sorted_string] = [string]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return sorted_to_string_map.values()</b>",
+                                        "Make sure you solved the problem in O(n * (m*log(m)) Time and O(n) Space (The answer provided above meets this criteria)<br>where n = length of <b>strs</b>&nbsp;and m = longest str<br><br>Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259947\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259947</a>",
+                                        "",
+                                        "CEDD280F-72DA-4405-846A-245B568BC83A"
+                                    ],
+                                    "guid": "O04-34qTBQ",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
@@ -3542,9 +3563,30 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-1df37e19dd60b48533da588c727a4c32d0e5cc4c.jpg"
+                            ],
                             "name": "3. Valid Palindrome",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-1df37e19dd60b48533da588c727a4c32d0e5cc4c.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def isPalindrome(self, s: str) -&gt; bool:",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/valid-palindrome/\">https://leetcode.com/problems/valid-palindrome/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp; &nbsp; # O(n) | Time&nbsp;<br>&nbsp; &nbsp; # O(n) | Space<br>&nbsp;&nbsp;&nbsp; def isPalindrome(self, s: str) -&gt; bool:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; s = ''.join(filter(str.isalnum, s)).lower()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left, right = 0, len(s) - 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if s[left] != s[right]:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br><br># More optimal solution:<br>class Solution:<br><b>&nbsp;&nbsp;&nbsp; # Time | O(n)<br>&nbsp;&nbsp;&nbsp; # Space | O(1)</b><br>&nbsp;&nbsp;&nbsp; def isPalindrome(self, s: str) -&gt; bool:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left, right = 0,&nbsp;</b><b>len(s)-1</b><b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while not s[left].isalnum() and left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while not s[right].isalnum() and left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if s[left].lower() != s[right].lower():<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp; &nbsp;</b>",
+                                        "Please make sure you solve this problem using the more optimal solution (The second solution in bold).<br><br>Aaron jack says the first solution provided above is O(1) space, but this is incorrect. It's actually O(n) space because&nbsp;<b>s = ''.join(filter(str.isalnum, s)).lower() </b>creates an entire new string in memory that could be the size of <b>n </b>itself.<br><br>Make sure you solved the problem in O(n) Time and O(1) Space (The second answer in bold provided above meets this criteria)<br><br>Interview Espresso walkthrough (O(n) memory):&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259948#\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259948#</a><br><br><br><br>Here is a YouTube walkthrough for more space efficient solution (O(1) memory):&nbsp;<br>You can start the video at 5:40<br>You can skip 7:10 - 8:10 (You don't need to know about ascii values yet).<br>You can skip 9:35 - 11:26 (You don't need to create a custom <b>alphaNum()</b>&nbsp;function, using the built in <b>.isalnum()</b>&nbsp;function that Python provides is good enough. (If that's confusing, just know that you can solve the problem using the second solution in bold provided above, no need to write the extra code that is provided in the video tutorial below:<br><a href=\"https://www.youtube.com/watch?v=jJXJ16kPFWg\">https://www.youtube.com/watch?v=jJXJ16kPFWg</a>",
+                                        "",
+                                        "C59CB91F-1EC8-4379-A32B-DECAA172DB0F"
+                                    ],
+                                    "guid": "dv6N*;(*CL",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
