@@ -3948,9 +3948,31 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-522f5ada3d57ac6fab22b05c18e474fd54423ad7.jpg",
+                                "paste-e937c45ad247d0986002632bbf7ba92e93133887.jpg"
+                            ],
                             "name": "4. Valid Parentheses",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Solve in O(n) time and O(n) space.<br><img src=\"paste-e937c45ad247d0986002632bbf7ba92e93133887.jpg\"><br><img src=\"paste-522f5ada3d57ac6fab22b05c18e474fd54423ad7.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def isValid(self, s: str) -&gt; bool:<br>&nbsp; &nbsp; &nbsp; &nbsp;",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/valid-parentheses/\">https://leetcode.com/problems/valid-parentheses/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def isValid(self, s: str) -&gt; bool:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stack = []<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pairs = {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '[': ']',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '(': ')',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '{': '}'<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for char in s:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if char in pairs:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stack.append(char)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if len(stack) == 0:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return False<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; last = stack.pop()<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if pairs[last] != char:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return False<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if len(stack) &gt; 0:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return False<br>&nbsp; &nbsp; &nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return True&nbsp; </b>&nbsp; &nbsp; &nbsp;&nbsp;<br><br><br># The solution above is more readable and expressive while the solution below is more concise. One is not necessarily better than the other.<br><br># Same as first solution but more concise and a little less readable:<br>class Solution:<br>&nbsp;&nbsp;&nbsp; def isValid(self, s: str) -&gt; bool:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stack = []<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pairs = {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '[': ']',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '(': ')',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '{': '}'<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for char in s:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if char in pairs:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stack.append(char)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if not stack or pairs[stack.pop()] != char:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return not stack",
+                                        "Interview Espresso Code walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259949\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259949</a>",
+                                        "",
+                                        "2A104A1E-3A8D-4D0B-B504-4282053E733E"
+                                    ],
+                                    "guid": "ewiVzA*2s)",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
@@ -3961,9 +3983,31 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-0180f7ac6fed28b28e298efb4108a2843b339773.jpg",
+                                "paste-4b5d7d22b57957b2be9a6932be4f70611c6f78aa.jpg"
+                            ],
                             "name": "5. Search Insert Position (Binary Search)",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-0180f7ac6fed28b28e298efb4108a2843b339773.jpg\"><br><img src=\"paste-4b5d7d22b57957b2be9a6932be4f70611c6f78aa.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def searchInsert(self, nums: List[int], target: int) -&gt; int:<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/search-insert-position/\">https://leetcode.com/problems/search-insert-position/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def searchInsert(self, nums: List[int], target: int) -&gt; int:<br><b>&nbsp; &nbsp; &nbsp; &nbsp; lo = 0<br>&nbsp; &nbsp; &nbsp; &nbsp; hi = len(nums) - 1<br>&nbsp; &nbsp; &nbsp; &nbsp; while lo &lt;= hi:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mid = (lo + hi) // 2<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mid_val = nums[mid]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if target == mid_val:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return mid<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; elif target &gt; mid_val:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lo = mid + 1<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; hi = mid - 1<br>&nbsp; &nbsp; &nbsp; &nbsp; return lo</b>",
+                                        "Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259950\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259950</a>",
+                                        "",
+                                        "B9126F89-D138-4DA0-A45C-4794AEF2015D"
+                                    ],
+                                    "guid": "j5ybnm.fiW",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
