@@ -3854,7 +3854,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "Solve in O(n) time and O(1) space:<br><br><img src=\"paste-a8107ec6f190748466a9862b573d61db12feeb6e.jpg\">",
+                                        "Solve in O(n) time:<br><br><img src=\"paste-a8107ec6f190748466a9862b573d61db12feeb6e.jpg\">",
                                         "",
                                         "class Solution:<br>&nbsp;&nbsp;&nbsp; def firstUniqChar(self, s):<br>&nbsp; &nbsp; &nbsp; &nbsp;",
                                         "",
@@ -3929,7 +3929,7 @@
                                         "<a href=\"https://leetcode.com/problems/valid-palindrome/\">https://leetcode.com/problems/valid-palindrome/</a>",
                                         "",
                                         "class Solution:<br>&nbsp; &nbsp; # O(n) | Time&nbsp;<br>&nbsp; &nbsp; # O(n) | Space<br>&nbsp;&nbsp;&nbsp; def isPalindrome(self, s: str) -&gt; bool:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; s = ''.join(filter(str.isalnum, s)).lower()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left, right = 0, len(s) - 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if s[left] != s[right]:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br><br># More optimal solution:<br>class Solution:<br><b>&nbsp;&nbsp;&nbsp; # Time | O(n)<br>&nbsp;&nbsp;&nbsp; # Space | O(1)</b><br>&nbsp;&nbsp;&nbsp; def isPalindrome(self, s: str) -&gt; bool:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left, right = 0,&nbsp;</b><b>len(s)-1</b><b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while not s[left].isalnum() and left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while not s[right].isalnum() and left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if s[left].lower() != s[right].lower():<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp; &nbsp;</b>",
-                                        "Please make sure you solve this problem using the more optimal solution (The second solution in bold).<br><br>Aaron jack says the first solution provided above is O(1) space, but this is incorrect. It's actually O(n) space because&nbsp;<b>s = ''.join(filter(str.isalnum, s)).lower() </b>creates an entire new string in memory that could be the size of <b>n </b>itself.<br><br>Make sure you solved the problem in O(n) Time and O(1) Space (The second answer in bold provided above meets this criteria)<br><br>Interview Espresso walkthrough (O(n) memory):&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259948#\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259948#</a><br><br><br><br>Here is a YouTube walkthrough for more space efficient solution (O(1) memory):&nbsp;<br>You can start the video at 5:40<br>You can skip 7:10 - 8:10 (You don't need to know about ascii values yet).<br>You can skip 9:35 - 11:26 (You don't need to create a custom <b>alphaNum()</b>&nbsp;function, using the built in <b>.isalnum()</b>&nbsp;function that Python provides is good enough. (If that's confusing, just know that you can solve the problem using the second solution in bold provided above, no need to write the extra code that is provided in the video tutorial below:<br><a href=\"https://www.youtube.com/watch?v=jJXJ16kPFWg\">https://www.youtube.com/watch?v=jJXJ16kPFWg</a>",
+                                        "Please make sure you solve this problem using the more optimal solution (The second solution in bold).<br><br>Aaron jack says the first solution provided above is O(1) space, but this is incorrect. It's actually O(n) space because&nbsp;<b>s = ''.join(filter(str.isalnum, s)).lower() </b>creates an entire new string in memory that could be the size of <b>n </b>itself.<br><br>Here is a YouTube walkthrough for more space efficient solution (O(1) memory):&nbsp;<br>You can start the video at 5:40<br>You can skip 7:10 - 8:10 (You don't need to know about ascii values yet).<br>You can skip 9:35 - 11:26 (You don't need to create a custom&nbsp;<b>alphaNum()</b>&nbsp;function, using the built in&nbsp;<b>.isalnum()</b>&nbsp;function that Python provides is good enough. (If that's confusing, just know that you can solve the problem using the second solution in bold provided above, no need to write the extra code that is provided in the video tutorial below:<br><a href=\"https://www.youtube.com/watch?v=jJXJ16kPFWg\">https://www.youtube.com/watch?v=jJXJ16kPFWg</a><br><br>Interview Espresso walkthrough (O(n) memory):&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259948#\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259948#</a>",
                                         "",
                                         "C59CB91F-1EC8-4379-A32B-DECAA172DB0F"
                                     ],
@@ -3992,7 +3992,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<img src=\"paste-0180f7ac6fed28b28e298efb4108a2843b339773.jpg\"><br><img src=\"paste-4b5d7d22b57957b2be9a6932be4f70611c6f78aa.jpg\">",
+                                        "Solve in O(log(n)) Time and O(1) Space<br><img src=\"paste-0180f7ac6fed28b28e298efb4108a2843b339773.jpg\"><br><img src=\"paste-4b5d7d22b57957b2be9a6932be4f70611c6f78aa.jpg\">",
                                         "",
                                         "class Solution:<br>&nbsp;&nbsp;&nbsp; def searchInsert(self, nums: List[int], target: int) -&gt; int:<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;",
                                         "",
@@ -4018,9 +4018,31 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-744ba5a2782edf43cfca41a9d14d41bf12ae645c.jpg",
+                                "paste-c8ce4e8e7878f6c892ef41705f02afdafd5b23af.jpg"
+                            ],
                             "name": "6. Rotate Image (Matrix)",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "solve in O(n^2) time and O(1) space<br>where n = the length of one row or one column or one \"side\"<br><img src=\"paste-744ba5a2782edf43cfca41a9d14d41bf12ae645c.jpg\"><br><img src=\"paste-c8ce4e8e7878f6c892ef41705f02afdafd5b23af.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def rotate(self, matrix: List[List[int]]) -&gt; None:",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/rotate-image/\">https://leetcode.com/problems/rotate-image/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def rotate(self, matrix: List[List[int]]) -&gt; None:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; matrix.reverse()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i in range(len(matrix)):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for j in range(i):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; matrix[j][i], matrix[i][j] = matrix[i][j], matrix[j][i]</b>",
+                                        "Interview Espresso walkthrough:&nbsp;<span style=\"text-decoration-line: underline; color: rgb(17, 85, 204);\"><a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259951\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259951</a></span><br><br># Another possible solution:<br>class Solution:<br>&nbsp;&nbsp;&nbsp; def rotate(self, matrix: List[List[int]]) -&gt; None:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i in range(len(matrix)):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for j in range(i+1, len(matrix)):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i in range(len(matrix)):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; matrix[i].reverse()",
+                                        "",
+                                        "33DB0077-CB3F-4711-8A6F-B46D93D3DB3F"
+                                    ],
+                                    "guid": "d]9Qyu]W}q",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
@@ -4031,9 +4053,31 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-142ca7a87e84cd8d6589500fdfdb0e6f82b9595c.jpg",
+                                "paste-27655c386e4e53492f566a8a3b05a9164ddc9325.jpg"
+                            ],
                             "name": "7. Two Sum",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Solve in O(n) time and O(n) space.<br><img src=\"paste-142ca7a87e84cd8d6589500fdfdb0e6f82b9595c.jpg\"><br><img src=\"paste-27655c386e4e53492f566a8a3b05a9164ddc9325.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def twoSum(self, nums: List[int], target: int) -&gt; List[int]:<br>&nbsp; &nbsp; &nbsp; &nbsp;",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/two-sum/\">https://leetcode.com/problems/two-sum/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def twoSum(self, nums: List[int], target: int) -&gt; List[int]:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hash_table = {}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i, num in enumerate(nums):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; want = target - num<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if want in hash_table:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left_idx = hash_table[want]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return [left_idx, i]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hash_table[num] = i</b><br>&nbsp; &nbsp;",
+                                        "Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259952\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259952</a>",
+                                        "",
+                                        "40AFD9CD-30BE-453F-BC14-BA0B287173DC"
+                                    ],
+                                    "guid": "ekKMz2pb92",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
@@ -4044,9 +4088,30 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-b96505dabf2cf0777fe66cad25f94e00f416cec8.jpg"
+                            ],
                             "name": "8. Three Sum",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "solve in O(n^2) time.<br><img src=\"paste-b96505dabf2cf0777fe66cad25f94e00f416cec8.jpg\">x",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def threeSum(self, nums: List[int]) -&gt; List[List[int]]:<br>&nbsp; &nbsp; &nbsp; &nbsp;",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/3sum/\">https://leetcode.com/problems/3sum/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def threeSum(self, nums: List[int]) -&gt; List[List[int]]:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; output = []<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nums.sort()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; length = len(nums)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i in range(length):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left, right = i + 1, length - 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if i &gt; 0 and nums[i-1] == nums[i]:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; continue<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while left &lt; right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total = nums[i] + nums[left] + nums[right]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if total == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; output.append([nums[i], nums[left], nums[right]])<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while left &lt; right and nums[left + 1] == nums[left]:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while left &lt; right and nums[right - 1] == nums[right]:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; elif total &gt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; right -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return output</b>",
+                                        "Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259953\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956393/posts/13259953</a>",
+                                        "",
+                                        "877A91BC-61F5-4FA7-860E-8A7DB110E488"
+                                    ],
+                                    "guid": "dc(H(Ms~--",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         }
                     ],
                     "crowdanki_uuid": "a335dbde-2ad1-11ec-bf63-acde48001122",
@@ -4071,9 +4136,31 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-6d6a7433d0579695e26ef9c117a052a1e8f4e0e3.jpg",
+                                "paste-dac91085e9a01b8add14409eda51b467224a707e.jpg"
+                            ],
                             "name": "1. Delete Nth Node From End",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Solve in O(n) time and O(1) space.<br><img src=\"paste-dac91085e9a01b8add14409eda51b467224a707e.jpg\"><br><img src=\"paste-6d6a7433d0579695e26ef9c117a052a1e8f4e0e3.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def removeNthFromEnd(self, head: Optional[ListNode], n: int) -&gt; Optional[ListNode]:",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/remove-nth-node-from-end-of-list/\">https://leetcode.com/problems/remove-nth-node-from-end-of-list/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def removeNthFromEnd(self, head: Optional[ListNode], n: int) -&gt; Optional[ListNode]:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # 1. measure length<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on = head<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; length = 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while on:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; length += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on = on.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; leftIndex = length - n - 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # 1.5 handle head deletion (edge case)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if leftIndex == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return head.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # point around node n<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on = head<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while leftIndex &gt; 1:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; leftIndex -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on = on.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on.next = on.next.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return head</b>",
+                                        "Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259955\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259955</a>",
+                                        "",
+                                        "DC5EFB3A-843A-4AD2-9A02-BFF290291DEB"
+                                    ],
+                                    "guid": "A&1<W7f~7R",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
@@ -4084,9 +4171,49 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-83cfec0eac8e07c16ddea0a970661a36dde1b8bb.jpg",
+                                "paste-b8ef91cbfde6018dbd1dfae2ed26f421c40a9a6b.jpg"
+                            ],
                             "name": "2. Reverse Linked LIst",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<b>Solve ITERATIVELY (not recursively):<br></b><br><br><img src=\"paste-83cfec0eac8e07c16ddea0a970661a36dde1b8bb.jpg\"><br><img src=\"paste-b8ef91cbfde6018dbd1dfae2ed26f421c40a9a6b.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def reverseList(self, head: Optional[ListNode]) -&gt; Optional[ListNode]:",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/reverse-linked-list/\">https://leetcode.com/problems/reverse-linked-list/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def reverseList(self, head: Optional[ListNode]) -&gt; Optional[ListNode]:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on = head<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prev = None<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while on != None:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; temp = on.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on.next = prev<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; prev = on<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on = temp<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return prev</b>",
+                                        "Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259957\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259957</a>",
+                                        "",
+                                        "89B0ECCE-1BE3-406A-BFED-B1B2875CE2DF"
+                                    ],
+                                    "guid": "K3cUE[2BV=",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<b>Solve RECURSIVELY (not iteratively):<br></b><br><br><img src=\"paste-83cfec0eac8e07c16ddea0a970661a36dde1b8bb.jpg\"><br><img src=\"paste-b8ef91cbfde6018dbd1dfae2ed26f421c40a9a6b.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def reverseList(self, head: Optional[ListNode]) -&gt; Optional[ListNode]:",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/reverse-linked-list/\">https://leetcode.com/problems/reverse-linked-list/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def reverseList(self, head: Optional[ListNode]<b>, prev=None</b>) -&gt; Optional[ListNode]:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if head is None:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return prev<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; temp = head.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; head.next = prev<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return self.reverseList(temp, head)</b>",
+                                        "Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259957\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259957</a>",
+                                        "",
+                                        "E9BD1959-2C86-4916-A56E-98BACA4B8A2A"
+                                    ],
+                                    "guid": "BR@$:S3-]h",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
@@ -4097,9 +4224,31 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-ca5209784f652ca8ea2094584ce15010e30fb8ba.jpg",
+                                "paste-f74f44d7b4f3deda35a638d16fce0830ee62e70c.jpg"
+                            ],
                             "name": "3. Detect Linked List Cycle",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Solve in O(n) Time and O(1) space:<br><img src=\"paste-ca5209784f652ca8ea2094584ce15010e30fb8ba.jpg\"><br><img src=\"paste-f74f44d7b4f3deda35a638d16fce0830ee62e70c.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def hasCycle(self, head: Optional[ListNode]) -&gt; bool:",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/linked-list-cycle/\">https://leetcode.com/problems/linked-list-cycle/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def hasCycle(self, head: Optional[ListNode]) -&gt; bool:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slow = fast = head<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while fast and fast.next:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; slow = slow.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fast = fast.next.next<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if slow == fast:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                        "Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259958\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956394/posts/13259958</a>",
+                                        "",
+                                        "127EB2CB-618E-49F8-931A-A2D0CCAD434E"
+                                    ],
+                                    "guid": "PC}[[YH>AL",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         }
                     ],
                     "crowdanki_uuid": "a336d746-2ad1-11ec-bf63-acde48001122",
@@ -4124,9 +4273,31 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-4347c1b3b6275a0383a7a94552b92adb9ea7b22e.jpg",
+                                "paste-f62c47a0446c7a256657747bf0de340b01042a1f.jpg"
+                            ],
                             "name": "1. Level Order Traversal",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Solve in O(n) time<br><img src=\"paste-4347c1b3b6275a0383a7a94552b92adb9ea7b22e.jpg\"><br><img src=\"paste-f62c47a0446c7a256657747bf0de340b01042a1f.jpg\">",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def levelOrder(self, root: Optional[TreeNode]) -&gt; List[List[int]]:",
+                                        "",
+                                        "<a href=\"https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/\">https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/</a>",
+                                        "",
+                                        "class Solution:<br>&nbsp;&nbsp;&nbsp; def levelOrder(self, root: Optional[TreeNode]) -&gt; List[List[int]]:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if not root:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return []<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; levels = []<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queue = [root]<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while queue:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; size = len(queue)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; level = []<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while size != 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; item = queue.pop(0)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; level.append(item.val)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if item.left:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queue.append(item.left)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if item.right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queue.append(item.right)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; size -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; levels.append(level)<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return levels</b>",
+                                        "Please note that the answer provided above (from Interview Espresso) has a time complexity of O(n^2). Aaron Jack from Interview Espresso says it's only O(n), but this incorrect. <b>queue.pop(0)</b>&nbsp;is a O(n) (linear) operation that takes place within the O(n) <b>while queue: </b>loop.<br><br># In order for the solution to be actually O(n) (linear), it would have to look like this instead:<br><b>from collections import deque</b><br>class Solution:<br>&nbsp;&nbsp;&nbsp; def levelOrder(self, root: Optional[TreeNode]) -&gt; List[List[int]]:<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>&nbsp; if not root:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return []<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; levels = []<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queue = <b>deque(</b>[root]<b>)</b><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while queue:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; size = len(queue)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; level = []<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while size != 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; item = queue.<b>popleft()</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; level.append(item.val)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if item.left:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queue.append(item.left)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if item.right:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queue.append(item.right)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; size -= 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; levels.append(level)<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return levels<br><br># So the only difference in the solution above is that instead of making <b>queue</b>&nbsp;equal a list, we make it equal to a <b>deque</b>&nbsp;which is imported from the <b>collections</b>&nbsp;module. The <b>deque&nbsp;</b>behaves like a list except you can append/pop to both sizes in constant time, whereas with regular lists, you an only append/pop to the end in constant time, not the beginning. <b>.popleft()&nbsp;</b>and <b>.appendleft()</b>&nbsp;are methods that you can only use with deques.<br><br>Interview Espresso walkthrough:&nbsp;<a href=\"https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956395/posts/13259960\">https://learn.interviewespresso.com/products/python-interview-espresso/categories/3956395/posts/13259960</a>",
+                                        "",
+                                        "C40AFB0F-5D5B-44F9-8382-990261CE6F30"
+                                    ],
+                                    "guid": "LS5L7K(l(4",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
