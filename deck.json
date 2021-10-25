@@ -2984,7 +2984,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<img src=\"SGV1TZ1ubCxN32ENxx1onHYdpBixfzhWofhB2ZA8Wc7d15ci0kMep3iqOJ9lwWT3eT9dy4kTq_FnFRDkXxlkucYdhnOmshO8KDZ-OQJxEKrOYE_2LBz.png\">",
+                                        "(Make sure to have the anki window take up the entire size of your screen if the text in the picture below is too small to read. If it's still too hard to read, please submit feedback on this card.)<br><img src=\"SGV1TZ1ubCxN32ENxx1onHYdpBixfzhWofhB2ZA8Wc7d15ci0kMep3iqOJ9lwWT3eT9dy4kTq_FnFRDkXxlkucYdhnOmshO8KDZ-OQJxEKrOYE_2LBz.png\"><br>oscars =&nbsp;",
                                         "<img src=\"YsuraYoPzf6_nNSOySvKXoNLDqOxPHTQcBcEUcHzQkHOUv533r-DUO64L09RXkEZZWGnaK0n6V-DBTGruE11meTFR7BKhsOkG8PVDBlFtqSE4SlETjV.png\">",
                                         "",
                                         "",
@@ -3024,7 +3024,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "# What is the output of the code below? <br>x = {\"a\": 1} <br>print(x.get(\"a\", 999))",
-                                        "999",
+                                        "1",
                                         "The value associated wth \"a\" is 1.",
                                         "",
                                         "88E2F1CF-FA56-432E-8068-2FE0C270401B"
