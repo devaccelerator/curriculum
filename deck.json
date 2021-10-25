@@ -2984,7 +2984,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "(Make sure to have the anki window take up the entire size of your screen if the text in the picture below is too small to read. If it's still too hard to read, please submit feedback on this card.)<br><img src=\"SGV1TZ1ubCxN32ENxx1onHYdpBixfzhWofhB2ZA8Wc7d15ci0kMep3iqOJ9lwWT3eT9dy4kTq_FnFRDkXxlkucYdhnOmshO8KDZ-OQJxEKrOYE_2LBz.png\"><br>oscars =&nbsp;",
+                                        "<img src=\"SGV1TZ1ubCxN32ENxx1onHYdpBixfzhWofhB2ZA8Wc7d15ci0kMep3iqOJ9lwWT3eT9dy4kTq_FnFRDkXxlkucYdhnOmshO8KDZ-OQJxEKrOYE_2LBz.png\">",
                                         "<img src=\"YsuraYoPzf6_nNSOySvKXoNLDqOxPHTQcBcEUcHzQkHOUv533r-DUO64L09RXkEZZWGnaK0n6V-DBTGruE11meTFR7BKhsOkG8PVDBlFtqSE4SlETjV.png\">",
                                         "",
                                         "",
@@ -3024,7 +3024,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "# What is the output of the code below? <br>x = {\"a\": 1} <br>print(x.get(\"a\", 999))",
-                                        "1",
+                                        "999",
                                         "The value associated wth \"a\" is 1.",
                                         "",
                                         "88E2F1CF-FA56-432E-8068-2FE0C270401B"
@@ -3509,7 +3509,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>Given a graph that looks like this:&nbsp;</div><img src=\"paste-dcd6745340a1b5afab1bea930226e9ca17194d4b.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing constant time complexity O(1) look like on this graph?</div>",
+                                        "<div>Given a graph that that looks like this:&nbsp;</div><img src=\"paste-dcd6745340a1b5afab1bea930226e9ca17194d4b.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing constant time complexity O(1) look like on this graph?</div>",
                                         "<img src=\"paste-787a28f70b382f714ceafe86ba9ce187f23569ee.jpg\">",
                                         "So no matter how big the input size becomes, the time it takes to complete the algorithm is constant meaning it doesn't increase at all.",
                                         "",
@@ -3548,7 +3548,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>Given a graph that&nbsp;looks like this:&nbsp;</div>\n<div><img src=\"paste-7eb54cec0fc81b08cd61ad855d4928e7b70caf3b.jpg\"><br></div>\n<div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing quadratic time complexity O(n^2) look like on this graph?</div>",
+                                        "<div>Given a graph that that looks like this:&nbsp;</div>\n<div><img src=\"paste-7eb54cec0fc81b08cd61ad855d4928e7b70caf3b.jpg\"><br></div>\n<div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing quadratic time complexity O(n^2) look like on this graph?</div>",
                                         "<img src=\"paste-535dd2351df1db9bd96ddbd78c555196dd02b444.jpg\">",
                                         "So as the input size grows, the time it takes to complete the algorithm continues to grow much faster than the incremental increase of the input size.",
                                         "",
@@ -3574,7 +3574,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>Given a graph that looks like this:<br><div><div><img src=\"paste-79862c6590cefdaa0fc351d9d4f6cffc63175972.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing linear time complexity O(n) look like on this graph?</div></div></div></div>",
+                                        "<div>Given a graph that that looks like this:<br><div><div><img src=\"paste-79862c6590cefdaa0fc351d9d4f6cffc63175972.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing linear time complexity O(n) look like on this graph?</div></div></div></div>",
                                         "<img src=\"paste-1c6f7ad702ccfa925462962f20b4ac9549a268b6.jpg\">",
                                         "So as the input size grows, the time complexity of the algorithm continues to grow at a constant rate.",
                                         "",
@@ -3587,7 +3587,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>Given a graph that looks like this:&nbsp;<br><img src=\"paste-6740dcb59ba1513b2f37f868ee93f012b48ee4b1.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing logarithmic time complexity O(log(n)) look like on this graph?</div></div>",
+                                        "<div>Given a graph that that looks like this:&nbsp;<br><img src=\"paste-6740dcb59ba1513b2f37f868ee93f012b48ee4b1.jpg\"><br><div>And represents the time complexity of an algorithm in which it's x-axis(horizontal) represents input size, and the y-axis(vertical) represents time to complete the algorithm, how would representing logarithmic time complexity O(log(n)) look like on this graph?</div></div>",
                                         "<img src=\"paste-b6dcb370fcdb704f08b5cf8a84938d0ddf52fd1c.jpg\">",
                                         "So as the input size grows, the time it takes to complete the algorithm continues to grow much slower than the incremental increase of the input size.<br><br>Usually a logarithmic algorithm uses the divide and conquer strategy where only one extra constant operation is added to the algorithm for each time the input size doubles.",
                                         "",
