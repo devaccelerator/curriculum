@@ -3481,6 +3481,697 @@
         },
         {
             "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "6b02a6c8-4379-11ec-aff7-acde48001122",
+            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-0baa417a03f1f9f9bfc7a300fc3a1fdf5cf222af.jpg"
+            ],
+            "name": "1.1 Python 201",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "print(5 // 2)",
+                        "2",
+                        "// is the floor divison operator, so it divides <b>5</b> by <b>2</b> which is <b>2.5</b>, and then rounds it down to <b>2</b>.",
+                        "",
+                        "D5A9D989-E11C-46D6-858E-8E1B54B3D43B"
+                    ],
+                    "guid": "x-LLrzdf4O",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "print(5.0 // 2)",
+                        "2.0",
+                        "// is the floor divison operator, so it divides&nbsp;<b>5.0</b>&nbsp;by&nbsp;<b>2</b>&nbsp;which is&nbsp;<b>2.5</b>, and then rounds it down to&nbsp;<b>2.0</b>.",
+                        "",
+                        "FD820BC9-6C69-42DA-97AA-28F794A7218B"
+                    ],
+                    "guid": "isBE[kXV+f",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Python uses&nbsp;{{c1:://}}&nbsp;as the floor division operator",
+                        "so the // operator is exactly like the / operator except it rounds the number down after performing the division operation.<br><br>e.g. 5 // 2 == 2",
+                        "",
+                        "E54739F6-3F6D-4FC3-AA95-BC93718F8FC6"
+                    ],
+                    "guid": "Bd^,&e^Z.;",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# What is the output of the code below?&nbsp;<br>x = {\"a\": 1}&nbsp;<br>print(1 in x)",
+                        "False",
+                        "The `in` keyword checks to see if the item to the left is a <b>key</b>&nbsp;within the dictionary on the right. It doesn't check to see if the item is a value in the dictionary.<br><br>So in this example, 1 is not a key in the dictionary, so it returns false. 1 is a value of the key \"a\", but 1 itself is not the key.",
+                        "",
+                        ""
+                    ],
+                    "guid": "ot?8CtrXUr",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "In Python, the built-in {{c1::abs()}} function returns the absolute value of the specified number.",
+                        "print(abs(-1)) # prints: 1<br>print(abs(1)) # prints: 1",
+                        "",
+                        "EA9D69C7-385F-4597-AA76-B19E0B0FDC26"
+                    ],
+                    "guid": "z_ai]i~tf(",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lst = [1, -2, 3, -4, -5]<br>for num in lst:<br>&nbsp; &nbsp; print({{c1::abs(num)}})<br># should print:<br># 1<br># 2<br># 3<br># 4<br># 5",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36072481\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36072481</a>",
+                        "",
+                        "E7167B38-DC61-450A-8567-8B8F3FBAC6DC"
+                    ],
+                    "guid": "o7|G9Z<c@8",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "print(abs(-12))<br>print(abs(12))",
+                        "12<br>12",
+                        "abs() returns the absolute value of a number",
+                        "",
+                        ""
+                    ],
+                    "guid": "u?Pkk;aS`7",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Using a built-in python function (<b>not range()</b>) what should the definition of the function below look like in order to print the expected values?<br><br>def fn(lst):<br>{{c1::&nbsp; &nbsp; for i, num in enumerate(lst):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(i, num)}}<br><br>lst = [\"a\",\"b\",\"c\"]<br><br>fn(lst) # should print:&nbsp;<br># 0 a<br># 1 b<br># 2 c<br><br>",
+                        "The enumerate function provides the most simple way to do this.",
+                        "",
+                        "4A478494-1BEE-446B-81B7-D24C6DA806D5"
+                    ],
+                    "guid": "JdjDl8SOv2",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "z = [\"a\", \"b\", \"c\"]<br>for x, y in enumerate(z):<br>&nbsp; &nbsp; print(x, y)",
+                        "0 a<br>1 b<br>2 c",
+                        "print(list(enumerate([\"a\",\"b\",\"c\"]))) # prints [(0,\"a\"),(1,\"b\"),(2,\"c\")]<br><br><a href=\"https://www.youtube.com/watch?v=-MZiQaNI0QA&amp;t=89s\">https://www.youtube.com/watch?v=-MZiQaNI0QA&amp;t=89s</a>",
+                        "",
+                        ""
+                    ],
+                    "guid": "GBh8~KWoG}",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The built-in {{c1::enumerate()}} function allows&nbsp;us to iterate through a sequence&nbsp;but it keeps track of both the index and the element. It takes in an iterable as an argument, such as a list, string, tuple, or dictionary.",
+                        "<a href=\"https://towardsdatascience.com/looping-in-python-5289a99a116e\">https://towardsdatascience.com/looping-in-python-5289a99a116e</a>",
+                        "",
+                        "864EB724-129C-44DB-BF24-A3DBE731E372"
+                    ],
+                    "guid": "zMatXC?Rp$",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "How to assign a variable to equal infinity in Python?",
+                        "x = float('inf')",
+                        "`float('inf')` represents infinity in python",
+                        "",
+                        ""
+                    ],
+                    "guid": "EIc?g[<_5M",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "How to assign a variable to equal negative infinity in Python?",
+                        "x = float('-inf')",
+                        "`float('-inf')` represents negative infinity in Python",
+                        "",
+                        ""
+                    ],
+                    "guid": "Fp&U6$tW$z",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# How to print the count of key-value-pairs in our dictionary?<br><br>dictionary = {1: \"a\", 2: \"b\", 3: \"c\"}<br><br>print({{c1::len(dictionary)}}) # prints: 3",
+                        "We can simply use the len() function to tell us the \"length\" of the dictionary which is the count of key-value-pairs in the dictionary",
+                        "",
+                        "885FB414-AC00-48A3-B890-01D0E058B1C9"
+                    ],
+                    "guid": "i[Y&T}Yivq",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Print the largest number in `nums` using a built-in function<br><br>nums = [7, 5, 6, 8, 9, 3, 8]<br><br>print({{c1::max(nums)}}) # prints: 9",
+                        "<a href=\"https://www.programiz.com/python-programming/methods/built-in/max\">https://www.programiz.com/python-programming/methods/built-in/max</a>",
+                        "",
+                        "1F945C0D-7461-4E84-9DDB-6D2E51302D45"
+                    ],
+                    "guid": "qh]*J5Ie)?",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The built-in {{c1::reversed()}} function returns the reversed iterator of the given sequence.",
+                        "It does <b>NOT</b>&nbsp;mutate the iterable it was called on. Example:<br><br>string = \"abc\"<br><br>print(list(reversed(string))) # prints ['c','b','a']<br><br>print(string) # prints: abc<br><br><br><br>lst = [1, 2, 3]<br><br>print(list(reversed(lst))) # prints [3, 2, 1]<br><br>print(lst) # prints: [1, 2, 3]",
+                        "",
+                        "9808B018-3591-4E07-9EF0-2334A618FF93"
+                    ],
+                    "guid": "A:7)If_bei",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Print the value of all the numbers in `nums` added together.<br><br>nums = [1, 2, 3]<br><br>print({{c1::sum(nums)}}) # prints: 6",
+                        "<a href=\"https://www.programiz.com/python-programming/methods/built-in/sum\">https://www.programiz.com/python-programming/methods/built-in/sum</a>",
+                        "",
+                        "C97A22EC-C671-4A0C-B9FE-EFBCCAFE32AE"
+                    ],
+                    "guid": "QgCdYi0sbK",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# What code should be added below so that the \"a\" key is removed from our dictionary? (Without using the .pop() method)<br><br>dictionary = {\"a\": 100}<br><br>{{c1::del dictionary[\"a\"]}}&nbsp;<br><br>print(dictionary) # prints: {}",
+                        "We use the `del` keyword to delete the \"a\" key-value-pair from the dictionary",
+                        "",
+                        "1231BA7D-57AC-4428-870F-8C72530BDDDC"
+                    ],
+                    "guid": "HR9#8d6Kp%",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Use a dictionary method to add the key-value-pairs of `a` into `b`<br><br>a = {\"a\": 1, \"b\": 2}<br>b = {\"c\": 3, \"d\": 4}<br><br>{{c1::b.update(a)}}<br><br>print(b) # prints: {\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}",
+                        "<a href=\"https://www.programiz.com/python-programming/methods/dictionary/update\">https://www.programiz.com/python-programming/methods/dictionary/update</a><br><br>It could also print `{'c': 3, 'd': 4, 'a': 1, 'b': 2}` (just different orderings of key-value-pairs), because remember, key-value-pairs in dictionaries are unordered, so the order does not matter.",
+                        "",
+                        "CC960420-AF42-4094-88B2-97FC3E777965"
+                    ],
+                    "guid": "s;~^XD;;^S",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The&nbsp;{{c1::extend()}} list method adds all the elements of an iterable (list, tuple, string etc.) to the end of the list.",
+                        "<a href=\"https://www.programiz.com/python-programming/methods/list/extend\">https://www.programiz.com/python-programming/methods/list/extend</a>",
+                        "",
+                        "80B3DD39-4AB3-4975-8515-618E9039CB52"
+                    ],
+                    "guid": "cWqZq<Gt2)",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lst1 = [1,2,3]<br>lst2 = [4,5,6]<br>{{c1::lst1.extend(lst2)}}<br>print(lst1) # should print: [1, 2, 3, 4, 5, 6]",
+                        "<a href=\"https://www.programiz.com/python-programming/methods/list/extend\">https://www.programiz.com/python-programming/methods/list/extend</a>",
+                        "",
+                        "71DD73B3-00C7-4CE1-9DE7-E3A01D07B5A1"
+                    ],
+                    "guid": "k_DxAp/v/Y",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# What code should be added below so the print statement prints what the comment says it should print? (using a list method)<br><br>nums = [1, 2, 3]<br><br>{{c1::nums.reverse()}}<br><br>print(nums) # prints: [3, 2, 1]",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090764\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090764</a>",
+                        "",
+                        "5BD6E7EB-BE84-4E1A-8D98-66C84EDA0E92"
+                    ],
+                    "guid": "iCot%XJX{/",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lst = [['abc', 2, 1], ['abb', 2, 2],&nbsp;['abc',2,0]]<br>lst.sort()<br>print(lst)",
+                        "[['abb', 2, 2], ['abc', 2, 0], ['abc', 2, 1]]",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527</a><br>When sorting a list that contains other, lists or tuples, python will prioritize the first element of the sublist first to sort, but if those are the same, then it will try and compare the second element and so on.",
+                        "",
+                        ""
+                    ],
+                    "guid": "KdFeG0ulkG",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Sort the list `example` in ascending order by the last element for each sublist<br><br>example = [[3,2,4],[2,6,3],[8,4,2],[6,3,8]]<br><br>{{c1::example.sort(key=lambda x: x[-1])}}<br><br>print(example) # prints: [[8, 4, 2], [2, 6, 3], [3, 2, 4], [6, 3, 8]]",
+                        "<br>(Look for references to the `key` paramater):&nbsp;<a href=\"https://www.w3schools.com/python/ref_list_sort.asp\">https://www.w3schools.com/python/ref_list_sort.asp</a>",
+                        "",
+                        "AE79CB23-1388-4179-BD9C-07A20FC91648"
+                    ],
+                    "guid": "F;HyKv2lFA",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lst = [[]]*3<br>lst[0].append(1)<br>print(lst)",
+                        "[[1], [1], [1]]",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895</a><br><br>Just remember that if you initialize a list with sublists like that, then your creating a list with multiple references to the same sublist. You can kind of visualize it like this:<br><img src=\"paste-0baa417a03f1f9f9bfc7a300fc3a1fdf5cf222af.jpg\">",
+                        "",
+                        ""
+                    ],
+                    "guid": "bcR~eP|yk.",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lst1 = [1, 2, 3]<br>lst2 = lst1[:]<br><br>lst2.append(4)<br><br>print(lst1)<br>print(lst2)",
+                        "[1, 2, 3]<br>[1, 2, 3, 4]",
+                        "`lst2` equals a copy of `lst1` because we used slice notation to make a copy of it: `lst1[:]`",
+                        "",
+                        ""
+                    ],
+                    "guid": "J_Vl8qFFmz",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# make the variable `lst2` equal a <b>COPY</b>&nbsp;of `lst1`:<br><br>lst1 = [1, 2, 3]<br>lst2 = {{c1::lst1[:]}}",
+                        "We use slice notation to take a slice of the entire list which is basically a copy of the list.<br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090384\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090384</a>",
+                        "",
+                        "CDDBDBEB-3987-4B0C-9C12-9DF581E10F76"
+                    ],
+                    "guid": "q>B!-3-q?:",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# What's a more concise way to write the following code?:<br>lst = [0 for _ in range(10)]",
+                        "lst = [0]*10",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895</a>",
+                        "",
+                        ""
+                    ],
+                    "guid": "ORfAi/M%R$",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "name = \"Alex\"<br><br># Change the code below to print the exact same string but without using the `+` operator:<br>print(\"Hi, my name is \" + name)",
+                        "print(<b>f</b>\"Hi, my name is&nbsp;<b>{name}</b>\")",
+                        "the `f` before the first quotation makes it so we can insert variables into the string using curly bracket notation: `{}`",
+                        "",
+                        ""
+                    ],
+                    "guid": "C*%MP8!c^6",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[::-1]}}) # prints: cba",
+                        "<a href=\"https://www.w3schools.com/python/python_howto_reverse_string.asp\">https://www.w3schools.com/python/python_howto_reverse_string.asp</a>",
+                        "",
+                        "53ECA82D-19AB-434B-A2FC-B85137FA4DB3"
+                    ],
+                    "guid": "BW@[VykxIl",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Change the function definition below to be only one line.<br><br>def return_sum(a, b):<br>&nbsp; &nbsp; return a + b",
+                        "return_sum = lambda a, b: a + b",
+                        "return_sum = lambda a, b: a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br># -----------------------------------------------<br>def return_sum(a, b):<br>&nbsp; &nbsp; return a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072529\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072529</a>",
+                        "",
+                        ""
+                    ],
+                    "guid": "b-cucS,g9>",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "def fn(a=\"Deep\", b=\"Work\"):<br>&nbsp; &nbsp; print(a, b)<br><br>fn() # prints: Deep Work<br><br>fn({{c1::b=\"Focus\"}}) # prints: Deep Focus",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072528\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072528</a><br><br>`fn(\"Deep\", \"Focus\")` would be repetitive because `a` already has a default value of \"Deep\", so we can instead write `fn(b=\"Focus\")`",
+                        "",
+                        "956C2435-751B-4BEA-83CC-A90DB4E1E692"
+                    ],
+                    "guid": "u9&izK!(2M",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Using list comprehension, make `lstb` equal a list that contains the numbers from `lsta` mapped out to be double the size<br><br>lsta = [1, 2, 3]<br><br>lstb = {{c1::[num * 2 for num in lsta]}}<br><br>print(lsta) # prints: [1, 2, 3]<br>print(lstb) # prints: [2, 4, 6]",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530</a>",
+                        "",
+                        "CEFBF1C8-487C-4F47-9B98-D8BD1DEAC72C"
+                    ],
+                    "guid": "CkXS6lWNz^",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Using list comprehension, make `lstb` equal a list that is a filtered version of `lsta` where `lstb` only contains the numbers from `lsta` that are greater than 10.<br><br>lsta = [12, 3, 2, 10, 30, 17, 12, 6]<br><br>lstb = {{c1::[num for num in lsta if num &gt; 10]}}<br><br>print(lsta) # prints: [12, 3, 2, 10, 30, 17, 12, 6]<br>print(lstb) # prints: [12, 30, 17, 12]",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530</a>",
+                        "",
+                        "E89D6C81-B842-418A-8463-764BB0729ECE"
+                    ],
+                    "guid": "KcA^iL(J8@",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div>A {{c1::Counter}} is a dict subclass for counting hashable objects. It is an unordered collection where elements are stored as dictionary keys and their counts are stored as dictionary values. Values are allowed to be any integer value including zero or negative counts.</div>",
+                        "",
+                        "",
+                        "16BB4F1A-B26D-4AE8-94B9-B5225E500E3E"
+                    ],
+                    "guid": "x|,b1~_sfP",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div># make `var` equal a key value pair object in which each letter is the key and the number of times that letter appears in the string is the value</div> <div><br></div> <div>string = 'aaabbc'</div> <div><br></div> <div>var = # ?<br><br></div> <div>print(var['a']) # prints: 3<br></div>",
+                        "<div>from collections import Counter</div><div><br></div><div>string = 'aaabbc'</div><div><br></div><div>var = <b>Counter(string)<br><br></b></div><div>print(var['a']) # prints: 3</div>",
+                        "<a href=\"https://towardsdatascience.com/python-counter-learn-the-easiest-way-of-counting-objects-in-python-9165d15ea893\">https://towardsdatascience.com/python-counter-learn-the-easiest-way-of-counting-objects-in-python-9165d15ea893</a>",
+                        "",
+                        ""
+                    ],
+                    "guid": "GmSX4,CFtC",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The Counter type in Python is part of the {{c1::collections}} module.",
+                        "# So this means that in order to use the `Counter` type, we must import it from collections if the collections module is not already imported into the local environment:<br><br>from collections import Counter",
+                        "",
+                        "99027084-ED75-4AD1-BBDA-240C8CEB2297"
+                    ],
+                    "guid": "Juu=gD`e1p",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The Python&nbsp;{{c1::defaultdict}}&nbsp;type behaves almost exactly like a regular Python dictionary, but if you try to access or modify a missing key, then&nbsp;defaultdict&nbsp;will automatically create the key and generate a default value for it.",
+                        "<a href=\"https://realpython.com/python-defaultdict/\">https://realpython.com/python-defaultdict/</a>",
+                        "",
+                        "CDE00255-874E-4C19-8210-761C99B36987"
+                    ],
+                    "guid": "ga80>S@!83",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "example = defaultdict(int)<br><br># The code above throws the following error:<br># NameError: name 'defaultdict' is not defined<br># How to fix it?",
+                        "<b>from collections import defaultdict</b><br><br>example = defaultdict(int)",
+                        "The default dict is part of the collections module, so it must be imported from collections",
+                        "",
+                        ""
+                    ],
+                    "guid": "Mh@34*^tP(",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "How does Python's defaultdict type work?",
+                        "It's like a regular dictionary except we can define what we want the default value of a key to be when we try to access a key that hasn't been declared yet.",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "Ky@EVpZ!x/",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# Assign the variable `a` to equal a defaultdict in which its values default to 0 (zero).<br><br>from collections import defaultdict<br>a = {{c1::defaultdict(int)}}",
+                        "# This would also work:<br>a = defaultdict(lambda: 0)",
+                        "",
+                        "49F6A5A1-BAB2-4CA5-93C1-C53D3DAD8D8A"
+                    ],
+                    "guid": "J|;JU[yaQ#",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The&nbsp;{{c1::math.ceil()}}&nbsp;method rounds a number UP to the nearest integer, if necessary, and returns the result",
+                        "<a href=\"https://www.w3schools.com/python/ref_math_ceil.asp\">https://www.w3schools.com/python/ref_math_ceil.asp</a>",
+                        "",
+                        "D5EF6104-72DD-4E75-ADBD-7072CA422AA0"
+                    ],
+                    "guid": "i`;*=GWiL:",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "import math<br>print(math.ceil(1.1))",
+                        "2",
+                        "The&nbsp;math.ceil()&nbsp;method rounds a number UP to the nearest integer, if necessary, and returns the result.",
+                        "",
+                        ""
+                    ],
+                    "guid": "F=]2XFr+r3",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "import math<br>print(math.floor(5.95))",
+                        "5",
+                        "math.floor()&nbsp;rounds a number down",
+                        "",
+                        ""
+                    ],
+                    "guid": "yw%d|`r?+!",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The&nbsp;{{c1::math.floor()}}&nbsp;method rounds a number DOWN to the nearest integer, if necessary, and returns the result",
+                        "<a href=\"https://www.w3schools.com/python/ref_math_floor.asp\">https://www.w3schools.com/python/ref_math_floor.asp</a>",
+                        "",
+                        "2A1E912E-0A7F-414B-9578-EAAD857D3E7E"
+                    ],
+                    "guid": "k=^)XkJgQo",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "import math<br>print(math.floor(-5.05))",
+                        "-6",
+                        "math.floor() rounds a number down. -6 is less than -5 so -5.05 rounds down to -6",
+                        "",
+                        ""
+                    ],
+                    "guid": "QeBN0-Ej8[",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "What data type in python represents \"nothing\"?",
+                        "None",
+                        "In Python, 'None' is the object which represents nothing. When we want a value to hold nothing, we assign it with value 'None'.<br><br>So in Python, `None` is a reserved keyword that represents nothing, just like `True` and `False` are reserved keywords that represent booleans",
+                        "",
+                        ""
+                    ],
+                    "guid": "AbG<r`iRqx",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "What are truthy and falsy values in Python?",
+                        "Truthy and falsy values are&nbsp;values that evaluate to True or False in a boolean context.",
+                        "<a href=\"https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/#:~:text=Truthy%20values%20are%20values%20that,type%2C%20None%20%2C%20and%20False%20.\">https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/#:~:text=Truthy values are values that,type, None , and False .</a>",
+                        "",
+                        ""
+                    ],
+                    "guid": "D$,O``*C,%",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "What types of values are truthy in Python and what types of values are falsy?",
+                        "falsy values include:<br>None<br>0 (zero)<br>empty sequences (lists, tuples, strings etc.)<br><br>and everything else is mostly truthy",
+                        "More specifically:<br><br>Falsy Values include:<div><b>Sequences and Collections:</b></div>Empty lists: []<br>Empty tuples: ()<br>Empty dictionaries: {}<br>Empty sets: set()<br>Empty strings: \"\"<br>Empty ranges: range(0)<div><b>Numbers</b></div>Zero of any numeric type.<br>Integer:&nbsp;0<br>Float:&nbsp;0.0<br>Complex:&nbsp;0j<div><b>Constants</b></div>None<br>False<br>",
+                        "",
+                        ""
+                    ],
+                    "guid": "w_T~raqhVl",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "# What is the output of the code below?<br><br>zero = 0<br>one = 1<br>empty_list = []<br>nonempty_list = [\"example\"]<br><br>if zero:<br>&nbsp; &nbsp; print(\"a\")<br><br>if one:<br>&nbsp; &nbsp; print(\"b\")<br><br>if empty_list:<br>&nbsp; &nbsp; print(\"c\")<br><br>if nonempty_list:<br>&nbsp; &nbsp; print(\"d\")",
+                        "b<br>d",
+                        "`zero` and `empty_list` are falsy values, while `one` and `nonempty_list` are truthy values",
+                        "",
+                        ""
+                    ],
+                    "guid": "KIm%}!2q:V",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lst1 = [1,2,3]<br>lst2 = lst1<br>lst1.append(4)<br><br>print(lst1)<br>print(lst2)",
+                        "[1, 2, 3, 4]<br>[1, 2, 3, 4]",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/35989159\">https://dev-accelerator.teachable.com/courses/1569644/lectures/35989159</a><br><br>`lst1` and `lst2` point to the exact same list in memory.",
+                        "",
+                        ""
+                    ],
+                    "guid": "tNF7AfuDj%",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "a = 1<br>b = a<br><br>a += 1<br><br>print(a)<br>print(b)",
+                        "2<br>1",
+                        "integers are immutable, so when the code `a += 1` executes, the number `1` is not actually mutated into `2`. `a` is just reassigned to the value of `2`, and `b` remains pointing to the `1` integer.&nbsp;",
+                        "",
+                        ""
+                    ],
+                    "guid": "qzVTSP4qv,",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "The {{c1::nonlocal}} keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function.",
+                        "<a href=\"https://www.w3schools.com/python/ref_keyword_nonlocal.asp\">https://www.w3schools.com/python/ref_keyword_nonlocal.asp</a>",
+                        "",
+                        "C397CAD3-33AA-4D3B-A4F7-61B547B02290"
+                    ],
+                    "guid": "P(oshuDMT1",
+                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "def outer():<br>&nbsp; &nbsp; x = 3<br>&nbsp; &nbsp; def inner():<br>&nbsp; &nbsp; &nbsp; &nbsp; x = 9<br>&nbsp; &nbsp; inner()<br>&nbsp; &nbsp; print(x)<br><br>outer()<br><br># what is the output?",
+                        "3",
+                        "`x = 9` declares a new variable `x` inside the function `inner` which is a seperate variable from `x` that was declared outside of the `inner` function.",
+                        "",
+                        ""
+                    ],
+                    "guid": "dv3v%m!mhN",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "def outer():<br>&nbsp; &nbsp; x = 3<br>&nbsp; &nbsp;&nbsp;def inner():<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;nonlocal x<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;x = 9<br>&nbsp; &nbsp;&nbsp;inner()<br>&nbsp; &nbsp;&nbsp;print(x)<br><br>outer()<br><br># what is the output?",
+                        "9",
+                        "`nonlocal x` tells Python that `x` is not to be used as a local variable, so `x = 9` inside the `inner` function reassigns `x` of the parent function to 9.",
+                        "",
+                        ""
+                    ],
+                    "guid": "A*ZFY~&D8L",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
             "children": [
                 {
                     "__type__": "Deck",
