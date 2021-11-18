@@ -2877,7 +2877,6 @@
                                 "Z31BbV_Bp86hSjjlq09ywWux8RTAa08JFgiQKtRB9Q-yf-MrpoAjb4rKIY-SL4YbFuFLO_NfdeRw-DClLM7lB1lkTx0ervPMzYhsBVfa1nbzebfL7aa.png",
                                 "am2XOED39Wdv5RVnr9QFIahXyF7yNxHFxWgtTXyy53nw23dtppT1djuL3l8Dhd5oLId5JbK-b8mcV7bFv5_r-JADmiVijpxCcA5ceV_anH2sZx_A4Kf.png",
                                 "dEKJJqBf6GZBO1yxuznSELWdXgwMJ1awq9TRdzEhOlJ7EdUNKUgNfPpfnDHwlFzlBaXZJdLyA6j4zflwMPBGeBIg0J8rK-SCBl0H_6bwGiYIs-ZlBJT.png",
-                                "gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png",
                                 "kl_iL4LLT7sB-mDX0Fc0YOL3beXO9BGlCUO7puI3_xqgp3kQ6xqZph8i_PjaRwajdUtUHiJLZw8wLW23EYgMycUYuD9wt7kHYlRL12twbx2ZFjPdXtZ.png",
                                 "njSF03Rl2iVaVRjoTTiNzCW9MuAXj1om-Qin9rfd74cctwKctQaTtU6c5Zg0d-7DEbCwTfwAIzwd-MZWChGM-AuHOG3TY0tDkxyVSyBZ-GEA3t69jWJ.png",
                                 "rANeCdifpaw7IENpXVMHAXaNWmYnaz2Gno076SN7RSsjoKlN3wM_qLTy0FylhHuDdkE6f8M2pvFjWMk-ja5u3wRJE6HegCEtDqNWva8XWqAAnOCpCuY.png",
@@ -3255,19 +3254,6 @@
                                         "416E8DEF-C29D-45C2-8C22-09A454462370"
                                     ],
                                     "guid": "ckr>^%>gzH",
-                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
-                                    "tags": []
-                                },
-                                {
-                                    "__type__": "Note",
-                                    "fields": [
-                                        "What can be used as a value (in regards to {key:value} pairs) in python dictionaries?",
-                                        "anything",
-                                        "Python allows the values in a dictionary to be any type – string, integer, a list, another dictionary, boolean, etc.<br><br>Notice how the values of the dictionary below range range from numbers to strings, to booleans, to lists, to other dictionaries, it can be anything!<br><br><img src=\"gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png\">",
-                                        "",
-                                        ""
-                                    ],
-                                    "guid": "zvZQuKXwMj",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
