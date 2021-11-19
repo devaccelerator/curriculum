@@ -3729,6 +3729,18 @@
                         {
                             "__type__": "Note",
                             "fields": [
+                                "# What code should be added below so the print statement prints what the comment says it should print? (using a list method)<br><br>nums = [1, 2, 3]<br><br>{{c1::nums.reverse()}}<br><br>print(nums) # prints: [3, 2, 1]",
+                                "<a href=\"https://www.programiz.com/python-programming/methods/list/reverse\">https://www.programiz.com/python-programming/methods/list/reverse</a>",
+                                "",
+                                "5BD6E7EB-BE84-4E1A-8D98-66C84EDA0E92"
+                            ],
+                            "guid": "iCot%XJX{/",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
                                 "lst = [['abc', 2, 1], ['abb', 2, 2],&nbsp;['abc',2,0]]<br>lst.sort()<br>print(lst)",
                                 "[['abb', 2, 2], ['abc', 2, 0], ['abc', 2, 1]]",
                                 "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527</a><br>When sorting a list that contains other, lists or tuples, python will prioritize the first element of the sublist first to sort, but if those are the same, then it will try and compare the second element and so on.",
@@ -4088,6 +4100,130 @@
                                 "885FB414-AC00-48A3-B890-01D0E058B1C9"
                             ],
                             "guid": "i[Y&T}Yivq",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "# What code should be added below so that the \"a\" key is removed from our dictionary? (Without using the .pop() method)<br><br>dictionary = {\"a\": 100}<br><br>{{c1::del dictionary[\"a\"]}}&nbsp;<br><br>print(dictionary) # prints: {}",
+                                "We use the `del` keyword to delete the \"a\" key-value-pair from the dictionary",
+                                "",
+                                "1231BA7D-57AC-4428-870F-8C72530BDDDC"
+                            ],
+                            "guid": "HR9#8d6Kp%",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "# What is the output of the code below?&nbsp;<br>x = {\"a\": 1}&nbsp;<br>print(1 in x)",
+                                "False",
+                                "The `in` keyword checks to see if the item to the left is a <b>key</b>&nbsp;within the dictionary on the right. It doesn't check to see if the item is a value in the dictionary.<br><br>So in this example, 1 is not a key in the dictionary, so it returns false. 1 is a value of the key \"a\", but 1 itself is not the key.",
+                                "",
+                                "845572D6-88B2-4789-9332-09014DC67BFD"
+                            ],
+                            "guid": "ot?8CtrXUr",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "# Use a dictionary method to add the key-value-pairs of `a` into `b`<br><br>a = {\"a\": 1, \"b\": 2}<br>b = {\"c\": 3, \"d\": 4}<br><br>{{c1::b.update(a)}}<br><br>print(b) # prints: {\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}",
+                                "<a href=\"https://www.programiz.com/python-programming/methods/dictionary/update\">https://www.programiz.com/python-programming/methods/dictionary/update</a><br><br>It could also print `{'c': 3, 'd': 4, 'a': 1, 'b': 2}` (just different orderings of key-value-pairs), because remember, key-value-pairs in dictionaries are unordered, so the order does not matter.",
+                                "",
+                                "CC960420-AF42-4094-88B2-97FC3E777965"
+                            ],
+                            "guid": "s;~^XD;;^S",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div>A {{c1::Counter}} is a dict subclass for counting immutable objects. It is an unordered collection where elements are stored as dictionary keys and their counts are stored as dictionary values. Values are allowed to be any integer value including zero or negative counts.</div>",
+                                "",
+                                "",
+                                "16BB4F1A-B26D-4AE8-94B9-B5225E500E3E"
+                            ],
+                            "guid": "x|,b1~_sfP",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "<div># make `var` equal a key value pair object in which each letter is the key and the number of times that letter appears in the string is the value</div> <div><br></div> <div>string = 'aaabbc'</div> <div><br></div> <div>var = # ?<br><br></div> <div>print(var['a']) # prints: 3<br></div>",
+                                "<div>from collections import Counter</div><div><br></div><div>string = 'aaabbc'</div><div><br></div><div>var = <b>Counter(string)<br><br></b></div><div>print(var['a']) # prints: 3</div>",
+                                "<a href=\"https://towardsdatascience.com/python-counter-learn-the-easiest-way-of-counting-objects-in-python-9165d15ea893\">https://towardsdatascience.com/python-counter-learn-the-easiest-way-of-counting-objects-in-python-9165d15ea893</a>",
+                                "",
+                                "E1975E68-45B5-4A3A-B111-986B773F58A3"
+                            ],
+                            "guid": "GmSX4,CFtC",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "The Counter type in Python is part of the {{c1::collections}} module.",
+                                "# So this means that in order to use the `Counter` type, we must import it from collections if the collections module is not already imported into the local environment:<br><br>from collections import Counter",
+                                "",
+                                "99027084-ED75-4AD1-BBDA-240C8CEB2297"
+                            ],
+                            "guid": "Juu=gD`e1p",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "The Python&nbsp;{{c1::defaultdict}}&nbsp;type behaves almost exactly like a regular Python dictionary, but if you try to access or modify a missing key, then&nbsp;defaultdict&nbsp;will automatically create the key and generate a default value for it.",
+                                "<a href=\"https://realpython.com/python-defaultdict/\">https://realpython.com/python-defaultdict/</a>",
+                                "",
+                                "CDE00255-874E-4C19-8210-761C99B36987"
+                            ],
+                            "guid": "ga80>S@!83",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "example = defaultdict(int)<br><br># The code above throws the following error:<br># NameError: name 'defaultdict' is not defined<br># How to fix it?",
+                                "<b>from collections import defaultdict</b><br><br>example = defaultdict(int)",
+                                "defaultdict is part of the collections module, so it must be imported from collections",
+                                "",
+                                "7F889742-2549-40A9-B530-89003E73EB74"
+                            ],
+                            "guid": "Mh@34*^tP(",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "How does Python's defaultdict type work?",
+                                "It's like a regular dictionary except we can define what we want the default value of a key to be when we try to access a key that hasn't been declared yet.",
+                                "",
+                                "",
+                                "102B6B01-C90D-4D2B-B954-FD71F7D3A143"
+                            ],
+                            "guid": "Ky@EVpZ!x/",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "# Assign the variable `a` to equal a defaultdict in which its values default to 0 (zero).<br><br>from collections import defaultdict<br>a = {{c1::defaultdict(int)}}",
+                                "# This would also work:<br>a = defaultdict(lambda: 0)<br><br># basically defaultdict takes a function as an input, and whatever that function returns when it's called, is what the default values of the defaultdict will equal. so `lambda: 0` is a function that returns 0 when called, and `int` returns 0 when called as well.<br><br>print(int()) # prints: 0",
+                                "",
+                                "49F6A5A1-BAB2-4CA5-93C1-C53D3DAD8D8A"
+                            ],
+                            "guid": "J|;JU[yaQ#",
                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         }
