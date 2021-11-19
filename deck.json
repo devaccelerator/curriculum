@@ -3481,6 +3481,46 @@
         },
         {
             "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "88536fda-4957-11ec-b401-3e22fb2860fe",
+            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "1.25 Mutable vs immutable",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "lst1 = [1,2,3]<br>lst2 = lst1<br>lst1.append(4)<br><br>print(lst1)<br>print(lst2)",
+                        "[1, 2, 3, 4]<br>[1, 2, 3, 4]",
+                        "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/35989159\">https://dev-accelerator.teachable.com/courses/1569644/lectures/35989159</a><br><br>`lst1` and `lst2` point to the exact same list in memory.",
+                        "",
+                        "99889A58-05B7-411B-80C5-87656378E40A"
+                    ],
+                    "guid": "tNF7AfuDj%",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "a = 1<br>b = a<br><br>a += 1<br><br>print(a)<br>print(b)",
+                        "2<br>1",
+                        "integers are immutable, so when the code `a += 1` executes, the number `1` is not actually mutated into `2`. `a` is just reassigned to the value of `2`, and `b` remains pointing to the `1` integer.&nbsp;",
+                        "",
+                        "EF9B32FE-26A6-475D-B53A-8578475A7AAA"
+                    ],
+                    "guid": "qzVTSP4qv,",
+                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
             "children": [
                 {
                     "__type__": "Deck",
