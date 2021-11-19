@@ -2877,6 +2877,7 @@
                                 "Z31BbV_Bp86hSjjlq09ywWux8RTAa08JFgiQKtRB9Q-yf-MrpoAjb4rKIY-SL4YbFuFLO_NfdeRw-DClLM7lB1lkTx0ervPMzYhsBVfa1nbzebfL7aa.png",
                                 "am2XOED39Wdv5RVnr9QFIahXyF7yNxHFxWgtTXyy53nw23dtppT1djuL3l8Dhd5oLId5JbK-b8mcV7bFv5_r-JADmiVijpxCcA5ceV_anH2sZx_A4Kf.png",
                                 "dEKJJqBf6GZBO1yxuznSELWdXgwMJ1awq9TRdzEhOlJ7EdUNKUgNfPpfnDHwlFzlBaXZJdLyA6j4zflwMPBGeBIg0J8rK-SCBl0H_6bwGiYIs-ZlBJT.png",
+                                "gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png",
                                 "kl_iL4LLT7sB-mDX0Fc0YOL3beXO9BGlCUO7puI3_xqgp3kQ6xqZph8i_PjaRwajdUtUHiJLZw8wLW23EYgMycUYuD9wt7kHYlRL12twbx2ZFjPdXtZ.png",
                                 "njSF03Rl2iVaVRjoTTiNzCW9MuAXj1om-Qin9rfd74cctwKctQaTtU6c5Zg0d-7DEbCwTfwAIzwd-MZWChGM-AuHOG3TY0tDkxyVSyBZ-GEA3t69jWJ.png",
                                 "rANeCdifpaw7IENpXVMHAXaNWmYnaz2Gno076SN7RSsjoKlN3wM_qLTy0FylhHuDdkE6f8M2pvFjWMk-ja5u3wRJE6HegCEtDqNWva8XWqAAnOCpCuY.png",
@@ -3254,6 +3255,19 @@
                                         "416E8DEF-C29D-45C2-8C22-09A454462370"
                                     ],
                                     "guid": "ckr>^%>gzH",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What can be used as a value (in regards to {key:value} pairs) in python dictionaries?",
+                                        "anything",
+                                        "Python allows the values in a dictionary to be any type – string, integer, a list, another dictionary, boolean, etc.<br><br>Notice how the values of the dictionary below range range from numbers to strings, to booleans, to lists, to other dictionaries, it can be anything!<br><br><img src=\"gc6Wz5xFMgEuW-G4XYPF5_JckuSxefleQeHduBiZGE0OyfKQzSjVQXZ9MDn-1Uxl7trOq4twRvCEz5JqgZjwykZ7VfE9X8P2Af_V_1m7zGdAU25bzxS.png\">",
+                                        "",
+                                        "9C9A7FEA-2A37-4531-B030-1A7558D5E656"
+                                    ],
+                                    "guid": "zvZQuKXwMj",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
@@ -3964,6 +3978,44 @@
                         {
                             "__type__": "Note",
                             "fields": [
+                                "print(5 // 2)",
+                                "2",
+                                "// is the floor divison operator, so it divides <b>5</b> by <b>2</b> which is <b>2.5</b>, and then rounds it down to <b>2</b>.",
+                                "",
+                                "D5A9D989-E11C-46D6-858E-8E1B54B3D43B"
+                            ],
+                            "guid": "x-LLrzdf4O",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "print(5.0 // 2)",
+                                "2.0",
+                                "// is the floor divison operator, so it divides&nbsp;<b>5.0</b>&nbsp;by&nbsp;<b>2</b>&nbsp;which is&nbsp;<b>2.5</b>, and then rounds it down to&nbsp;<b>2.0</b>.",
+                                "",
+                                "FD820BC9-6C69-42DA-97AA-28F794A7218B"
+                            ],
+                            "guid": "isBE[kXV+f",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Python uses&nbsp;{{c1:://}}&nbsp;as the floor division operator",
+                                "so the // operator is exactly like the / operator except it rounds the number down after performing the division operation.<br><br>e.g. 5 // 2 == 2",
+                                "",
+                                "E54739F6-3F6D-4FC3-AA95-BC93718F8FC6"
+                            ],
+                            "guid": "Bd^,&e^Z.;",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
                                 "# Print the smallest number in `nums` using a built-in function<br><br>nums = [7, 5, 6, 8, 9, 3, 8]<br><br>print({{c1::min(nums)}}) # prints: 3",
                                 "<a href=\"https://www.programiz.com/python-programming/methods/built-in/min\">https://www.programiz.com/python-programming/methods/built-in/min</a>",
                                 "",
@@ -3986,7 +4038,20 @@
                     "extendRev": 0,
                     "media_files": [],
                     "name": "4. Dictionaries",
-                    "notes": []
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "# How to print the count of key-value-pairs in our dictionary?<br><br>dictionary = {1: \"a\", 2: \"b\", 3: \"c\"}<br><br>print({{c1::len(dictionary)}}) # prints: 3",
+                                "We can simply use the len() function to tell us the \"length\" of the dictionary which is the count of key-value-pairs in the dictionary",
+                                "",
+                                "885FB414-AC00-48A3-B890-01D0E058B1C9"
+                            ],
+                            "guid": "i[Y&T}Yivq",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        }
+                    ]
                 }
             ],
             "crowdanki_uuid": "6b02a6c8-4379-11ec-aff7-acde48001122",
