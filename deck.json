@@ -3851,6 +3851,32 @@
                         {
                             "__type__": "Note",
                             "fields": [
+                                "How to assign a variable to equal infinity in Python?",
+                                "x = float('inf')",
+                                "`float('inf')` represents infinity in python",
+                                "",
+                                "33A53CBB-C54D-48C9-B749-1B9A09558236"
+                            ],
+                            "guid": "EIc?g[<_5M",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "How to assign a variable to equal negative infinity in Python?",
+                                "x = float('-inf')",
+                                "`float('-inf')` represents negative infinity in Python",
+                                "",
+                                "AA52FDBC-EB5C-41E9-BD09-33A6D0786685"
+                            ],
+                            "guid": "Fp&U6$tW$z",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
                                 "# Print the largest number in `nums` using a built-in function<br><br>nums = [7, 5, 6, 8, 9, 3, 8]<br><br>print({{c1::max(nums)}}) # prints: 9",
                                 "<a href=\"https://www.programiz.com/python-programming/methods/built-in/max\">https://www.programiz.com/python-programming/methods/built-in/max</a>",
                                 "",
@@ -3933,6 +3959,18 @@
                             ],
                             "guid": "QeBN0-Ej8[",
                             "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "# Print the smallest number in `nums` using a built-in function<br><br>nums = [7, 5, 6, 8, 9, 3, 8]<br><br>print({{c1::min(nums)}}) # prints: 3",
+                                "<a href=\"https://www.programiz.com/python-programming/methods/built-in/min\">https://www.programiz.com/python-programming/methods/built-in/min</a>",
+                                "",
+                                "D09ED909-D076-4935-A791-EF4BE1CCF88E"
+                            ],
+                            "guid": "of2id~7L`4",
+                            "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         }
                     ]
