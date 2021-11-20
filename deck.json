@@ -3537,7 +3537,7 @@
                         {
                             "__type__": "Note",
                             "fields": [
-                                "# Using a built-in python function (<b>not range()</b>) what should the definition of the function below look like in order to print the expected values?<br><br>def fn(lst):<br>{{c1::&nbsp; &nbsp; for i, num in enumerate(lst):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(i, num)}}<br><br>lst = [\"a\",\"b\",\"c\"]<br><br>fn(lst) # should print:&nbsp;<br># 0 a<br># 1 b<br># 2 c<br><br>",
+                                "# Using a built-in python function (<b>not range()</b>) what should the definition of the function below look like in order to print the expected values?<br><br>def fn(lst):<br>&nbsp; &nbsp; {{c1::for i, num in enumerate(lst):<br>&nbsp; &nbsp; &nbsp; &nbsp; print(i, num)}}<br><br>lst = [\"a\",\"b\",\"c\"]<br><br>fn(lst) # should print:&nbsp;<br># 0 a<br># 1 b<br># 2 c<br><br>",
                                 "The enumerate function provides the most simple way to do this.",
                                 "",
                                 "4A478494-1BEE-446B-81B7-D24C6DA806D5"
@@ -3576,7 +3576,7 @@
                             "fields": [
                                 "# Change the function definition below to be only one line.<br><br>def return_sum(a, b):<br>&nbsp; &nbsp; return a + b",
                                 "return_sum = lambda a, b: a + b",
-                                "return_sum = lambda a, b: a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br># -----------------------------------------------<br>def return_sum(a, b):<br>&nbsp; &nbsp; return a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072529\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072529</a>",
+                                "return_sum = lambda a, b: a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br># -----------------------------------------------<br>def return_sum(a, b):<br>&nbsp; &nbsp; return a + b<br><br>print(return_sum(1, 2)) # prints: 3<br><br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36126568\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36126568</a>&nbsp;(Scroll down to \"2. Lambda functions\")",
                                 "",
                                 "7406FBE5-E526-46C9-8DAA-C9E6F7FA5ED3"
                             ],
@@ -3588,7 +3588,7 @@
                             "__type__": "Note",
                             "fields": [
                                 "def fn(a=\"Deep\", b=\"Work\"):<br>&nbsp; &nbsp; print(a, b)<br><br>fn() # prints: Deep Work<br><br>fn({{c1::b=\"Focus\"}}) # prints: Deep Focus",
-                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072528\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072528</a><br><br>`fn(\"Deep\", \"Focus\")` would be repetitive because `a` already has a default value of \"Deep\", so we can instead write `fn(b=\"Focus\")`",
+                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36126568\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36126568</a>&nbsp;(Scroll down to \"3. Keyword arguments\")<br><br>`fn(\"Deep\", \"Focus\")` would be repetitive because `a` already has a default value of \"Deep\", so we can instead write `fn(b=\"Focus\")`",
                                 "",
                                 "956C2435-751B-4BEA-83CC-A90DB4E1E692"
                             ],
@@ -3743,7 +3743,7 @@
                             "fields": [
                                 "lst = [['abc', 2, 1], ['abb', 2, 2],&nbsp;['abc',2,0]]<br>lst.sort()<br>print(lst)",
                                 "[['abb', 2, 2], ['abc', 2, 0], ['abc', 2, 1]]",
-                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36072527</a><br>When sorting a list that contains other, lists or tuples, python will prioritize the first element of the sublist first to sort, but if those are the same, then it will try and compare the second element and so on.",
+                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36127386\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36127386</a>&nbsp;(scroll down to \"4. How sorting works in Python\"<br><br>When sorting a list that contains other, lists or tuples, python will prioritize the first element of the sublist first to sort, but if those are the same, then it will try and compare the second element and so on.",
                                 "",
                                 "4D1C33F4-D25B-461B-8DC4-62510EECC7F0"
                             ],
@@ -3768,7 +3768,7 @@
                             "fields": [
                                 "lst = [[]]*3<br>lst[0].append(1)<br>print(lst)",
                                 "[[1], [1], [1]]",
-                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895</a><br><br>Just remember that if you initialize a list with sublists like that, then your creating a list with multiple references to the same sublist. You can kind of visualize it like this:<br><img src=\"paste-0baa417a03f1f9f9bfc7a300fc3a1fdf5cf222af.jpg\">",
+                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386</a>&nbsp;(Scroll down to \"3. Initializing lists with numbers\"<br><br>Just remember that if you initialize a list with sublists like that, then your creating a list with multiple references to the same sublist. You can kind of visualize it like this:<br><img src=\"paste-0baa417a03f1f9f9bfc7a300fc3a1fdf5cf222af.jpg\">",
                                 "",
                                 "B9B2AF9E-AECE-4A5A-A42E-84281F735595"
                             ],
@@ -3793,7 +3793,7 @@
                             "__type__": "Note",
                             "fields": [
                                 "# make the variable `lst2` equal a <b>COPY</b>&nbsp;of `lst1`:<br><br>lst1 = [1, 2, 3]<br>lst2 = {{c1::lst1[:]}}",
-                                "We use slice notation to take a slice of the entire list which is basically a copy of the list.<br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090384\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36090384</a>",
+                                "We use slice notation to take a slice of the entire list which is basically a copy of the list.<br><a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386</a>&nbsp;(Scroll down to \"6. how to create a copy of a list\"",
                                 "",
                                 "CDDBDBEB-3987-4B0C-9C12-9DF581E10F76"
                             ],
@@ -3806,7 +3806,7 @@
                             "fields": [
                                 "# What's a more concise way to write the following code?:<br>lst = [0 for _ in range(10)]",
                                 "lst = [0]*10",
-                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36071895</a>",
+                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386</a>&nbsp;(Scroll down to \"3. Initializing lists with numbers\"",
                                 "",
                                 "552A7591-2B57-4D15-ABA9-59404A065A96"
                             ],
@@ -3843,7 +3843,7 @@
                             "__type__": "Note",
                             "fields": [
                                 "# Using list comprehension, make `lstb` equal a list that contains the numbers from `lsta` mapped out to be double the size<br><br>lsta = [1, 2, 3]<br><br>lstb = {{c1::[num * 2 for num in lsta]}}<br><br>print(lsta) # prints: [1, 2, 3]<br>print(lstb) # prints: [2, 4, 6]",
-                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530</a>",
+                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386</a>&nbsp;(Scroll down to \"2. Mapping &amp; filtering using list comprehension\")",
                                 "",
                                 "CEFBF1C8-487C-4F47-9B98-D8BD1DEAC72C"
                             ],
@@ -3855,7 +3855,7 @@
                             "__type__": "Note",
                             "fields": [
                                 "# Using list comprehension, make `lstb` equal a list that is a filtered version of `lsta` where `lstb` only contains the numbers from `lsta` that are greater than 10.<br><br>lsta = [12, 3, 2, 10, 30, 17, 12, 6]<br><br>lstb = {{c1::[num for num in lsta if num &gt; 10]}}<br><br>print(lsta) # prints: [12, 3, 2, 10, 30, 17, 12, 6]<br>print(lstb) # prints: [12, 30, 17, 12]",
-                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36072530</a>",
+                                "<a href=\"https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386\">https://dev-accelerator.teachable.com/courses/python-fast-track/lectures/36127386</a>&nbsp;(Scroll down to \"2. Mapping &amp; filtering using list comprehension\")",
                                 "",
                                 "E89D6C81-B842-418A-8463-764BB0729ECE"
                             ],
@@ -3893,7 +3893,7 @@
                             "__type__": "Note",
                             "fields": [
                                 "lst = [1, -2, 3, -4, -5]<br>for num in lst:<br>&nbsp; &nbsp; print({{c1::abs(num)}})<br># should print:<br># 1<br># 2<br># 3<br># 4<br># 5",
-                                "<a href=\"https://dev-accelerator.teachable.com/courses/1569644/lectures/36072481\">https://dev-accelerator.teachable.com/courses/1569644/lectures/36072481</a>",
+                                "<a href=\"https://www.w3schools.com/python/ref_func_abs.asp\">https://www.w3schools.com/python/ref_func_abs.asp</a>",
                                 "",
                                 "E7167B38-DC61-450A-8567-8B8F3FBAC6DC"
                             ],
@@ -4180,7 +4180,7 @@
                         {
                             "__type__": "Note",
                             "fields": [
-                                "The Python&nbsp;{{c1::defaultdict}}&nbsp;type behaves almost exactly like a regular Python dictionary, but if you try to access or modify a missing key, then&nbsp;defaultdict&nbsp;will automatically create the key and generate a default value for it.",
+                                "The Python&nbsp;{{c1::defaultdict}}&nbsp;type behaves almost exactly like a regular Python dictionary, but if you try to access or modify a missing key, then&nbsp;it will automatically create the key and generate a default value for it.",
                                 "<a href=\"https://realpython.com/python-defaultdict/\">https://realpython.com/python-defaultdict/</a>",
                                 "",
                                 "CDE00255-874E-4C19-8210-761C99B36987"
