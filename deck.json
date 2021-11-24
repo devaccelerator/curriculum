@@ -4265,7 +4265,7 @@
                                 "paste-b6dcb370fcdb704f08b5cf8a84938d0ddf52fd1c.jpg",
                                 "paste-dcd6745340a1b5afab1bea930226e9ca17194d4b.jpg"
                             ],
-                            "name": "Big O",
+                            "name": "1. Big O",
                             "notes": [
                                 {
                                     "__type__": "Note",
@@ -4566,7 +4566,7 @@
                             "extendRev": 0,
                             "media_files": [],
                             "mid": 1629309172341,
-                            "name": "Classes & Pointers",
+                            "name": "2. Classes & Pointers",
                             "notes": []
                         }
                     ],
