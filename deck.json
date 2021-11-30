@@ -4979,6 +4979,139 @@
                                     "tags": []
                                 }
                             ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "3a3cb6c2-51f3-11ec-a3a2-acde48001122",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "doubly-linked-list-concept.png",
+                                "linked-list-concept_0.png",
+                                "queue.png",
+                                "stack.png"
+                            ],
+                            "name": "3. Doubly linked lists, stacks,  & queues",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Add a method called `append` to the `LinkedList` class which should append a new node to the very end of the <b>doubly</b> linked list.</div>\n<div>Also, what is the big O time complexity of this append() method?</div>",
+                                        "<div># `my_linked_list` = (0) &lt;-&gt; (1) &lt;-&gt; (2)</div>\n<div>my_linked_list.append(3)</div>\n<div># `my_linked_list` == (0) &lt;-&gt; (1) &lt;-&gt; (2) &lt;-&gt; (3)</div>\n<div><br></div>\n<div># `my_linked_list` = empty linked list</div>\n<div>my_linked_list.append(3)</div>\n<div># `my_linked_list` == (3)</div>\n<div>my_linked_list.append(4)</div>\n<div># `my_linked_list` == (3) &lt;-&gt; (4)</div>",
+                                        "<pre>class LinkedList:\n    def __init__(self, value):\n        new_node = Node(value)\n        self.head = new_node\n        self.tail = new_node\n\n    def append(self, value):\n        pass # YOUR CODE GOES HERE\n\nclass Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n        self.prev = None\n</pre>",
+                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\nimport unittest\nclass TestAppendMethodOfLinkedList(unittest.TestCase):\n    def get_all_values_of_linked_list_as_list(self, linked_list):\n        values = []\n        current = linked_list.head\n        while current:\n            values.append(current.value)\n            current = current.next\n        return values\n\n    def get_all_values_of_linked_list_as_list_starting_from_tail(self, linked_list):\n        values = []\n        current = linked_list.tail\n        while current:\n            values.append(current.value)\n            current = current.prev\n        return values\n\n    def create_linked_list(self, values):\n        # if no values, return empty linked list\n        if values == []:\n            linked_list = LinkedList(None)\n            linked_list.head = None\n            linked_list.tail = None\n            return linked_list\n        else:\n            # else build the linked list\n            linked_list = LinkedList(values[0])\n            previous = linked_list.head\n            for value in values[1:]:\n                current = Node(value)\n                previous.next = current\n                current.prev = previous\n                linked_list.tail = current\n                previous = current\n            return linked_list\n\n    def execute_append_test(self, linked_list, append_value):\n        actual_linked_list_values_before_append = self.get_all_values_of_linked_list_as_list(linked_list)\n        linked_list.append(append_value)\n        expected_linked_list_values_after_append = [*actual_linked_list_values_before_append, append_value]\n        actual_linked_list_values_after_append = self.get_all_values_of_linked_list_as_list(linked_list)\n        actual_linked_list_values_after_append_from_tail = self.get_all_values_of_linked_list_as_list_starting_from_tail(linked_list)\n\n        self.assertEqual(actual_linked_list_values_after_append, expected_linked_list_values_after_append)\n        self.assertEqual(list(reversed(expected_linked_list_values_after_append)), actual_linked_list_values_after_append_from_tail)\n        self.assertEqual(len(expected_linked_list_values_after_append), len(actual_linked_list_values_before_append) + 1)\n        if len(actual_linked_list_values_before_append) == 0:\n            self.assertEqual(linked_list.head.value, append_value)\n        self.assertEqual(linked_list.tail.value, append_value)\n\n    def test_empty_list(self):\n        values = []\n        linked_list = self.create_linked_list(values)\n        append_value = \"appended value\"\n        self.execute_append_test(linked_list, append_value)\n\n    def test_length_one_list(self):\n        values = [1]\n        linked_list = self.create_linked_list(values)\n        append_value = \"appended value\"\n        self.execute_append_test(linked_list, append_value)\n\n    def test_length_two_list(self):\n        values = [1, 2]\n        linked_list = self.create_linked_list(values)\n        append_value = [\"another append value\", 9000]\n        self.execute_append_test(linked_list, append_value)\n\n    def test_length_three_list(self):\n        values = [1, 2, 3]\n        linked_list = self.create_linked_list(values)\n        append_value = \"appended value\"\n        self.execute_append_test(linked_list, append_value)\n\n    def test_length_one_thousand_list(self):\n        values = list(range(1000))\n        linked_list = self.create_linked_list(values)\n        append_value = \"appended value\"\n        self.execute_append_test(linked_list, append_value)\n\n    def test_mixed_list(self):\n        values = [(1), [1, 2, 3], None, \"relentless\", \"focused\", 2389, False]\n        linked_list = self.create_linked_list(values)\n        append_value = \"appended value\"\n        self.execute_append_test(linked_list, append_value)\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
+                                        "",
+                                        "",
+                                        "<pre>class LinkedList:\n    def __init__(self, value):\n        new_node = Node(value)\n        self.head = new_node\n        self.tail = new_node\n    \n<b>    # O(1)</b>\n    def append(self, value):\n<b>        new_node = Node(value)\n        if self.head is None:\n            self.head = new_node\n            self.tail = new_node\n        else:\n            self.tail.next = new_node\n            new_node.prev = self.tail\n            self.tail = new_node</b>\n</pre>",
+                                        "",
+                                        "",
+                                        "A7AE1062-ACF9-4223-A5BA-741680B3857D"
+                                    ],
+                                    "guid": "MoTO$;n#)X",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Add a method called `insert` to the `LinkedList` class which should insert a new node into the <b>doubly</b> linked list with the given value at the given index.</div>\n<div><br></div>\n<div>If the node is successfully inserted, return True, else if the node cannot be inserted, return False.</div>\n<div><br></div>\n<div>Feel free to use any of the methods already provided in the `LinkedList` class in order to code the method definition for `insert`</div>\n<div><br></div>\n<div>What is the big O time complexity of this `insert()` method?</div>",
+                                        "<div># `my_linked_list` = (\"a\") &lt;-&gt; (\"b\") &lt;-&gt; (\"c\")</div>\n<div><br></div>\n<div>print(my_linked_list.insert(-1, 9)) # prints: False</div>\n<div># `my_linked_list` == (\"a\") &lt;-&gt; (\"b\") &lt;-&gt; (\"c\")</div>\n<div><br></div>\n<div>print(my_linked_list.insert(0, 9)) # prints: True</div>\n<div># `my_linked_list` == (9) &lt;-&gt; (\"a\") &lt;-&gt; (\"b\") &lt;-&gt; (\"c\")</div>\n<div><br></div>\n<div>print(my_linked_list.set_value(4, \"z\")) # prints: True</div>\n<div># `my_linked_list` == (9) &lt;-&gt; (\"a\") &lt;-&gt; (\"b\") &lt;-&gt; (\"c\") &lt;-&gt; (\"z\")<br><br></div>\n<div>print(my_linked_list.set_value(1, \"unwavering persistence\")) # prints: True</div>\n<div># `my_linked_list` == (9) &lt;-&gt; (\"unwavering persistence\") &lt;-&gt; (\"a\") &lt;-&gt; (\"b\") &lt;-&gt; (\"c\") &lt;-&gt; (\"z\")</div>",
+                                        "<pre>class LinkedList:\n    def __init__(self, value):\n        new_node = Node(value)\n        self.head = new_node\n        self.tail = new_node\n\n    def insert(self, index, value):\n        pass # YOUR CODE GOES HERE\n\n    def append(self, value):\n        new_node = Node(value)\n        if self.head is None:\n            self.head = new_node\n            self.tail = new_node\n        else:\n            self.tail.next = new_node\n            new_node.prev = self.tail\n            self.tail = new_node\n        return True\n\n    def prepend(self, value):\n        new_node = Node(value)\n        if self.head == None:\n            self.head = new_node\n            self.tail = new_node\n        else:\n            new_node.next = self.head\n            self.head.prev = new_node\n            self.head = new_node\n        return True\n\n    def get(self, index):\n        if index &lt; 0:\n            return None\n\n        current = self.head\n        for _ in range(index):\n            if current == None:\n                return None\n            current = current.next\n        return current\n\nclass Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n        self.prev = None\n\n</pre>",
+                                        "<pre>###########################################\n##### TEST CASES BELOW -- DO NOT EDIT #####\n###########################################\n\nimport unittest\nclass TestInsertMethodOfLinkedList(unittest.TestCase):\n    def get_all_values_of_linked_list_as_list(self, linked_list):\n        values = []\n        current = linked_list.head\n        while current:\n            values.append(current.value)\n            current = current.next\n        return values\n\n    def get_all_values_of_linked_list_as_list_starting_from_tail(self, linked_list):\n        values = []\n        current = linked_list.tail\n        while current:\n            values.append(current.value)\n            current = current.prev\n        return values\n\n    def create_linked_list(self, values):\n        # if no values, return empty linked list\n        if values == []:\n            linked_list = LinkedList(None)\n            linked_list.head = None\n            linked_list.tail = None\n            return linked_list\n        else:\n            # else build the linked list\n            linked_list = LinkedList(values[0])\n            previous = linked_list.head\n            for value in values[1:]:\n                current = Node(value)\n                previous.next = current\n                current.prev = previous\n                linked_list.tail = current\n                previous = current\n            return linked_list\n\n    def execute_insert_test(self, linked_list, index, insert_value):\n        actual_linked_list_values_before_insert = self.get_all_values_of_linked_list_as_list(linked_list)\n        head_value_before_insert = linked_list.head.value if linked_list.head != None else None\n        successfully_insert = linked_list.insert(index, insert_value)\n\n        if index &gt;= 0 and index &lt;= len(actual_linked_list_values_before_insert):\n            expected_successfully_insert = True\n            expected_linked_list_values_after_insert = [*actual_linked_list_values_before_insert[:index], insert_value,\n                                                        *actual_linked_list_values_before_insert[index:]]\n            expected_head_value_after_insert = expected_linked_list_values_after_insert[0]\n        else:\n            expected_successfully_insert = False\n            expected_linked_list_values_after_insert = actual_linked_list_values_before_insert[:]\n            if len(actual_linked_list_values_before_insert) &gt; 0:\n                expected_head_value_after_insert = actual_linked_list_values_before_insert[0]\n            else:\n                expected_head_value_after_insert = None\n\n        actual_linked_list_values_after_insert = self.get_all_values_of_linked_list_as_list(linked_list)\n        actual_linked_list_values_after_insert_starting_from_tail = self.get_all_values_of_linked_list_as_list_starting_from_tail(linked_list)\n        head_value_after_insert = linked_list.head.value if linked_list.head != None else None\n\n        self.assertEqual(actual_linked_list_values_after_insert, expected_linked_list_values_after_insert)\n        self.assertEqual(expected_head_value_after_insert, head_value_after_insert)\n        self.assertEqual(expected_successfully_insert, successfully_insert)\n        self.assertEqual(list(reversed(expected_linked_list_values_after_insert)), actual_linked_list_values_after_insert_starting_from_tail)\n\n    def test_empty_list(self):\n        values = []\n        linked_list = self.create_linked_list(values)\n        self.execute_insert_test(linked_list, 1, \"insert_value0\")\n        self.execute_insert_test(linked_list, 0, \"insert_value1\")\n\n    def test_length_one_list(self):\n        values = [1]\n        linked_list = self.create_linked_list(values)\n        self.execute_insert_test(linked_list, 0, \"insert_value1\")\n        self.execute_insert_test(linked_list, -1, \"insert_value2\")\n        self.execute_insert_test(linked_list, 1, \"insert_value3\")\n\n    def test_length_two_list(self):\n        values = [1, 2]\n        linked_list = self.create_linked_list(values)\n        self.execute_insert_test(linked_list, 1, \"insert_value0\")\n        self.execute_insert_test(linked_list, 0, \"insert_value1\")\n        self.execute_insert_test(linked_list, -1, \"insert_value2\")\n        self.execute_insert_test(linked_list, 1234, \"insert_value3\")\n\n    def test_length_three_list(self):\n        values = [1, 2, 3]\n        linked_list = self.create_linked_list(values)\n        self.execute_insert_test(linked_list, 3, \"insert_value0\")\n        self.execute_insert_test(linked_list, 0, \"insert_value1\")\n        self.execute_insert_test(linked_list, 1, \"insert_value2\")\n        self.execute_insert_test(linked_list, 2, \"insert_value3\")\n        self.execute_insert_test(linked_list, 3, \"insert_value4\")\n        self.execute_insert_test(linked_list, -1234, \"insert_value5\")\n\n    def test_length_one_thousand_list(self):\n        values = list(range(1000))\n        linked_list = self.create_linked_list(values)\n        self.execute_insert_test(linked_list, 0, \"insert_value1\")\n        self.execute_insert_test(linked_list, -1, \"insert_value2\")\n        self.execute_insert_test(linked_list, 123, \"insert_value3\")\n        self.execute_insert_test(linked_list, 900, \"insert_value4\")\n        self.execute_insert_test(linked_list, 1000, \"insert_value5\")\n\n    def test_mixed_list(self):\n        values = [(1), [1, 2, 3], None, \"relentless\", \"focused\", 2389, False]\n        linked_list = self.create_linked_list(values)\n        self.execute_insert_test(linked_list, 0, \"insert_value1\")\n        self.execute_insert_test(linked_list, -1, \"insert_value2\")\n        self.execute_insert_test(linked_list, 1, \"insert_value3\")\n\n\nif __name__ == '__main__':\n    unittest.main()\n</pre>",
+                                        "",
+                                        "",
+                                        "<pre>class LinkedList:\n    def __init__(self, value):\n        new_node = Node(value)\n        self.head = new_node\n        self.tail = new_node\n    \n<b>    # O(n)</b>\n    def insert(self, index, value):\n<pre><b>        # if we're inserting at the head\n        if index == 0:\n            return self.prepend(value)</b></pre><b>\n        # if index out of bounds\n        before = self.get(index - 1)\n        if index &lt; 0 or before == None:\n            return False\n\n        # if we're inserting at the tail\n        after = before.next\n        if after == None:\n            return self.append(value)\n\n        # if we're inserting somewhere in the middle\n        new_node = Node(value)\n\n        before.next = new_node\n        new_node.prev = before\n\n        new_node.next = after\n        after.prev = new_node\n\n        return True</b>\n                \n    def append(self, value):\n        # ...\n\n    def prepend(self, value):\n        # ...\n        \n    def get(self, index):\n        # ...\n</pre>",
+                                        "",
+                                        "",
+                                        "189AFEC7-7E5B-4260-884E-2E9844921FCD"
+                                    ],
+                                    "guid": "MT-|3M+v=D",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "# Create a class to represent a node that would be used in a doubly linked list:<br><br>class Node:<br>&nbsp; &nbsp; # CODE GOES HERE",
+                                        "<pre>class Node:\n<b>    def __init__(self, value):\n        self.value = value\n        self.next = None\n        self.prev = None</b></pre>",
+                                        "So basically like a node for a singly linked list, except for doubly linked lists we have another attribute which points to the previous node too (not just the next node)<br><br>So singly linked lists look like this:<br><img src=\"linked-list-concept_0.png\"><br><br>and doubly linked lists look like this:<br><img src=\"doubly-linked-list-concept.png\">",
+                                        "",
+                                        "D7689D0A-05FC-444D-A343-D32B0FE338B5"
+                                    ],
+                                    "guid": "k8vs|V(ms_",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How can we use a queue in Python?:</div>",
+                                        "<div>We can use the built-in deque data structure with the .pop() and .appendleft() method</div>",
+                                        "<pre># CODE:\nfrom collections import deque\n\nqueue = <b>deque()</b>\nprint(\"building queue:\")\nfor i in range(1, 11):\n    print(\"enqueueing: \", i)\n    queue.<b>appendleft</b>(i)\n    \nprint(list(queue))\nprint()\nprint(\"dequeueing queue:\")\n\nfor i in range(1, 11):\n    print(queue.<b>pop</b>())\nprint(list(queue))\n\n\n\n# OUTPUT:\nbuilding queue:\nenqueueing:  1\nenqueueing:  2\nenqueueing:  3\nenqueueing:  4\nenqueueing:  5\nenqueueing:  6\nenqueueing:  7\nenqueueing:  8\nenqueueing:  9\nenqueueing:  10\n[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\n\ndequeueing queue:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n[]\n\n\n# or we can use .popleft() and .append() method.</pre>",
+                                        "",
+                                        "4ACBD738-F232-4CE4-B8BB-D90C2965A38C"
+                                    ],
+                                    "guid": "E8MH=W,9.h",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is the big O of enqueueing and dequeueing onto a queue data structure?</div>",
+                                        "<div>O(1)</div>",
+                                        "",
+                                        "",
+                                        "BD058FA5-EAE6-458C-B9F6-694EEA429270"
+                                    ],
+                                    "guid": "ED?Jo.XK~7",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is the difference between a stack and a queue?</div>",
+                                        "<div>A stack is LIFO (last in first out)&nbsp;</div>\n<div>Whereas a queue is FIFO (first in first out)</div>",
+                                        "<div>So basically stacks and queues are data structures that can be used to insert data into it, and remove data from it.&nbsp;</div>\n<div><br></div>\n<div>The last data that was inserted into a <b>stack</b> is the first data that will be removed from the stack<br><img src=\"stack.png\"><br><br><div>The first data that was inserted into a <b>queue</b> is the first data that is will be removed from the queue<br><img src=\"queue.png\"><br></div></div>",
+                                        "",
+                                        "225DB9D5-51FE-4145-ABED-089960012950"
+                                    ],
+                                    "guid": "BE:MovGt$V",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How can we use a stack in Python?</div>",
+                                        "<div>We can use the built-in list data structure with the .pop() and .append() method</div>",
+                                        "<pre># CODE:\nstack = <b>[]</b>\nprint(\"building stack:\")\nfor i in range(1, 11):\n    print(\"pushing: \", i)\n    stack.<b>append</b>(i)\n\nprint(stack)\nprint()\nprint(\"popping stack:\")\n\nfor i in range(1, 11):\n    print(stack.<b>pop</b>())\nprint(stack)\n\n\n\n# OUTPUT:\nbuilding stack:\npushing:  1\npushing:  2\npushing:  3\npushing:  4\npushing:  5\npushing:  6\npushing:  7\npushing:  8\npushing:  9\npushing:  10\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\npopping stack:\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n[]\n</pre>",
+                                        "",
+                                        "0F7BD371-8B70-41D0-B880-8D889232B88E"
+                                    ],
+                                    "guid": "k89(mI>Fcx",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What is the big O of popping and pushing onto a stack data structure?</div>",
+                                        "<div>O(1)</div>",
+                                        "",
+                                        "",
+                                        "27F99B92-002C-4A74-8543-D752343CA4E9"
+                                    ],
+                                    "guid": "D0rsWLAJG|",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         }
                     ],
                     "crowdanki_uuid": "fa14c30e-1f49-11ec-b9c6-acde48001122",
@@ -5924,7 +6057,7 @@
                     "ord": 2,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
