@@ -4239,7 +4239,7 @@
                     "extendNew": 0,
                     "extendRev": 0,
                     "media_files": [],
-                    "name": "5. execution order,  unpacking, isalnum",
+                    "name": "5. Miscallaneous V2",
                     "notes": [
                         {
                             "__type__": "Note",
@@ -4313,6 +4313,58 @@
                             ],
                             "guid": "jC`YxBNA}4",
                             "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "print([1] and \"test\")",
+                                "test",
+                                "",
+                                "",
+                                "5B0E13C7-B585-42EE-9D34-A1288E176FD4"
+                            ],
+                            "guid": "rK^P4i{inu",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "print([] and \"test\")",
+                                "[]",
+                                "",
+                                "",
+                                "9FD23DBC-959B-47C1-B756-281F46985982"
+                            ],
+                            "guid": "JR8z0i`Y|w",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "print([1] or \"test\")",
+                                "[1]",
+                                "",
+                                "",
+                                "3F907AF4-DFE1-4EEF-ADD2-C1AD44397727"
+                            ],
+                            "guid": "AM,o3%Q#_t",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "print([] or \"test\")",
+                                "test",
+                                "",
+                                "",
+                                "DF886690-831D-48C5-9D94-4F3FF17AE8F7"
+                            ],
+                            "guid": "cpgQunh,pu",
+                            "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                             "tags": []
                         }
                     ]
