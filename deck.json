@@ -3830,7 +3830,7 @@
                         {
                             "__type__": "Note",
                             "fields": [
-                                "<b>THIS CARD IS TRASH</b><br><br># The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[: :-1]}}) # prints: cba",
+                                "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[: :-1]}}) # prints: cba",
                                 "# The print statement below should print the reversed version of `my_string`<br><br>my_string = \"abc\"<br><br>print({{c1::my_string[: :-1]}}) # prints: cba<br><br><a href=\"https://www.w3schools.com/python/python_howto_reverse_string.asp\">https://www.w3schools.com/python/python_howto_reverse_string.asp</a>",
                                 "",
                                 "53ECA82D-19AB-434B-A2FC-B85137FA4DB3"
@@ -4368,6 +4368,19 @@
                             "tags": []
                         }
                     ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "3392ffd6-6b19-11ec-acd3-acde48001122",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "6. Miscallaneous V3",
+                    "notes": []
                 }
             ],
             "crowdanki_uuid": "6b02a6c8-4379-11ec-aff7-acde48001122",
