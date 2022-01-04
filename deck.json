@@ -7030,6 +7030,7 @@
                                 "paste-c10b4b1b7da0b73eaec8d51644e5c72f7becbfd5.jpg",
                                 "paste-c7f6fbede47019d43528cd5c1cd80b0e301d1291.jpg",
                                 "paste-cda4a01264182b37c4d2d9a871f1f91e43048902.jpg",
+                                "paste-d0bf4ef6474099d1f341b6994ac848caf85358f5.jpg",
                                 "paste-dc385b512a5e470032089b78b51cd1ef532c683e.jpg",
                                 "paste-eeeba6e9a0d83f941b1c118bc8c0fbc112e31e60.jpg",
                                 "paste-f16191cca9b83e3f5431361708bf139ffa8451ed.jpg"
@@ -7052,7 +7053,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>Only content inside the opening and closing {{c1::body}} tags can be displayed to the screen.</div>",
+                                        "<div>Only content inside the {{c1::body}} element can be rendered to the web browser.</div>",
                                         "<div>https://www.w3schools.com/tags/tag_body.asp<br><img src=\"paste-cda4a01264182b37c4d2d9a871f1f91e43048902.jpg\"><br></div>",
                                         "",
                                         "6F724CBF-B121-4AEE-BA2D-99A49352E01A"
@@ -7088,7 +7089,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>What tags represent headings?</div>",
+                                        "<div>What tags represent headings?<br>example:<br><img src=\"paste-d0bf4ef6474099d1f341b6994ac848caf85358f5.jpg\"><br></div>",
                                         "h1 - h6",
                                         "<img src=\"paste-f16191cca9b83e3f5431361708bf139ffa8451ed.jpg\">",
                                         "",
@@ -7424,35 +7425,155 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
-                            "name": "3. HTML Forms",
-                            "notes": []
-                        },
-                        {
-                            "__type__": "Deck",
-                            "children": [],
-                            "crowdanki_uuid": "4bfca180-6d53-11ec-bdff-acde48001122",
-                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
-                            "desc": "",
-                            "dyn": 0,
-                            "extendNew": 0,
-                            "extendRev": 0,
-                            "media_files": [],
-                            "name": "4. Form Validation",
-                            "notes": []
-                        },
-                        {
-                            "__type__": "Deck",
-                            "children": [],
-                            "crowdanki_uuid": "4bfcd1dc-6d53-11ec-bdff-acde48001122",
-                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
-                            "desc": "",
-                            "dyn": 0,
-                            "extendNew": 0,
-                            "extendRev": 0,
-                            "media_files": [],
-                            "name": "5. Semantic HTML",
-                            "notes": []
+                            "media_files": [
+                                "paste-1138a394e9ee07c373eb39ac6af2d2e567dc7c32.jpg",
+                                "paste-2bf9e339924af3476c2d725edc0c6b25309ec722.jpg",
+                                "paste-446fb1299c91835e56573bde4d10b528842d648d.jpg",
+                                "paste-749a4427ac2c2ea6ec91b361c8adbcd0f6bcfa4f.jpg",
+                                "paste-7ef4ffa60e3824da18d7aa2df4ea6bd38661f0cf.jpg",
+                                "paste-803d16d7abe775360d65678b125c187d8acb42d0.jpg",
+                                "paste-881ebc10dfb1286ff7592e0bcdbbfb905b338e6a.jpg",
+                                "paste-9658327c7e07e27f443d75fe4047528753c7f77c.jpg",
+                                "paste-974bc5d51abdd7be7870c0c361f1cfd0d3a9ecdd.jpg",
+                                "paste-a95dfc31eb856e2a4c07248e08e3dea83d614e2a.jpg",
+                                "paste-b46785254b77e8f45b129e4440d58b36aad84ab0.jpg",
+                                "paste-ceb4f85e531940493aa3cfef70d9095369058f5d.jpg",
+                                "paste-e4c8f38e7f947f5a8e2190b038d1e8c776e9c443.jpg",
+                                "paste-e53dc715eff19d9235fad136f6489e13812de812.jpg",
+                                "paste-e8bdd7a3bb2f1948650c69f1d856a709c995b4c2.jpg",
+                                "paste-e9d920450d15b935df56654afe2c4e1108efdcd2.jpg"
+                            ],
+                            "name": "3. Semantic HTML & Forms",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::&lt;form&gt;}} element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.</div>",
+                                        "<img src=\"paste-803d16d7abe775360d65678b125c187d8acb42d0.jpg\">",
+                                        "",
+                                        "9CF8E488-EAFB-4F67-8C99-785D3AD2B5EC"
+                                    ],
+                                    "guid": "J=ZJ`5)[uI",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What HTML tag renders a field where users can enter information like this?:</div><img src=\"paste-e8bdd7a3bb2f1948650c69f1d856a709c995b4c2.jpg\">",
+                                        "<div>&lt;input&gt;</div>",
+                                        "<img src=\"paste-e4c8f38e7f947f5a8e2190b038d1e8c776e9c443.jpg\">",
+                                        "",
+                                        "77650E0B-C77A-4BB8-B9E7-99DA1B2829B0"
+                                    ],
+                                    "guid": "v3y}-wln%6",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How to make an &lt;input&gt; tag render so the inputted data is censored like this?:<br><img src=\"paste-a95dfc31eb856e2a4c07248e08e3dea83d614e2a.jpg\"><br></div>",
+                                        "<div>&lt;input <b>type=\"password\" </b>&gt;</div>",
+                                        "<img src=\"paste-ceb4f85e531940493aa3cfef70d9095369058f5d.jpg\">",
+                                        "",
+                                        "61C9B4FB-3526-485C-9112-CA33845727B3"
+                                    ],
+                                    "guid": "nt-x1q(?C&",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What attribute to add to the input element to make it look like this?:<br><img src=\"paste-e9d920450d15b935df56654afe2c4e1108efdcd2.jpg\"><br></div>",
+                                        "<div>type=\"number\"</div>",
+                                        "<img src=\"paste-e53dc715eff19d9235fad136f6489e13812de812.jpg\">",
+                                        "",
+                                        "347EB906-9331-43B8-AB2D-7B817B05A7B1"
+                                    ],
+                                    "guid": "MPD,YI4/&n",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What value to add to the `type` attribute of the input element to make it look like this?:<br><img src=\"paste-b46785254b77e8f45b129e4440d58b36aad84ab0.jpg\"><br></div>",
+                                        "\"checkbox\"",
+                                        "<div><img src=\"paste-1138a394e9ee07c373eb39ac6af2d2e567dc7c32.jpg\"><br></div>",
+                                        "",
+                                        "5851A23D-DC9D-4DEA-8B5A-F85840E5DD2D"
+                                    ],
+                                    "guid": "oj/L`k<YQJ",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::&lt;textarea&gt;}} tag defines a multi-line text input control.</div>",
+                                        "<img src=\"paste-974bc5d51abdd7be7870c0c361f1cfd0d3a9ecdd.jpg\">",
+                                        "",
+                                        "B2790538-114F-4E02-AD21-95339325962D"
+                                    ],
+                                    "guid": "v)sQE55tZ+",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What HTML code outputs this:<br><img src=\"paste-749a4427ac2c2ea6ec91b361c8adbcd0f6bcfa4f.jpg\"><br></div>",
+                                        "<div>&lt;input type=\"submit\"/&gt;</div>",
+                                        "",
+                                        "",
+                                        "D72D5EEF-53A0-46EA-8C44-3534759A9612"
+                                    ],
+                                    "guid": "gc5:/W.UEJ",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Change:<br><img src=\"paste-881ebc10dfb1286ff7592e0bcdbbfb905b338e6a.jpg\"><br>to:<br><img src=\"paste-446fb1299c91835e56573bde4d10b528842d648d.jpg\"><br><br><div>&lt;input type=\"submit\"/&gt;</div></div>",
+                                        "<div>&lt;input type=\"submit\"<b> value=\"send\"</b>/&gt;</div>",
+                                        "",
+                                        "",
+                                        "42CDDEED-1D3A-4782-9889-9F5CB21CD30F"
+                                    ],
+                                    "guid": "u|TR!`,B`i",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What attribute to add to an input tag to make it mandatory to fill out before submitting the form?<br><img src=\"paste-2bf9e339924af3476c2d725edc0c6b25309ec722.jpg\"><br></div>",
+                                        "required",
+                                        "<div>&lt;input <b>required </b>/&gt;<br><img src=\"paste-9658327c7e07e27f443d75fe4047528753c7f77c.jpg\"><br></div>",
+                                        "",
+                                        "3975C4A8-E2E5-4DB2-BC84-09B63FB560E4"
+                                    ],
+                                    "guid": "qy]1@N~c%w",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What are the 4 main semantic HTML elements used for creating the basic structure of a webpage?</div>",
+                                        "<div>header</div> <div>nav</div> <div>main</div> <div>footer</div>",
+                                        "<div>&lt;!-- Example structure: --&gt;</div>\n<div>&lt;header&gt;</div>\n<div>&nbsp; &nbsp; &lt;nav&gt; &lt;/nav&gt;</div>\n<div>&lt;/header&gt;</div>\n<div>&lt;main&gt; &lt;/main&gt;</div>\n<div>&lt;footer&gt; &lt;/footer&gt;<br><img src=\"paste-7ef4ffa60e3824da18d7aa2df4ea6bd38661f0cf.jpg\"><br></div>",
+                                        "",
+                                        "F81BE095-D04F-495B-A3F2-B5F3EC443BAB"
+                                    ],
+                                    "guid": "u<^$0Y%P1I",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         }
                     ],
                     "crowdanki_uuid": "4bfb5c26-6d53-11ec-bdff-acde48001122",
@@ -7755,7 +7876,7 @@
                     "ord": 2,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
@@ -7763,7 +7884,7 @@
                     "ord": 3,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
@@ -7795,7 +7916,7 @@
                     "ord": 7,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
