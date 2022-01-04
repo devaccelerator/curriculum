@@ -7010,89 +7010,232 @@
                             "extendNew": 0,
                             "extendRev": 0,
                             "media_files": [
-                                "373AD0F0-CDB7-482B-9D13-83996819BC55.jpg",
-                                "76FF6AE2-A310-4453-875A-A201AFEFF339.jpg",
-                                "CB722726-26B1-4F67-B509-6CDCA8682928.jpg",
-                                "F0373688-A3BA-4EFE-99D3-1600FBDE3B23.jpg"
+                                "paste-011e1030efa6c71c3891484057011aab0449db52.jpg",
+                                "paste-0baf01037604426c52000142ae06d20ee3355a5c.jpg",
+                                "paste-0fca598e77005a7cade83c380268513929787b64.jpg",
+                                "paste-10d4a35395e707fc8182df967862a4044794605c.jpg",
+                                "paste-1b28a6ec596d1cf076d03c94d6b0428732028d0a.jpg",
+                                "paste-3f649df6de341f9de84cf79a62111099596f89a2.jpg",
+                                "paste-47daf16c1a19694f810b7ee00e2ea010019224b5.jpg",
+                                "paste-4ca41306a1b560339a64a60a8bd75fe88f6b37f6.jpg",
+                                "paste-4f9d3619444226847f5376a3651a492d009fc30d.jpg",
+                                "paste-52d0424bd11aa394e49c992338ce5997abf33ebe.jpg",
+                                "paste-64277d2c5648ed890785d9886ef7a0e010a0f725.jpg",
+                                "paste-6c53f153df70e74a07e9241c2cb3701c50a58e7b.jpg",
+                                "paste-73cb4c981cf92ea5df3e9fc9fd73f4776ade721f.jpg",
+                                "paste-77f13b6fb8ca36f64810793bf4530c6aeca16387.jpg",
+                                "paste-84cc65e9c167e401b874b4ee2fd6b45da912da62.jpg",
+                                "paste-9a6789a3a03b4e2b4283242a33b81cb1205ee9ea.jpg",
+                                "paste-a9dd1a5d758199eaa6c67e860306a439c02955f1.jpg",
+                                "paste-c10b4b1b7da0b73eaec8d51644e5c72f7becbfd5.jpg",
+                                "paste-c7f6fbede47019d43528cd5c1cd80b0e301d1291.jpg",
+                                "paste-cda4a01264182b37c4d2d9a871f1f91e43048902.jpg",
+                                "paste-dc385b512a5e470032089b78b51cd1ef532c683e.jpg",
+                                "paste-eeeba6e9a0d83f941b1c118bc8c0fbc112e31e60.jpg",
+                                "paste-f16191cca9b83e3f5431361708bf139ffa8451ed.jpg"
                             ],
                             "name": "1. Introduction to HTML",
                             "notes": [
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "In html, describe elements, content, opening tags and closing tags.",
-                                        "<img src=\"76FF6AE2-A310-4453-875A-A201AFEFF339.jpg\"><div><br></div>",
+                                        "<div>What do the terms \"element\", \"content\", and \"tag\" represent in regards to the structure of an HTML element?:</div>",
+                                        "<img src=\"paste-1b28a6ec596d1cf076d03c94d6b0428732028d0a.jpg\">",
+                                        "<img src=\"paste-0baf01037604426c52000142ae06d20ee3355a5c.jpg\"><br><img src=\"paste-a9dd1a5d758199eaa6c67e860306a439c02955f1.jpg\">",
                                         "",
-                                        "",
-                                        ""
+                                        "D9B35184-5E3B-4699-A29C-434267BA18B8"
                                     ],
-                                    "guid": "lpBP6[,pmS",
+                                    "guid": "y&nO(fva)r",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "Most popular element in html to group elements together?",
-                                        "&lt;div&gt;",
+                                        "<div>Only content inside the opening and closing {{c1::body}} tags can be displayed to the screen.</div>",
+                                        "<div>https://www.w3schools.com/tags/tag_body.asp<br><img src=\"paste-cda4a01264182b37c4d2d9a871f1f91e43048902.jpg\"><br></div>",
                                         "",
-                                        "",
-                                        ""
+                                        "6F724CBF-B121-4AEE-BA2D-99A49352E01A"
                                     ],
-                                    "guid": "M_dcPdS33A",
+                                    "guid": "zbCv}wDz4=",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>When an element is contained inside another element, it is considered the {{c1::child}}&nbsp;of that element.</div>",
+                                        "<img src=\"paste-c7f6fbede47019d43528cd5c1cd80b0e301d1291.jpg\">",
+                                        "",
+                                        "51BF9CF2-AFD1-43C4-B8D9-35D6662FC730"
+                                    ],
+                                    "guid": "dLF/io%l(i",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The child element is said to be {{c1::nested}} inside of the&nbsp;parent&nbsp;element.</div>",
+                                        "",
+                                        "",
+                                        "B1BB33D5-104D-4B5C-AE96-792810779BC4"
+                                    ],
+                                    "guid": "fHNZ=?aUCt",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What tags represent headings?</div>",
+                                        "h1 - h6",
+                                        "<img src=\"paste-f16191cca9b83e3f5431361708bf139ffa8451ed.jpg\">",
+                                        "",
+                                        "D6D3E10A-AE6E-491B-8A02-F467FA189BA6"
+                                    ],
+                                    "guid": "C]4]+7wuSN",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "Tags for headings in html",
-                                        "<img src=\"F0373688-A3BA-4EFE-99D3-1600FBDE3B23.jpg\">",
+                                        "<div>What is the most popular element for grouping other elements together?</div>",
+                                        "<div>&lt;div&gt;&nbsp;</div>",
+                                        "<img src=\"paste-73cb4c981cf92ea5df3e9fc9fd73f4776ade721f.jpg\">",
                                         "",
-                                        "",
-                                        ""
+                                        "EE7B43FB-A709-498F-B054-C9129D678670"
                                     ],
-                                    "guid": "pVTRyf3S.`",
+                                    "guid": "N{UHm,jQ=b",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "How to make a numbered list in html",
-                                        "<img src=\"373AD0F0-CDB7-482B-9D13-83996819BC55.jpg\">",
+                                        "<div>What is the syntax of attributes that are added to html tags?:</div>",
+                                        "<img src=\"paste-84cc65e9c167e401b874b4ee2fd6b45da912da62.jpg\">",
+                                        "<img src=\"paste-47daf16c1a19694f810b7ee00e2ea010019224b5.jpg\">",
                                         "",
-                                        "",
-                                        ""
+                                        "7855A4B4-3BD0-4459-8072-79A888F58BB3"
                                     ],
-                                    "guid": "bs?VxkZ~J#",
+                                    "guid": "kEWe-^jHnl",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "Tag for paragraphs&nbsp;",
-                                        "&lt;p&gt;&lt;/p&gt;",
+                                        "<div>&lt;!-- Give the element below an id of \"example\" --&gt;</div>\n<div>&lt;div&gt;&lt;/div&gt;</div>",
+                                        "<div>&lt;div <b>id=\"example\"</b> &gt;&lt;/div&gt;</div>",
+                                        "<img src=\"paste-4ca41306a1b560339a64a60a8bd75fe88f6b37f6.jpg\">",
                                         "",
-                                        "",
-                                        ""
+                                        "BA548B2E-BA0D-4E13-8C37-A4B4A303FF0B"
                                     ],
-                                    "guid": "m;82[f_.Lj",
+                                    "guid": "D*/{U]HJOx",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 },
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "How to make a list of bulletpoints in html",
-                                        "<img src=\"CB722726-26B1-4F67-B509-6CDCA8682928.jpg\">",
+                                        "<div>What element is for displaying blocks of text?</div>",
+                                        "<div>&lt;p&gt;</div>",
+                                        "<div>&lt;!-- Example: --&gt;</div> <div>&lt;p&gt;</div> <div>&nbsp; &nbsp; I'm a paragraph</div> <div>&lt;/p&gt;<br><img src=\"paste-3f649df6de341f9de84cf79a62111099596f89a2.jpg\"><br></div>",
                                         "",
-                                        "",
-                                        ""
+                                        "C4829A4D-778E-4F64-ABC4-8D54234CC6CC"
                                     ],
-                                    "guid": "i%SB2Yy]!q",
+                                    "guid": "N6ISa2>#=C",
                                     "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::span}} element is used for grouping elements together that are on the same line as other content.</div>",
+                                        "<img src=\"paste-9a6789a3a03b4e2b4283242a33b81cb1205ee9ea.jpg\">",
+                                        "",
+                                        "55F26E3E-DEDA-4F25-90AF-0616F6E74888"
+                                    ],
+                                    "guid": "t2.4|Ci[}p",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>What HTML element is the line break element?</div>",
+                                        "<div>&lt;br&gt;</div>",
+                                        "<div>&lt;!-- Example: --&gt;</div><div>&lt;p&gt;Hello&lt;br&gt;World!&lt;br&gt;!!&lt;/p&gt;</div><div>&lt;!-- Displays: --&gt;<br><img src=\"paste-64277d2c5648ed890785d9886ef7a0e010a0f725.jpg\"><br><br><img src=\"paste-10d4a35395e707fc8182df967862a4044794605c.jpg\"><br></div>",
+                                        "",
+                                        "5FB3200F-B4EB-4861-BA58-D7D7125E8F83"
+                                    ],
+                                    "guid": "m%CKi$RI6u",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How to make bulletpoints in HTML?<br>Example:<br><img src=\"paste-77f13b6fb8ca36f64810793bf4530c6aeca16387.jpg\"><br></div>",
+                                        "<div>&lt;ul&gt; with &lt;li&gt; children.</div>",
+                                        "<div>&lt;!--</div>\n<div>Example:</div>\n<div>--&gt;</div>\n<div><br></div>\n<div>&lt;ul&gt;</div>\n<div>&nbsp; &nbsp; &lt;li&gt;Hello&lt;/li&gt;</div>\n<div>&nbsp; &nbsp; &lt;li&gt;World!&lt;/li&gt;</div>\n<div>&lt;/ul&gt;</div>\n<div><br></div>\n<div>&lt;!--</div>\n<div>outputs:<br><img src=\"paste-c10b4b1b7da0b73eaec8d51644e5c72f7becbfd5.jpg\"><br>--&gt;<br><br><img src=\"paste-0fca598e77005a7cade83c380268513929787b64.jpg\"><br></div>",
+                                        "",
+                                        "D6A34E9F-A695-4D51-ABFF-1D5735B4D8A6"
+                                    ],
+                                    "guid": "EZn,F@@+Q]",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How to make a numbered list in HTML?:<br><div>Example:<br><img src=\"paste-6c53f153df70e74a07e9241c2cb3701c50a58e7b.jpg\"><br></div></div>",
+                                        "<div>&lt;ol&gt; with &lt;li&gt; children.</div>",
+                                        "<div>&lt;!--</div>\n<div>Example:</div>\n<div>--&gt;</div>\n<div><br></div>\n<div>&lt;ol&gt;</div>\n<div>&nbsp; &nbsp; &lt;li&gt;Hello&lt;/li&gt;</div>\n<div>&nbsp; &nbsp; &lt;li&gt;World!&lt;/li&gt;</div>\n<div>&lt;/ol&gt;</div>\n<div><br></div>\n<div>&lt;!--</div>\n<div>outputs:<br><img src=\"paste-eeeba6e9a0d83f941b1c118bc8c0fbc112e31e60.jpg\"><br>--&gt;<br><br><br><img src=\"paste-011e1030efa6c71c3891484057011aab0449db52.jpg\"><br></div>",
+                                        "",
+                                        "CEE286B5-DA6D-4D36-806C-C2061BFC2E9B"
+                                    ],
+                                    "guid": "ykiB[3GJ]z",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::&lt;img&gt;}} tag allows you to add an image to a web page</div>",
+                                        "<img src=\"paste-4f9d3619444226847f5376a3651a492d009fc30d.jpg\">",
+                                        "",
+                                        "561B4460-4501-4FA9-9D5D-EA4EC9FA266D"
+                                    ],
+                                    "guid": "rEU+BUI@4q",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create an &lt;img&gt; element using the following URL for the picture: https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg</div>",
+                                        "<div>&lt;img src=\"https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg\"/&gt;</div>",
+                                        "<img src=\"paste-52d0424bd11aa394e49c992338ce5997abf33ebe.jpg\">",
+                                        "",
+                                        "C225D360-1D14-431D-A01D-5FF1069EAF60"
+                                    ],
+                                    "guid": "i[U<OR=AWG",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::&lt;video&gt;}} tag is used to embed video content in a document, such as a movie clip or other video streams.</div>",
+                                        "<img src=\"paste-dc385b512a5e470032089b78b51cd1ef532c683e.jpg\">",
+                                        "",
+                                        "DE570309-4120-41E1-87A4-7998721CDB6E"
+                                    ],
+                                    "guid": "pjQB2:gNeC",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
                                     "tags": []
                                 }
                             ]
@@ -7106,9 +7249,171 @@
                             "dyn": 0,
                             "extendNew": 0,
                             "extendRev": 0,
-                            "media_files": [],
+                            "media_files": [
+                                "paste-1146e5780905ab24b730dbb520b1b5c4e4ec8451.jpg",
+                                "paste-38d66fb566143d9880b91250b1cd14532d0cb865.jpg",
+                                "paste-5d343c61261e594822efe4f6255c0cca6874d717.jpg",
+                                "paste-609b61ca103ad15e8db61315e67806c4ffbbd3b1.jpg",
+                                "paste-792cbee8c5bd6f9e2a0fbc8781ce66476c1e8a3c.jpg",
+                                "paste-88fdfacb14672ee0c01afbbeae2a35c0f87d7088.jpg",
+                                "paste-a420f47eb60cc332d994ee872067604e962f9b02.jpg",
+                                "paste-bce9ac93dc799daf6bc7b6a584494cc0ac58b0f4.jpg",
+                                "paste-c73c6980dd515da8f05508bbb216e4169090903b.jpg"
+                            ],
                             "name": "2. HTML Document Standards",
-                            "notes": []
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::&lt;html&gt;}} tag represents the root of an HTML document.</div>",
+                                        "<div>The \"root\" meaning it's the container for all other HTML elements. It is the \"senior\" most element, and all other elements are children of it.<br><img src=\"paste-609b61ca103ad15e8db61315e67806c4ffbbd3b1.jpg\"><br></div>",
+                                        "",
+                                        "7D4E204C-6995-4DB6-A90C-47E4BD5735D8"
+                                    ],
+                                    "guid": "f?_,,oDOom",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The {{c1::&lt;head&gt;}} element contains the&nbsp;<i>metadata</i>&nbsp;for a web page</div>",
+                                        "<img src=\"paste-38d66fb566143d9880b91250b1cd14532d0cb865.jpg\">",
+                                        "",
+                                        "C71F7C09-9837-4A81-A84E-10D22404D08A"
+                                    ],
+                                    "guid": "xkg>/m#TM*",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>{{c1::Metadata}} is information about the page that isn’t displayed directly on the web page</div>",
+                                        "",
+                                        "",
+                                        "64F2E8D0-6467-44F9-86DE-C2269AAB7A24"
+                                    ],
+                                    "guid": "KSN0.4Z6?s",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div><div>A browser’s tab displays the text specified in the {{c1::&lt;title&gt;}} tag.</div>Example:</div> <div>If the text \"Jessica's Portfolio Site\" was in this tag, the browser tab would look like:<br><img src=\"paste-792cbee8c5bd6f9e2a0fbc8781ce66476c1e8a3c.jpg\"><br></div>",
+                                        "",
+                                        "",
+                                        "F69CF2E8-09C0-4902-AECB-1DC6DA1F09A1"
+                                    ],
+                                    "guid": "w99Ex4ngRv",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>The &lt;title&gt; tag is always inside of the {{c1::&lt;head&gt;}} tag.</div>",
+                                        "<div>The&nbsp;&lt;title&gt;&nbsp;element can only be contained inside a document’s&nbsp;&lt;head&gt;&nbsp;element.<br><img src=\"paste-5d343c61261e594822efe4f6255c0cca6874d717.jpg\"><br></div>",
+                                        "",
+                                        "09B25C26-273A-4CC4-9CEF-56386FFFA02B"
+                                    ],
+                                    "guid": "ztvx^Z#sqN",
+                                    "note_model_uuid": "e52a587c-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "What is a hyperlink?",
+                                        "A link",
+                                        "<div>A reference to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document</div>\n<div>Example:</div>\n<div><a href=\"https://en.wikipedia.org/wiki/Hyperlink\">This is a hyperlink to wikipedia</a></div>",
+                                        "",
+                                        "9CC8C266-E945-43F7-BDDE-1758AC64E766"
+                                    ],
+                                    "guid": "fE&1>Bs{uU",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>&lt;!--</div>\n<div>Given the text below, turn it into a hyperlink which should link to the URL: wikipedia.org</div>\n<div>--&gt;</div>\n<div>This is a link to Wikipedia</div>",
+                                        "<div>&lt;a href=\"wikipedia.org/\"&gt; This is a link to Wikipedia &lt;/a&gt;</div>",
+                                        "<img src=\"paste-88fdfacb14672ee0c01afbbeae2a35c0f87d7088.jpg\">",
+                                        "",
+                                        "201722CC-F539-4C59-A233-B5295C189CA8"
+                                    ],
+                                    "guid": "r0#7qZ^M8[",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>&lt;!--</div>\n<div>Given the hyperlink below, change it so that when a user clicks it, the link is opened in a new tab</div>\n<div>--&gt;<br><div>&lt;a href=\"wikipedia.org\"&gt; This is a link to Wikipedia &lt;/a&gt;</div></div>",
+                                        "<div>&lt;a href=\"wikipedia.org\" <b>target=\"_blank\"</b>&gt; This is a link to Wikipedia &lt;/a&gt;</div>",
+                                        "<img src=\"paste-a420f47eb60cc332d994ee872067604e962f9b02.jpg\">",
+                                        "",
+                                        "0E60DC20-4FF3-42C9-99C9-BE01A62E6EE9"
+                                    ],
+                                    "guid": "EXD1H7-23>",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How to hyperlink an image?</div>",
+                                        "<div>Using the &lt;a&gt; element.</div>",
+                                        "<div>&lt;!-- Example: --&gt;</div>\n<div><br></div>\n<div>&lt;a href=\"link-url\"&gt;</div>\n<div>&nbsp; &nbsp; &lt;img src=\"image-url\"/&gt;</div>\n<div>&lt;/a&gt;</div>",
+                                        "",
+                                        "BB20D9E7-1314-4036-8FD6-52F1BB56CA6E"
+                                    ],
+                                    "guid": "y&d|!8<xkX",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>&lt;!--&nbsp;</div>\n<div>Given the HTML code below, make it so that when the &lt;a&gt; element is clicked, the page automatically scrolls to the &lt;p&gt; element.</div>\n<div>--&gt;</div>\n<div>&lt;a&gt;link&lt;/a&gt;</div>\n<div>&lt;p&gt;text&lt;/p&gt;</div>",
+                                        "<div>&lt;a <b>href=\"#example\"</b>&gt;link&lt;/a&gt;</div>\n<div>&lt;p <b>id=\"example\"</b>&gt;text&lt;/p&gt;</div>",
+                                        "<div><img src=\"paste-1146e5780905ab24b730dbb520b1b5c4e4ec8451.jpg\"><br></div>",
+                                        "",
+                                        "FC197F44-65A5-465A-AF37-AA88BD26B0FC"
+                                    ],
+                                    "guid": "GF)lPB2S`3",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>&lt;!--</div>\n<div>What's wrong with the coding style of the HTML below?</div>\n<div>--&gt;</div>\n<div>&lt;body&gt;&lt;p&gt;Paragraph 1&lt;/p&gt;&lt;p&gt;Paragraph 2&lt;/p&gt;&lt;/body&gt;</div>",
+                                        "<div>It is not properly indented</div>",
+                                        "<div>&lt;!-- It should look more like this: --&gt;</div>\n<div>&lt;body&gt;</div>\n<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Paragraph 1&lt;/p&gt;</div>\n<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Paragraph 2&lt;/p&gt;</div>\n<div>&lt;/body&gt;<br><img src=\"paste-bce9ac93dc799daf6bc7b6a584494cc0ac58b0f4.jpg\"><br></div>",
+                                        "",
+                                        "335DC6E5-3988-4FBE-B511-A0A5F51CBD7E"
+                                    ],
+                                    "guid": "z(xi3z.#Cp",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>How to write a comment in HTML?</div>",
+                                        "<div>&lt;!-- example --&gt;</div>",
+                                        "<img src=\"paste-c73c6980dd515da8f05508bbb216e4169090903b.jpg\">",
+                                        "",
+                                        "C8F363AF-6A3A-4F0E-B8EB-B202BF4369AE"
+                                    ],
+                                    "guid": "fZ^dN`[9j%",
+                                    "note_model_uuid": "e52a5bba-0046-11ec-ac0f-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
                         },
                         {
                             "__type__": "Deck",
@@ -7358,7 +7663,7 @@
                     "ord": 0,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
@@ -7366,7 +7671,7 @@
                     "ord": 1,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
@@ -7374,7 +7679,7 @@
                     "ord": 2,
                     "rtl": false,
                     "size": 20,
-                    "sticky": true
+                    "sticky": false
                 },
                 {
                     "font": "Arial",
