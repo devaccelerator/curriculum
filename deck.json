@@ -7065,7 +7065,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>When an element is contained inside another element, it is considered the {{c1::child}}&nbsp;of that element.</div>",
+                                        "<div>&lt;!-- <br>In the HTML code below, the {{c1::&lt;div&gt;}} element is the parent of&nbsp;&lt;p&gt;Example&lt;/p&gt; <br>--&gt;<br><br></div>\n<div>&lt;body&gt;</div>\n<div>&nbsp;&nbsp;&lt;div&gt;</div>\n<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href=\"http://www.codecademy.com\"&gt;Codecademy&lt;/a&gt;</div>\n<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Example&lt;/p&gt;</div>\n<div>&nbsp;&nbsp;&lt;/div&gt;</div>\n<div>&lt;/body&gt;</div>",
                                         "<img src=\"paste-c7f6fbede47019d43528cd5c1cd80b0e301d1291.jpg\">",
                                         "",
                                         "51BF9CF2-AFD1-43C4-B8D9-35D6662FC730"
@@ -7266,8 +7266,8 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div>The {{c1::&lt;html&gt;}} tag represents the root of an HTML document.</div>",
-                                        "<div>The \"root\" meaning it's the container for all other HTML elements. It is the \"senior\" most element, and all other elements are children of it.<br><img src=\"paste-609b61ca103ad15e8db61315e67806c4ffbbd3b1.jpg\"><br></div>",
+                                        "<div>All HTML code should be nested within the {{c1::&lt;html&gt;}} element</div>",
+                                        "<div><img src=\"paste-609b61ca103ad15e8db61315e67806c4ffbbd3b1.jpg\"><br></div>",
                                         "",
                                         "7D4E204C-6995-4DB6-A90C-47E4BD5735D8"
                                     ],
