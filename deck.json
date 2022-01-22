@@ -3024,7 +3024,7 @@
                                     "__type__": "Note",
                                     "fields": [
                                         "# What is the output of the code below? <br>x = {\"a\": 1} <br>print(x.get(\"a\", 999))",
-                                        "999",
+                                        "1",
                                         "The value associated wth \"a\" is 1.",
                                         "",
                                         "88E2F1CF-FA56-432E-8068-2FE0C270401B"
@@ -3717,7 +3717,7 @@
                         {
                             "__type__": "Note",
                             "fields": [
-                                "lst1 = [1,2,3]<br>lst2 = [4,5,6]<br>{{c1::lst1.extend(lst2)}}<br>print(lst1) # should print: [1, 2, 3, 4, 5, 6]",
+                                "# Using a single list method, add all the elements from `lst2` into `list1` so the print statement gives the output below:<br><br>lst1 = [1,2,3]<br>lst2 = [4,5,6]<br>{{c1::lst1.extend(lst2)}}<br>print(lst1) # should print: [1, 2, 3, 4, 5, 6]",
                                 "<a href=\"https://www.programiz.com/python-programming/methods/list/extend\">https://www.programiz.com/python-programming/methods/list/extend</a>",
                                 "",
                                 "71DD73B3-00C7-4CE1-9DE7-E3A01D07B5A1"
@@ -4306,7 +4306,7 @@
                         {
                             "__type__": "Note",
                             "fields": [
-                                "<div># What code goes below so the print statement prints what the comment says it should print?</div>\n<br>\n<div>one_two_three = [1, 2, 3]</div>\n<div>four_five_six = [4, 5, 6]</div>\n<div><br></div>\n<div>one_two_three_four_five_six = {{c1::[*one_two_three, *four_five_six]}}</div>\n<div><br></div>\n<div>print(one_two_three_four_five_six) # prints: [1, 2, 3, 4, 5, 6]</div>",
+                                "<div># Using the splat operator, what code goes below so the print statement prints what the comment says it should print?</div>\n<br>\n<div>one_two_three = [1, 2, 3]</div>\n<div>four_five_six = [4, 5, 6]</div>\n<div><br></div>\n<div>one_two_three_four_five_six = {{c1::[*one_two_three, *four_five_six]}}</div>\n<div><br></div>\n<div>print(one_two_three_four_five_six) # prints: [1, 2, 3, 4, 5, 6]</div>",
                                 "we use the *-operator to unpack the lists.",
                                 "",
                                 "9AFE1BC7-03B5-4042-9A21-5F7EA64BE6C4"
