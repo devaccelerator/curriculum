@@ -398,7 +398,7 @@
                                     "fields": [
                                         "How to concatenate strings?",
                                         "using the + operator",
-                                        "e<br>xample:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\"><br><img src=\"X_mXhe6XFMB-9lM2N2y8LOpGqnM8vcXMfEKbRVVSANNdEaDaWltgRVvwq0ttNrbj_4P9e814eqOTecebcg4jrmXPjpUmzp86h3CU2ksHrJbdTlZSB3y.png\">",
+                                        "example:<br>result = \"hello \" + \"world\"<br>print(result) # hello world<br><br><img src=\"FQ5fvhLxCC8QaNwG9e32rKkIE-J_Pgg_abs78_KmHQ3rJaaRQQmPvfGrQ3EXof4DJA5ilyB-XZqTWy5hZXJMOcwNzGCZO8AeRs3J69idDo55C8ICwZJ.png\"><br><img src=\"X_mXhe6XFMB-9lM2N2y8LOpGqnM8vcXMfEKbRVVSANNdEaDaWltgRVvwq0ttNrbj_4P9e814eqOTecebcg4jrmXPjpUmzp86h3CU2ksHrJbdTlZSB3y.png\">",
                                         "",
                                         "9751817f-4937-4d45-9f2b-c9dc36a2d009"
                                     ],
@@ -5039,7 +5039,7 @@
                                 {
                                     "__type__": "Note",
                                     "fields": [
-                                        "<div># given the set below, delete the number 2 from it.</div>\n<div>my_set = set([1, 2, 3])</div>\n<div>{{c1::my_set.remove(2)}}</div>\n<div>print(my_set) # prints: {1, 2}</div>",
+                                        "<div># given the set below, delete the number 2 from it.</div>\n<div>my_set = set([1, 2, 3])</div>\n<div>{{c1::my_set.remove(2)}}</div>\n<div>print(my_set) # prints: {1, 3}</div>",
                                         "",
                                         "",
                                         "46B79F51-A591-419C-B7D9-91D31930D70D"
